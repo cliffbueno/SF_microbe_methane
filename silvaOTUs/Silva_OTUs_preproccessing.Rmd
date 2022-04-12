@@ -1,0 +1,104 @@
+---
+title: Silva_OTUs_preproccessing"
+output: html_document
+---
+
+# Preprocessing of updated OTU data from SILVA / DADA2
+- Data from Cliff, used DADA2 assignTaxonomy() and SILVA version 138.
+
+**Steps are:**
+
+**1)** Preprocessing: sort samples by west to east, min samples total >= 500/168 samples
+- `Silva_OTU_PP.txt`
+
+**2)** DESeq normalization: Variance Stablized Counts Per Million 
+- `Silva_OTU_VSTcpm.txt`
+
+# 1) OTU table preprocessing 
+
+```{r}
+#source("../modules/1_OTU_preprocess_module_0.2.r")
+source("../modules/1_OTU_preprocessing.r")
+```
+
+### small test shows a problem with sample ordering: 
+- Sandmound_Cattail sites were supposed to be dropped (only 2 cores, not v. important habitat) 
+- Still there, and now "Sandmound_Tule_C_D1	Sandmound_Tule_C_D2" at the end after Consensus.lineage()
+- Above samples have an extra dash before "C_D1, C_D2), fix it.
+
+```{r}
+### IMPORT Sample mapping
+metaDB <-read.table("../data/meta/SF_sal_meta_FIX3.txt", sep="\t", header=TRUE)               # import Mapping    # # try keeping all params...
+row.names(metaDB) <- metaDB$Sample                                                            # Row names are samples for phyloseq             #head(map_iTag)
+metaDB = metaDB[,-1]                                                                          # Drop only old index, keep everything else            
+# colnames(metaDB)
+
+## IMPORT OTU TABLE (This is the exact same OTU table as the iTagger (i.e., 79380 OTUs) but with SILVA instead of Greengenes)          
+otu_raw <- read.table("SF_Salinity_gradient_OTU_table_SILVA.txt", sep='\t', header=TRUE, row.names = 1)      # add to fxn below?
+#otu_tax <-data.frame(OTU= row.names(otu_raw), Taxonomy = otu_raw$Consensus.lineage)      
+
+# Fix sample names to match metadata !!   - discovered with small data test
+oldnames = c('Sandmound_Tule_C_D1','Sandmound_Tule_C_D2')
+newnames = c('Sandmound_TuleC_D1','Sandmound_TuleC_D2')
+for(i in 1:2) names(otu_raw)[names(otu_raw) == oldnames[i]] = newnames[i]
+
+# PREPROCESS OTU TABLE (site sort, filter, taxonomy)
+otu_PP = otu_t_preproc(otu_raw, 500, metaDB, "Sample", "EWsiteHyd_index")
+# otu_PP = otu_t_preproc(otu_raw, 50, metaDB, "Sample", "EWsiteHyd_index")
+# dim(otu_PP); head(otu_PP) # names(otu_PP)
+
+# for unknown reasons, need to make OTU counts NUMERIC
+exclude <- c("OTU", 'Consensus.lineage', 'Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Genus')
+all_cols <-colnames(otu_PP)
+sites = all_cols[all_cols != exclude]
+otu_PP[sites] <- lapply(otu_PP[sites], as.numeric)
+```
+
+```{r}
+#head(otu_PP)
+```
+
+```{r}
+# write table
+write.table(otu_PP, "Silva_OTU_PP.txt", sep='\t')
+# write.table(otu_PP, "Silva_OTU_PP_50.txt", sep='\t')
+```
+
+# 2) DESeq2 normalize data
+- VST_CPM here is variance stablized transform, returned as Counts Per Million
+
+```{r}
+source("../modules/2_OTU_table_to_DESeq2_and_VST_cpm_0.7.r")
+```
+
+```{r}
+# Reimport from file - this is the one with the 500 cutoff
+otu_PP = read.table("Silva_OTU_PP.txt", sep='\t', row.names = 1) %>%
+  dplyr::mutate_if(is.character, as.factor)
+# otu_PP50 = read.table("Silva_OTU_PP_50.txt", sep='\t')
+
+
+### IMPORT Sample mapping
+metaDB <-read.table("../data/meta/SF_sal_meta_FIX3.txt", sep="\t", header=TRUE)               # import Mapping    # # try keeping all params...
+row.names(metaDB) <- metaDB$Sample                                                            # Row names are samples for phyloseq             #head(map_iTag)
+metaDB = metaDB[,-1]                                                                          # Drop only old index, keep everything else            
+```
+
+```{r}
+# oversight in the module, looks like fxn 4 needs to take physeq, pass to fxn 5 too.
+# just add to global env here, sigh.  or fix in v0.7 new vs v0.6
+# physeq = make_Phyloseq_data(otu_PP, metaDB)
+
+### Get DESeq2 normalized counts per million ###
+OTU_vstCPM = calc_DESeq2_CPM(otu_PP, metaDB)
+```
+
+```{r}
+head(OTU_vstCPM)
+```
+
+```{r}
+# export it
+write.table(OTU_vstCPM, "Silva_OTU_VSTcpm.txt", sep='\t')
+```
+
