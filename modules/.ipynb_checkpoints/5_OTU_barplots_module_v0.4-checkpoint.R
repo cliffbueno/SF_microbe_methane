@@ -585,6 +585,52 @@ pgl
 #Arch_by_CH4
 #Arch_by_CH4_perc
 
+# Function specifically for guilds
+abund_loc_barplot_guild = function(otu_tab, agg_var, Meta_iTag, order_var, plot="", colors, color_set, relab="CPM"){    # Revised version 0.2.6    
+    
+    ifelse(relab == "CPM", otu_tab <-otu_tab, otu_tab <- perc_abund(otu_tab))          # if not CPM, apply perc_abund
+    y_lab=substitute(relab)
+    
+    otu_agg <- agg_by_cat(otu_tab, agg_var)                                            # Agg by cat (Fxn. 1) on agg_var
+    otu_S <- sort_otu_agg_by_meta(otu_agg, Meta_iTag, "Sample", order_var)             # Sort agg by (Fxn. n) on agg
+    
+    
+    # If color palette not specified, make new & sort
+    ifelse(colors=="",                                                                 
+           colors_p <-Taxon_bar_newC(otu_agg, min_abund=0.005, color_set, output_palette=T), 
+           colors <- colors)
+    ifelse(colors=="",
+        colors <- Sort_new_palette(colors_p, agg_var, "Consensus.lineage", otu_tab),
+                                  colors <- colors)
+    
+    # make recolored barplot, separate plot and legend
+    bar_plot <- recolor_barplot(otu_S, colors, ylab=y_lab) + # reuse existing palette 
+                theme(legend.title = element_text(size = 8, margin = margin(t = 0, r = 0, b = 0, l = 0)),
+                      legend.title.align = 0.3,
+                      legend.text = element_text(size = 8),
+                      legend.key.height = unit(0.4, "cm"),
+                      legend.key.width = unit(0.4, "cm"),)
+    bar_plotNL <- bar_plot + 
+                    scale_y_continuous(breaks = c(0, 100000, 200000, 300000, 400000),
+                                       labels = c("0", "100k", "200k", "300k", "400k")) + # put axis on right side  
+                    theme(legend.position="none",
+                          plot.margin = unit(c(0.1, -0.5, 0.1, 0.1), "cm"),
+                          axis.title.y = element_text(size = 10, margin = margin(t = 0, r = 0, b = 0, l = 0)))   # drop legend from ggplot, rotate y axis title, min. margins    
+  
+    legend <-get_legend(bar_plot)                                                      # get legend as separate obj.
+    
+    # Make site_barplot for top
+    plot_s <-substitute(plot)
+    sb <-site_colbar(Meta_iTag,"Sample", "Location", site_colors, order_var, plot_s)
+    
+    # make plot grid of site colors and abundance barplot
+    ifelse(plot=="graph", proportion <- c(1/4,3/4), proportion <- c(1/8,7/8))          # set proportion for graph
+    pg <- plot_grid(sb, bar_plotNL, align="v", nrow=2, rel_heights = c(2, 20), axis = "b")       # plot grid, by proportion 
+    pgl <- plot_grid(pg, legend, rel_widths = c(8,3), align = "h", ncol = 2, axis = "l") # add legend to grid, better alignment later...align="h", ncol=2, 
+
+pgl
+}
+
 # Function to get corr. filtered otu table from corrRanks object
 
 OTU_corr_filt_OTU = function(otu_V, corrRanks, chunk_var, r_cut){

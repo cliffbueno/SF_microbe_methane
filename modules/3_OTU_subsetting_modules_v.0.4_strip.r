@@ -216,7 +216,7 @@ Get_16S_Guilds = function(otu_V){
     methano <- otu_V[grepl("Methano", otu_V$Consensus.lineage),]                        # Get methanogens 
     methano <- Subs_to_DF(methano)                                                      # Fxn to get Taxon. DF with factors   
     # 2022 CHANGE HERE
-    methano["Guild"] <- ifelse(methano$Order == 'Methanosarcinales', "CH4_mix", "CH4_H2")
+    methano["Guild"] <- ifelse(methano$Order == 'Methanosarciniales', "CH4_ac", "CH4_H2")
     # Note here did not separate the strictly acetoclastic families Methanosaetaceae and Methanotrichaceae from other mixotrophic Methanosarcina(s)
     # dim(methano); levels(methano$Genus); # unique(methano)  # methano
 
@@ -279,12 +279,20 @@ Get_16S_Guilds = function(otu_V){
     #############################################
     # Sulfate Reducers
     
+    ##### Split out syntrophs SEPARATELY
+    # several non SRB, non-"Desulfo" syntrophs; eg. several ;o__Clostridiales;f__Syntrophomonadaceae; Delta D;f__Syntrophobacteraceae
+    # SIVLA updated list
+    Syntroph_list<-"(Desulfobacterales|Desulfatiglandales|Desulfobaccales|Desulfomonilales)"
+    Syntroph <- otu_V[grepl(Syntroph_list, otu_V$Consensus.lineage),] 
+    Syntroph <- Subs_to_DF(Syntroph)
+    Syntroph["Guild"] <-"SRB_syn"                                             # dim(Syntroph); levels(Syntroph$Genus); #unique(Syntroph)
+    
     # Sourced from SRB reviews: Plugge et al. 2011 Front Microb; Muller et al. 2015 ISMEJ
     Desulf <- otu_V[grepl("Desulf", otu_V$Consensus.lineage),]               # Get Desulfo --ALL
 
     # Drop non SRB "Desulf"
     Desulf <- Desulf[!grepl("Nitros", Desulf$Consensus.lineage),]            # Drops Nitrospinaceae, in Order: Desulfobacterales 
-    Desulf <-Desulf[!grepl("Syntroph",Desulf$Consensus.lineage),]            # Drops Syntrophs (own group), according to Plugge et al. 2011 Front. Microb.
+    Desulf <-Desulf[!grepl(Syntroph_list, Desulf$Consensus.lineage),]        # Drops the above Syntrophs 
     Desulf <-Desulf[!grepl("Geobacter",Desulf$Consensus.lineage),]           # Drops Geobacter (own group), according to Plugge et al. 2011 Front. Microb.
     Desulf <- Subs_to_DF(Desulf)                                             # dim(Desulf); levels(Desulf$Genus); # unique(Desulf)
 
@@ -305,11 +313,7 @@ Get_16S_Guilds = function(otu_V){
     SRB["Guild"]<-"SRB"
     #dim(SRB); levels(SRB$Genus); #SRB
 
-    ##### Split out syntrophs SEPARATELY
-    # several non SRB, non-"Desulfo" syntrophs; eg. several ;o__Clostridiales;f__Syntrophomonadaceae; Delta D;f__Syntrophobacteraceae
-    Syntroph <- otu_V[grepl("Syntroph", otu_V$Consensus.lineage),] 
-    Syntroph <- Subs_to_DF(Syntroph)
-    Syntroph["Guild"] <-"SRB_syn"                                             # dim(Syntroph); levels(Syntroph$Genus); #unique(Syntroph)
+
 
     #############################################
     # Sulfur Oxidizers
@@ -326,7 +330,7 @@ Get_16S_Guilds = function(otu_V){
     #############################################
     # Iron Reducers
     #  Get FeRB, probably too limited of a list but taxonomy poorly known.  # Below list from Wikipedia...
-    FeRB_list<-"(Geobacter|Shewanella|Thermoanaerobacter|Deferribacter|Geothrix|Albidiferax)"     
+    FeRB_list<-"(Geobacter|Shewanella|Thermoanaerobacter|Deferribacter|Geothrix|Albidiferax|Deferrisomatota)"     
     FeRB <- otu_V[grepl(FeRB_list, otu_V$Consensus.lineage),] 
     FeRB <- Subs_to_DF(FeRB)
     FeRB["Guild"] <- "FeRB"
@@ -376,6 +380,7 @@ return(Guild_OTUs)
 
 ##################################################
 ### b) Alternative version: Function to retrieve 16S Guilds using grep, with 4 different methanogen guilds
+# Making alternate function since if this is used, much downstream will need to be updated like the colors (because more guilds)
 # approximation of BGC function using organism names x Review Papers on function
 
 Get_16S_Guilds_alt = function(otu_V){
