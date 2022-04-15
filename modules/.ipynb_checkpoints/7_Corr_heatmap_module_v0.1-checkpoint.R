@@ -1,4 +1,3 @@
-
 # Plot heatmap of 16s corr by Tax Rank 
 
 # Heatmap module OUTLINE
@@ -114,8 +113,8 @@ heatmap_corrRanks = function(Tax_corrU_r, heat_cols = def_cols, ylab=F, xlab=T) 
          theme(axis.title.y = element_blank())                                +            # hide y axis title  
          scale_y_discrete(position="right")                                   +            # y labs to right
          theme(axis.title.x = element_blank())                                +            # hide x axis title                      
-         scale_x_discrete(position = "top")                                   +            # x labs on top
-         theme(axis.text.x = element_text(angle = 90, hjust = 1))             +            # rotate x labs 
+         scale_x_discrete(position = "bottom", labels = c("Phylum", "Class", "Order", "Family", "Genus"), expand = c(0, 0))                               +            # x labs on top
+         theme(axis.text.x = element_text(size = 8, angle = 90, hjust = 1, vjust = 0.5))             +            # rotate x labs 
          
          # Panel params
          theme(panel.background = element_blank(),                                         # Remove panel borders 
@@ -123,8 +122,14 @@ heatmap_corrRanks = function(Tax_corrU_r, heat_cols = def_cols, ylab=F, xlab=T) 
            panel.grid.minor = element_blank())                                +            # Remove legend entirely
      
          # Legend params
-         theme(legend.position = "bottom")                                    +            # legend on bottom
-         theme(legend.title = element_blank())                                             # no legend title
+        labs(fill = "r") +
+         theme(legend.position = "top", legend.justification = "right")                                    +            # legend on bottom
+         guides(fill = guide_colourbar(barwidth = 3.5, barheight = 0.5, title.position = "right")) + # legend size and position
+         theme(legend.title = element_text(size = 8),
+               legend.text = element_text(size = 6),
+               legend.margin = margin(0,5,0,5),
+               legend.box.margin = margin(-5,0,-5,0),
+               plot.margin = unit(c(0.1, -0.2, 0.1, 0.1), "cm"))                                             # no legend title
         
          ifelse(ylab==T, p <- p,                                                           # hide y labels ? 
                 p <- p + theme(axis.text.y=element_blank(),axis.ticks.y=element_blank()))
@@ -187,7 +192,7 @@ TaxColorBar_dat = function(Taxons3d, Tax_corrU, tax_sort="Consensus.lineage"){
 #     d) Plot taxonomy color bar                           plot_TaxColorbar(Color_bar_d)
 #######################################################################################
 
-plot_TaxColorbar = function(Color_bar_d, ylab=F, alpha = 0.85){
+plot_TaxColorbar = function(Color_bar_d, ylab=F, alpha = 1){
     
     # Get colors from levels
     Tax_colU <-levels(Color_bar_d[,"newColor"]) 
@@ -246,9 +251,10 @@ Tax_heat_corrRanks = function(Taxons3d, Tax_corrU, heat_cols=default){          
     TaxColors_Legend <-get_legend(TaxColors)
 
     # Composite plotting of components
-    pg_hm <- plot_grid(TaxColors_NL, heatRanks, align="h", ncol=2, rel_widths = c(1,3), axis = "rlbt") 
-    pg_hmL <- plot_grid(pg_hm, TaxColors_Legend, ncol=2, rel_widths = c(1.3, 2))#, axis = "rlbt")  align="h"
-    return(pg_hmL)
+    pg_hm <- plot_grid(heatRanks, TaxColors_NL, align="h", ncol=2, rel_widths = c(3.5, 1), axis = "rlbt")
+    # pg_hmL <- plot_grid(pg_hm, TaxColors_Legend, ncol=2, rel_widths = c(1.3, 2))#, axis = "rlbt")  align="h"
+    # return(pg_hmL)
+    return(pg_hm)
 }
 
 # Test corrRanks heatmap w taxon color bar
