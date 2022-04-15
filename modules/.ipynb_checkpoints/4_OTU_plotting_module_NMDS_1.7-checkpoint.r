@@ -173,13 +173,21 @@ NMDS_plot_group = function(otu_V, group){
     
     # PLOT NMDS by group color, shape
     pA <- ggplot(bT_mds_DF) +
-        geom_point(mapping = aes(x=NMDS1, y=NMDS2, color=group), alpha = 0.8) + #+ geom_point(alpha = 0.8) +
+        geom_point(mapping = aes(x=NMDS1, y=NMDS2, color=group, shape=shape_var), alpha = 0.8) + #+ geom_point(alpha = 0.8) +
         stat_ellipse(mapping = aes(x=NMDS1, y=NMDS2, color=group), alpha = 0.8) #  level=0.95, + ggtitle(paste("ADONIS R2 =", R2, "Stress:", stress));
-    pB <- pA + scale_color_manual(values = c(site_col)) ##+ scale_shape_manual(values=c(19, 17))
+    pB <- pA + scale_color_manual(values = c(site_col)) + scale_shape_manual(values=c(20, 17), labels = c("Reference", "Restored"))
     pC <- pB + theme(legend.title=element_blank())       + 
-       theme_bw() + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
-                              legend.title=element_blank())  +
-       ggtitle(paste0("ADONIS R2=", R2, ", stress=",stress))
+       theme_bw() + theme(panel.grid.major = element_blank(), 
+                          panel.grid.minor = element_blank(),
+                          legend.title = element_blank(),
+                          legend.text = element_text(size = 6),
+                          legend.key.height = unit(0.5, "cm"),
+                          legend.key.width = unit(0.5, "cm"),
+                          legend.spacing.y = unit(0, "cm"),
+                          legend.margin = margin(5,0,0,0),
+                          legend.box.margin = margin(0,0,0,-5),
+                          axis.title.y = element_text(size = 10, margin = margin(t = 0, r = -2.5, b = 0, l = 0)),
+                          axis.title.x = element_text(size = 10))
     
     return(pC)
 }
@@ -213,11 +221,19 @@ NMDS_group_shape = function(otu_V, group, shape_var){
     pA <- ggplot(bT_mds_DF) +
         geom_point(mapping = aes(x=NMDS1, y=NMDS2, color=group, shape=shape_var), alpha = 0.8) + #+ geom_point(alpha = 0.8) +
         stat_ellipse(mapping = aes(x=NMDS1, y=NMDS2, color=group), alpha = 0.8) #  level=0.95, + ggtitle(paste("ADONIS R2 =", R2, "Stress:", stress));
-    pB <- pA + scale_color_manual(values = c(site_col)) ##+ scale_shape_manual(values=c(19, 17))
+    pB <- pA + scale_color_manual(values = c(site_col)) + scale_shape_manual(values=c(20, 17), labels = c("Reference", "Restored"))
     pC <- pB + theme(legend.title=element_blank())       + 
-       theme_bw() + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
-                              legend.title=element_blank())  +
-       ggtitle(paste0("ADONIS R2=", R2, ", stress=",stress))
+       theme_bw() + theme(panel.grid.major = element_blank(), 
+                          panel.grid.minor = element_blank(),
+                          legend.title = element_blank(),
+                          legend.text = element_text(size = 6),
+                          legend.key.height = unit(0.5, "cm"),
+                          legend.key.width = unit(0.5, "cm"),
+                          legend.spacing.y = unit(0, "cm"),
+                          legend.margin = margin(5,0,0,0),
+                          legend.box.margin = margin(0,0,0,-5),
+                          axis.title.y = element_text(size = 10, margin = margin(t = 0, r = -2.5, b = 0, l = 0)),
+                          axis.title.x = element_text(size = 10))
     
     return(pC)
 }
@@ -249,13 +265,21 @@ NMDS_group_fit = function(otu_V, group, Env_chem){
     
     # PLOT NMDS by group color, shape
     pA <- ggplot(bT_mds_DF) +
-        geom_point(mapping = aes(x=NMDS1, y=NMDS2, color=group), alpha = 0.8) + #+ geom_point(alpha = 0.8) +
+        geom_point(mapping = aes(x=NMDS1, y=NMDS2, color=group, shape=shape_var), alpha = 0.8) + #+ geom_point(alpha = 0.8) +
         stat_ellipse(mapping = aes(x=NMDS1, y=NMDS2, color=group), alpha = 0.8) #  level=0.95, + ggtitle(paste("ADONIS R2 =", R2, "Stress:", stress));
-    pB <- pA + scale_color_manual(values = c(site_col)) ##+ scale_shape_manual(values=c(19, 17))
+    pB <- pA + scale_color_manual(values = c(site_col)) + scale_shape_manual(values=c(20, 17), labels = c("Reference", "Restored"))
     pC <- pB + theme(legend.title=element_blank())       + 
-       theme_bw() + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
-                              legend.title=element_blank())  +
-       ggtitle(paste0("ADONIS R2=", R2, ", stress=",stress))
+       theme_bw() + theme(panel.grid.major = element_blank(), 
+                          panel.grid.minor = element_blank(),
+                          legend.title = element_blank(),
+                          legend.text = element_text(size = 6),
+                          legend.key.height = unit(0.5, "cm"),
+                          legend.key.width = unit(0.5, "cm"),
+                          legend.spacing.y = unit(0, "cm"),
+                          legend.margin = margin(5,0,0,0),
+                          legend.box.margin = margin(0,0,0,-5),
+                          axis.title.y = element_text(size = 10, margin = margin(t = 0, r = -2.5, b = 0, l = 0)),
+                          axis.title.x = element_text(size = 10))
     
     # Get Env. fits 
     fitE <- envfit(bT_mds, Env_chem, perm=0, na.rm=TRUE)
