@@ -149,7 +149,54 @@ heatmap_corrRanks = function(Tax_corrU_r, heat_cols = def_cols, ylab=F, xlab=T) 
 # heatmap_corrRanks(Tax_corrU_r, heat_cols=grey_red)       # Don't need to define heat_cols, but can
                                                          # Can also use y_lab=T to get Genus names   
 
+#### Guild version
+# X axis on top
+# Legend centered and on bottom, title on top
+# Plot margins adjusted
+heatmap_corrRanks_guild = function(Tax_corrU_r, heat_cols = def_cols, ylab=F, xlab=T) {
 
+    # Melt data for ggplot                                                                 # here if compositing subsets
+    Tax_corrU_r_Melt<- melt(Tax_corrU_r)                                                   # Melt data
+    colnames(Tax_corrU_r_Melt)[3] <- "Correlation"                                         # name corr. col "Correlation"
+
+    # Get colors from heatmap
+    def_cols<-c("steelblue", "white", "darkred")    
+     
+    # Make ggplot heatmap
+    p <- ggplot(Tax_corrU_r_Melt, aes(Var2, Var1)) + geom_tile(aes(fill=Correlation)) + 
+          scale_fill_gradientn(colours=heat_cols, na.value = "white") +  
+          #scale_fill_gradientn(colours=heat_cols)                              +            # Fill with heat_cols  #breaks = c(-0.6,-0.3, 0, 0.3, 0.6),  # guide="legend"   
+
+         # Axis params
+         theme(axis.title.y = element_blank())                                +            # hide y axis title  
+         scale_y_discrete(position="right")                                   +            # y labs to right
+         theme(axis.title.x = element_blank())                                +            # hide x axis title                      
+         scale_x_discrete(position = "top", labels = c("Phylum", "Class", "Order", "Family", "Genus"), expand = c(0, 0))                               +            # x labs on top
+         theme(axis.text.x = element_text(size = 8, angle = 90, hjust = 0),
+               axis.text.x.top = element_text(vjust = 0.5))             +            # rotate x labs 
+         
+         # Panel params
+         theme(panel.background = element_blank(),                                         # Remove panel borders 
+           panel.grid.major = element_blank(),                                             # and grid lines  
+           panel.grid.minor = element_blank())                                +            # Remove legend entirely
+     
+         # Legend params
+        labs(fill = "r") +
+         theme(legend.position = "bottom")                                    +            # legend on top
+         guides(fill = guide_colourbar(barwidth = 3.5, barheight = 0.5, title.position = "top", title.hjust = 0.5)) + # legend size and position
+         theme(legend.title = element_text(size = 8),
+               legend.text = element_text(size = 6),
+               legend.margin = margin(0,5,0,5),
+               legend.box.margin = margin(-5,0,0,0),
+               plot.margin = unit(c(0.1, -0.2, 0.1, -0.2), "cm"))                                             # no legend title
+        
+         ifelse(ylab==T, p <- p,                                                           # hide y labels ? 
+                p <- p + theme(axis.text.y=element_blank(),axis.ticks.y=element_blank()))
+         ifelse(xlab==T, p <- p,                                                           # hide y labels ? 
+                p <- p + theme(axis.text.x=element_blank(),axis.ticks.x=element_blank()))
+ 
+    p
+}
 
 
 #######################################################################################

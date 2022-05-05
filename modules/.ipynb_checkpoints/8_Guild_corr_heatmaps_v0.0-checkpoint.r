@@ -297,11 +297,18 @@ log2_abundHM = function(HM_d, heat_cols=def_cols, ylab=T, xlab=F){
          # Panel params
          theme(panel.background = element_blank(),                                         # Remove panel borders 
            panel.grid.major = element_blank(),                                             # and grid lines  
-           panel.grid.minor = element_blank())                                +            # Remove legend entirely
+           panel.grid.minor = element_blank(),
+           plot.margin = unit(c(0,0,0,0), "cm"))                                +            # Remove legend entirely
      
          # Legend params
-         theme(legend.position = "bottom")                                    +            # legend on bottom
-         theme(legend.title = element_blank())                                             # no legend title
+         labs(fill = "Row z-score") + # legend title
+         guides(fill = guide_colourbar(title.position = "top", 
+                                       title.hjust = 0.5,
+                                       label.position = "bottom",
+                                       barwidth = 4, barheight = 0.5)) +
+         theme(legend.position = "bottom",
+               legend.box.margin=margin(-10,0,0,0))                                   # +            # legend on bottom
+         # theme(legend.title = element_blank())                                             # no legend title
         
          ifelse(ylab==T, p <- p,                                                           # hide y labels ? 
                 p <- p + theme(axis.text.y=element_blank(),axis.ticks.y=element_blank()))
@@ -326,9 +333,12 @@ log2_abundHM = function(HM_d, heat_cols=def_cols, ylab=T, xlab=F){
 
 
 plot_guild_log2_abund_site_colorbar = function(otu_V, Meta_iTag, site_colors, Corr_filt_Guild_Gd){
+    
     # Get site color bar
-    sb <-site_colbar(Meta_iTag,"Sample", "Location", site_colors, "EWsiteHyd_index", plot="")
+    # sb <-site_colbar(Meta_iTag,"Sample", "Location", site_colors, "EWsiteHyd_index", plot="")
     #sb <-site_colbar(Meta_iTag,"Sample", "Location", site_colors, "EWsiteHyd_index", plot="graph")
+    plot_s <-substitute(plot)
+    sb <-site_colbar(Meta_iTag,"Sample", "Location", site_colors, "EWsiteHyd_index", plot_s)
 
     # Get abundance hm
     HM_d <-log2_HM_Fabund_data(otu_V, Corr_filt_Guild_Gd, "Genus", "G_order")          # log2_HM_Fabund_data(otu_t, filt_otu, agg_var, order_var)
@@ -337,7 +347,8 @@ plot_guild_log2_abund_site_colorbar = function(otu_V, Meta_iTag, site_colors, Co
     heat_abund <-log2_abundHM(HM_d, ylab=T)
 
     # Composite plotting of components
-    pg_hm <- plot_grid(sb, heat_abund, align="v", nrow=2, rel_heights = c(1,5), axis = "rlbt") 
+    #pg_hm <- plot_grid(sb, heat_abund, align="v", nrow=2, rel_heights = c(1,5), axis = "rlbt") 
+    pg_hm <- plot_grid(sb, heat_abund, align="v", nrow=2, rel_heights = c(2,20), axis = "b") 
     return(pg_hm)
 }
 
@@ -354,7 +365,7 @@ plot_guild_corr_tax_heat_abund = function(Taxons3d, Corr_filt_Guild_Gd, Tax_corr
 
     # Get heatmap of corrRanks
     Tax_corrU_r <- ggHeat_corrRanks_data(Taxons3d, Corr_filt_Guild_Gd, tax_sort="G_order")           # use function to get corrRanks data
-    heatRanks <- heatmap_corrRanks(Tax_corrU_r, heat_cols, ylab=F)       # plotting function for heatmap of corrRanks
+    heatRanks <- heatmap_corrRanks_guild(Tax_corrU_r, heat_cols, ylab=F)       # plotting function for heatmap of corrRanks
 
     # Get Taxonomy colorBar
     Color_bar_d <- TaxColorBar_dat(Taxons3d, Corr_filt_Guild_Gd, tax_sort="G_order")                 # use function to get Tax colorBar data 
@@ -370,11 +381,14 @@ plot_guild_corr_tax_heat_abund = function(Taxons3d, Corr_filt_Guild_Gd, Tax_corr
     Guild_bar_Legend <-get_legend(Guild_bar)
 
     # Get abundance hm
-    HM_d <-log2_HM_Fabund_data(otu_V, Corr_filt_Guild_Gd, "Genus", "G_order")          # log2_HM_Fabund_data(otu_t, filt_otu, agg_var, order_var)
-    heat_abund <-log2_abundHM(HM_d, ylab=T)
-
+    # HM_d <-log2_HM_Fabund_data(otu_V, Corr_filt_Guild_Gd, "Genus", "G_order")          # log2_HM_Fabund_data(otu_t, filt_otu, agg_var, order_var)
+    # heat_abund <-log2_abundHM(HM_d, ylab=T)
+    heat_abund <- plot_guild_log2_abund_site_colorbar(otu_V, Meta_iTag, site_colors, Corr_filt_Guild_Gd) # use above function
+    
     # Composite plotting of components
-    pg_hm <- plot_grid(Guild_bar_NL, heatRanks, TaxColors_NL, heat_abund,  align="h", ncol=4, rel_widths = c(1.5,3,1,12), axis = "rlbt") 
+    # Hard to get vertical alignment, so just do panel a, then combine with b in ppt
+    pg_hm <- plot_grid(Guild_bar_NL, heatRanks, TaxColors_NL,  align="h", ncol = 3, rel_widths = c(1.5,3,1), axis = "rlbt") 
+    # pg_hm <- plot_grid(Guild_bar_NL, heatRanks, TaxColors_NL, heat_abund,  align="h", ncol=4, rel_widths = c(1.5,3,1,12), axis = "rlbt") 
 
     # pg_hm <- plot_grid(Guild_bar_NL, heatRanks, heat_abund, align="h", ncol=3, rel_widths = c(1,2,8), axis = "rlbt") 
     # pg_hm <- plot_grid(Guild_bar_NL, heatRanks, TaxColors_NL, heat_abund, align="h", ncol=4, rel_widths = c(1,2,.7,6), axis = "rlbt") 
@@ -390,3 +404,4 @@ plot_guild_corr_tax_heat_abund = function(Taxons3d, Corr_filt_Guild_Gd, Tax_corr
 
 # options(repr.plot.width=6, repr.plot.height=5) 
 # plot_guild_corr_tax_heat_abund(Taxons3d, Corr_filt_Guild_Gd, Tax_corrU_r, heat_cols)
+
