@@ -391,12 +391,12 @@ Get_16S_Guilds_alt = function(otu_V){
     methano <- otu_V[grepl("Methano", otu_V$Consensus.lineage),]                        # Get methanogens 
     methano <- Subs_to_DF(methano)                                                      # Fxn to get Taxon. DF with factors   
     # 2022 CHANGE HERE
-    methano["Guild"] <- ifelse(methano$Family == 'Methanosarcinaceae', "CH4_mix", "CH4_H2")
-    methano["Guild"] <- if (methano$Family == 'Methanosaetaceae') {"CH4_ac"}
-    methano["Guild"] <- if (methano$Family == 'Methanotrichaceae') {"CH4_ac"}
-    methano["Guild"] <- if (methano$Order == 'Mathanomasillicoccales') {"CH4_me"}
+    methano["Guild"] <- ifelse(methano$Family == 'Methanosarcinaceae', "CH4_mix",
+                               ifelse(methano$Family == 'Methanosaetaceae', 'CH4_ac',
+                                     ifelse(methano$Family == 'Methanotrichaceae', 'CH4_ac', 
+                                           ifelse(methano$Order == 'Methanomassiliicoccales', 'CH4_me', 'CH4_H2'))))
     
-    # Note here did not separate the strictly acetoclastic families Methanosaetaceae and Methanotrichaceae from other mixotrophic Methanosarcina(s)
+    # Separating the strictly acetoclastic families Methanosaetaceae and Methanotrichaceae from other mixotrophic Methanosarcina(s)
     # dim(methano); levels(methano$Genus); # unique(methano)  # methano
 
     #############################################
@@ -505,7 +505,7 @@ Get_16S_Guilds_alt = function(otu_V){
     #############################################
     # Iron Reducers
     #  Get FeRB, probably too limited of a list but taxonomy poorly known.  # Below list from Wikipedia...
-    FeRB_list<-"(Geobacter|Shewanella|Thermoanaerobacter|Deferribacter|Geothrix|Albidiferax)"     
+    FeRB_list<-"(Geobacter|Shewanella|Thermoanaerobacter|Deferribacter|Geothrix|Albidiferax|Deferrisomatota)"     
     FeRB <- otu_V[grepl(FeRB_list, otu_V$Consensus.lineage),] 
     FeRB <- Subs_to_DF(FeRB)
     FeRB["Guild"] <- "FeRB"
