@@ -400,12 +400,11 @@ Get_16S_Guilds_alt = function(otu_V){
     methano <- otu_V[grepl("(Methano|Methermicoccaceae)", otu_V$Consensus.lineage),]                    # Get methanogens 
     methano <- Subs_to_DF(methano)                                                      # Fxn to get Taxon. DF with factors   
     # 2022 CHANGE HERE
-    methano["Guild"] <- ifelse(methano$Family == 'Methanosarcinaceae', "CH4_mix",
+    methano["Guild"] <- ifelse(methano$Family == 'Methanosarcinaceae' | methano$Family == 'Methanobacteriaceae', "CH4_mix",
                                ifelse(methano$Family == 'Methanosaetaceae', 'CH4_ac',
                                      ifelse(methano$Family == 'Methanotrichaceae', 'CH4_ac', 
-                                           ifelse(methano$Order == 'Methanomassiliicoccales', 'CH4_me', 
+                                           ifelse(methano$Order == 'Methanomassiliicoccales' | methano$Order == 'Methanonatronarchaeales', 'CH4_me', 
                                                   ifelse(methano$Family == 'Methermicoccaceae', 'CH4_me','CH4_H2')))))
-    
     methano <- methano[!grepl("Syntrophoarchaeaceae", methano$Consensus.lineage),] # drop
     methano <- methano[!grepl("Methanoperedenaceae", methano$Consensus.lineage),] # drop
     methano <- methano[!grepl("ANME", methano$Consensus.lineage),] # drop

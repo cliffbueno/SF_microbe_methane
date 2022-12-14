@@ -83,7 +83,7 @@ Guild_color_data = function(Guild_OTUs, Guild_colors, otu_t, sort_tax ="Consensu
         "#FFFFFF", as.character(Allotu_Guilds_colors$color)) 
 
     # drop OTUs in Guild data, Get genus level data
-    Guild_d <-c("Guild", "G_color","Consensus.lineage", "Genus")                          # get columns to keep
+    Guild_d <- c("Guild", "G_color","Consensus.lineage", "Genus")                          # get columns to keep
     Guild_bar_d <- Allotu_Guilds_colors[Guild_d]                                          # seletct columns  
     Guild_bar_dU <- unique(Guild_bar_d)                                                   # get unique at Genus
 
@@ -148,16 +148,29 @@ Guild_corr_d = function(Guild_bar_d, Tax_corrU) {
 Guild_color_bar = function(Corr_Guild_d){
 
     # get only guilds and color data from merged data                        # Here not full compliment of guilds 
-    keep<- c("Guild", "G_color")                                             # Keep columns
-    Guild_colr_d <-Corr_Guild_d[keep]                                   # Filter merged data on keep
+    keep <- c("Guild", "G_color")                                             # Keep columns
+    Guild_colr_d <- Corr_Guild_d[keep]                                   # Filter merged data on keep
 
     # Merge data with Guild ordering
+    suppressMessages(library(dplyr))
+    suppressMessages(library(rlang))
+    Guild_cols <- read.table("../data/colors/Guild_color_palette.txt", sep='\t') %>%
+          dplyr::select(Guild, G_index, color) %>%
+          set_names(c("Guild", "Index", "color")) %>%
+          mutate(Index = rev(Index)) %>%
+          add_row(Guild = "CH4_me", Index = 16, color = "#FDC086") %>%
+          add_row(Guild = "CH4_mix", Index = 17, color = "#FFFF99") %>%
+          arrange(Index)
+    Guild_cols
+    Guild_colors <- Guild_cols
     Guild_color_O <- unique(merge(Guild_colr_d, Guild_colors, by="Guild"))   # Merge Guild color_d (fewer), Guild_colors
-    Guild_color_O <- Guild_color_O[order(Guild_color_O$G_index),]            # Sort by ordering index
-    Guild_cols <-Guild_color_O$G_color                                       # Get final colors from ordered
+    Guild_color_O <- Guild_color_O[order(Guild_color_O$Index, decreasing = TRUE),]            # Sort by ordering index
+    #Guild_color_O$Index <- c(14, 16, 15, 13, 11, 9, 8, 7, 5, 4, 3, 2, 1) # Adjust for new guilds
+    #Guild_color_O <- Guild_color_O[order(Guild_color_O$Index, decreasing = TRUE),]            # Sort by ordering index
+    Guild_cols <- Guild_color_O$G_color                                       # Get final colors from ordered
 
     # Make barplot using geom_tile method
-    g <-ggplot(Corr_Guild_d, aes(x=counts, y=Genus, fill=Guild))                            # fill loc. 
+    g <- ggplot(Corr_Guild_d, aes(x=counts, y=Genus, fill=Guild))                            # fill loc. 
     g2 <- g + geom_tile(position="identity", alpha = 0.8) + scale_fill_manual(values=c(Guild_cols))  +   
          # Axis params
          theme(axis.title.y = element_blank(), axis.text.y=element_blank(),                # hide y - axis labels  
@@ -378,7 +391,7 @@ plot_guild_corr_tax_heat_abund = function(Taxons3d, Corr_filt_Guild_Gd, Tax_corr
     # Get guilds bar
     Guild_bar <- Guild_color_bar(Corr_filt_Guild_Gd)
     Guild_bar_NL <- Guild_bar + theme(legend.position="none")
-    Guild_bar_Legend <-get_legend(Guild_bar)
+    Guild_bar_Legend <- get_legend(Guild_bar)
 
     # Get abundance hm
     # HM_d <-log2_HM_Fabund_data(otu_V, Corr_filt_Guild_Gd, "Genus", "G_order")          # log2_HM_Fabund_data(otu_t, filt_otu, agg_var, order_var)

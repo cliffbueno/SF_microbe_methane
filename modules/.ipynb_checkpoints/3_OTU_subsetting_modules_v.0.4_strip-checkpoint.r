@@ -382,21 +382,34 @@ return(Guild_OTUs)
 ### b) Alternative version: Function to retrieve 16S Guilds using grep, with 4 different methanogen guilds
 # Making alternate function since if this is used, much downstream will need to be updated like the colors (because more guilds)
 # approximation of BGC function using organism names x Review Papers on function
+# Update to separate some methanogens and ANME, see Chadwick et al. 2022
+# List of taxa in Chadwick:
+# Methanovorans 
+# Methanogasteraceae/Methanogaster
+# Methanocomedenaceae/Methanocomedens:Methanomarinus
+# Methanophagales/Methanophagaceae/Methanophaga:Methanoalium,
+# List of Chadwick taxa in SILVA 138.1:
+# Methanoperedenaceae/Methanoperedens, Syntrophoarchaeaceae
+# Fixed typo Archaeoglobus instead of Archeoglobus
 
 Get_16S_Guilds_alt = function(otu_V){
 
     #############################################
-    # Methanogens
+    # Methanogens (remove ANME "methano"'s in subsequent section)
 
-    methano <- otu_V[grepl("Methano", otu_V$Consensus.lineage),]                        # Get methanogens 
+    methano <- otu_V[grepl("(Methano|Methermicoccaceae)", otu_V$Consensus.lineage),]                    # Get methanogens 
     methano <- Subs_to_DF(methano)                                                      # Fxn to get Taxon. DF with factors   
     # 2022 CHANGE HERE
-    methano["Guild"] <- ifelse(methano$Family == 'Methanosarcinaceae', "CH4_mix",
+    methano["Guild"] <- ifelse(methano$Family == 'Methanosarcinaceae' | methano$Family == 'Methanobacteriaceae', "CH4_mix",
                                ifelse(methano$Family == 'Methanosaetaceae', 'CH4_ac',
                                      ifelse(methano$Family == 'Methanotrichaceae', 'CH4_ac', 
-                                           ifelse(methano$Order == 'Methanomassiliicoccales', 'CH4_me', 'CH4_H2'))))
+                                           ifelse(methano$Order == 'Methanomassiliicoccales' | methano$Order == 'Methanonatronarchaeales', 'CH4_me', 
+                                                  ifelse(methano$Family == 'Methermicoccaceae', 'CH4_me','CH4_H2')))))
+    methano <- methano[!grepl("Syntrophoarchaeaceae", methano$Consensus.lineage),] # drop
+    methano <- methano[!grepl("Methanoperedenaceae", methano$Consensus.lineage),] # drop
+    methano <- methano[!grepl("ANME", methano$Consensus.lineage),] # drop
     
-    # Separating the strictly acetoclastic families Methanosaetaceae and Methanotrichaceae from other mixotrophic Methanosarcina(s)
+    # Separating the strictly acetoclastic families Methanosaetaceae and Methanotrichaceae from other mixotrophic Methanosarcinaceae
     # dim(methano); levels(methano$Genus); # unique(methano)  # methano
 
     #############################################
@@ -422,9 +435,11 @@ Get_16S_Guilds_alt = function(otu_V){
     #dim(methylo); levels(methylo$Genus); levels(methylo$Guild); unique(methylo); #methylo  #levels(MOB_II$Class);
 
     #############################################
-    # ANME  -- weren't included in total, no counts
-    ANME <- otu_V[grepl("ANME", otu_V$Consensus.lineage),]                        # Get methylo from OTU table    
+    # ANME
+    
+    ANME <- otu_V[grepl("(ANME|Methanoperedenaceae|Syntrophoarchaeaceae)", otu_V$Consensus.lineage),]                        # Get ANME from OTU table    
     ANME <- Subs_to_DF(ANME)                                                      # use function to get Taxon. DF with factors 
+    ANME["Guild"] <- "ANME"
     #ANME
 
     #############################################
@@ -475,7 +490,7 @@ Get_16S_Guilds_alt = function(otu_V){
     Desulf2 <- Subs_to_DF(Desulf2)                                            # dim(Desulf2); levels(Desulf2$Genus); #unique(Desulf2)# Desulf2; 
 
     # Sulfate reducing ARCHAEA, from Muller et al. 2015 ISME
-    SRA_list<-"(Archeoglobus|Pyrobaculum|Vulcanisaeta|Caldirvirga)"           # Sulfate red. archaea
+    SRA_list<-"(Archaeoglobus|Pyrobaculum|Vulcanisaeta|Caldirvirga)"           # Sulfate red. archaea
     SRA <- otu_V[grepl(SRA_list, otu_V$Consensus.lineage),]                   # Get SRA
     SRA <- Subs_to_DF(SRA)                                                    # levels(SRA$Genus); unique(SRA)# SRA
 
@@ -486,7 +501,9 @@ Get_16S_Guilds_alt = function(otu_V){
 
     ##### Split out syntrophs SEPARATELY
     # several non SRB, non-"Desulfo" syntrophs; eg. several ;o__Clostridiales;f__Syntrophomonadaceae; Delta D;f__Syntrophobacteraceae
-    Syntroph <- otu_V[grepl("Syntroph", otu_V$Consensus.lineage),] 
+    # remove Syntrophoarchaeaceae here so it retains ANME assignment
+    Syntroph <- otu_V[grepl("Syntroph", otu_V$Consensus.lineage),]
+    Syntroph <- Syntroph[!grepl("Syntrophoarchaeaceae", Syntroph$Consensus.lineage),] # drop
     Syntroph <- Subs_to_DF(Syntroph)
     Syntroph["Guild"] <-"SRB_syn"                                             # dim(Syntroph); levels(Syntroph$Genus); #unique(Syntroph)
 
@@ -524,7 +541,7 @@ Get_16S_Guilds_alt = function(otu_V){
     #############################################
     #############################################
     # Combine lists from each guild category
-    Guild_fxn_taxa <- rbind(methano, methylo, nitroso, nitros2, anamox, SOxB, Syntroph, SRB, FeOB, FeRB)
+    Guild_fxn_taxa <- rbind(methano, methylo, ANME, nitroso, nitros2, anamox, SOxB, Syntroph, SRB, FeOB, FeRB)
 
     # Make Guilds factor 
     Guilds <- as.character(unique(Guild_fxn_taxa$"Guild"))                              # List Guilds in order of appearance

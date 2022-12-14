@@ -1,0 +1,1017 @@
+Domain	Phylum	Class	Order	Family	Genus	Phylum_r	Class_r	Order_r	Family_r	Genus_r
+Archaea	Aenigmarchaeota	Aenigmarchaeia	Aenigmarchaeales	AenigmarchaealesOR	AenigmarchaealesOR	-0.05	-0.05	-0.05	-0.05	-0.05
+Archaea	Altiarchaeota	Altiarchaeia	Altiarchaeales	Altiarchaeaceae	Cand. Altiarchaeum	0.33	0.33	0.33	0.33	0.33
+Archaea	Asgardarchaeota	Lokiarchaeia	LokiarchaeiaCL	LokiarchaeiaCL	LokiarchaeiaCL	-0.05	-0.05	-0.05	-0.05	-0.05
+Archaea	Crenarchaeota	Bathyarchaeia	BathyarchaeiaCL	BathyarchaeiaCL	BathyarchaeiaCL	0.32	0.12	0.12	0.12	0.12
+Archaea	Crenarchaeota	Nitrososphaeria	Nitrosopumilales	Nitrosopumilaceae	Cand. Nitrosopumilus	0.32	0.28	-0.38	-0.38	-0.25
+Archaea	Crenarchaeota	Nitrososphaeria	Nitrosopumilales	Nitrosopumilaceae	Cand. Nitrosotenuis	0.32	0.28	-0.38	-0.38	-0.23
+Archaea	Crenarchaeota	Nitrososphaeria	Nitrosopumilales	Nitrosopumilaceae	Nitrosarchaeum	0.32	0.28	-0.38	-0.38	-0.32
+Archaea	Crenarchaeota	Nitrososphaeria	Nitrosopumilales	Nitrosopumilaceae	NitrosopumilaceaeFA	0.32	0.28	-0.38	-0.38	-0.22
+Archaea	Crenarchaeota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	Cand. Nitrocosmicus	0.32	0.28	0.52	0.52	0.26
+Archaea	Crenarchaeota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	Cand. Nitrososphaera	0.32	0.28	0.52	0.52	0.36
+Archaea	Crenarchaeota	Nitrososphaeria	Nitrososphaerales	Nitrososphaeraceae	NitrososphaeraceaeFA	0.32	0.28	0.52	0.52	0.51
+Archaea	Crenarchaeota	Nitrososphaeria	Nitrosotaleales	Nitrosotaleaceae	NitrosotaleaceaeFA	0.32	0.28	-0.17	-0.17	-0.17
+Archaea	Euryarchaeota	Methanobacteria	Methanobacteriales	Methanobacteriaceae	Methanobacterium	0.35	0.35	0.35	0.35	0.35
+Archaea	Euryarchaeota	Thermococci	Methanofastidiosales	Methanofastidiosaceae	Cand. Methanofastidiosum	0.35	0.25	0.25	0.25	0.25
+Archaea	Halobacterota	Halobacteria	Halobacterales	Haloadaptaceae	Haladaptatus	0.53	0.42	0.42	0.41	0.41
+Archaea	Halobacterota	Halobacteria	Halobacterales	Haloferacaceae	HaloferacaceaeFA	0.53	0.42	0.42	0.34	0.34
+Archaea	Halobacterota	Methanocellia	Methanocellales	Methanocellaceae	Rice Cluster I	0.53	0.27	0.27	0.27	0.27
+Archaea	Halobacterota	Methanomicrobia	Methanomicrobiales	Methanocorpusculaceae	Methanocorpusculum	0.53	0.34	0.34	0.24	0.24
+Archaea	Halobacterota	Methanomicrobia	Methanomicrobiales	MethanomicrobialesOR	MethanomicrobialesOR	0.53	0.34	0.34	0.25	0.25
+Archaea	Halobacterota	Methanomicrobia	Methanomicrobiales	Methanoregulaceae	Methanolinea	0.53	0.34	0.34	0.34	0.24
+Archaea	Halobacterota	Methanomicrobia	Methanomicrobiales	Methanoregulaceae	Methanoregula	0.53	0.34	0.34	0.34	0.31
+Archaea	Halobacterota	Methanomicrobia	Methanomicrobiales	Methanospirillaceae	Methanospirillum	0.53	0.34	0.34	0.18	0.18
+Archaea	Halobacterota	Methanosarcinia	Methanosarciniales	Methanoperedenaceae	Cand. Methanoperedens	0.53	0.54	0.54	0.38	0.38
+Archaea	Halobacterota	Methanosarcinia	Methanosarciniales	Methanosaetaceae	Methanosaeta	0.53	0.54	0.54	0.36	0.36
+Archaea	Halobacterota	Methanosarcinia	Methanosarciniales	Methanosarcinaceae	ANME-3	0.53	0.54	0.54	0.45	0.11
+Archaea	Halobacterota	Methanosarcinia	Methanosarciniales	Methanosarcinaceae	Methanosarcina	0.53	0.54	0.54	0.45	0.47
+Archaea	Nanoarchaeota	Nanoarchaeia	Woesearchaeales	GW2011_GWC1_47_15	GW2011_GWC1_47_15FA	-0.17	-0.17	-0.17	0.03	0.03
+Archaea	Nanoarchaeota	Nanoarchaeia	Woesearchaeales	SCGC AAA011-D5	SCGC AAA011-D5FA	-0.17	-0.17	-0.17	-0.06	-0.06
+Archaea	Nanoarchaeota	Nanoarchaeia	Woesearchaeales	WoesearchaealesOR	WoesearchaealesOR	-0.17	-0.17	-0.17	-0.17	-0.17
+Archaea	Thermoplasmatota	Thermoplasmata	Marine Benthic Group D and DHVEG-1	Marine Benthic Group D and DHVEG-1OR	Marine Benthic Group D and DHVEG-1OR	0.24	0.24	0.14	0.14	0.14
+Archaea	Thermoplasmatota	Thermoplasmata	Methanomassiliicoccales	Methanomassiliicoccaceae	MethanomassiliicoccaceaeFA	0.24	0.24	0.36	0.37	0.43
+Archaea	Thermoplasmatota	Thermoplasmata	Methanomassiliicoccales	Methanomassiliicoccaceae	Methanomassiliicoccus	0.24	0.24	0.36	0.37	0.23
+Archaea	Thermoplasmatota	Thermoplasmata	Methanomassiliicoccales	MethanomassiliicoccalesOR	MethanomassiliicoccalesOR	0.24	0.24	0.36	0.09	0.09
+Archaea	Thermoplasmatota	Thermoplasmata	ThermoplasmataCL	ThermoplasmataCL	ThermoplasmataCL	0.24	0.24	-0.09	-0.09	-0.09
+Bacteria	Acidobacteriota	Acidobacteriae	AcidobacteriaeCL	AcidobacteriaeCL	AcidobacteriaeCL	-0.08	0.11	-0.1	-0.1	-0.1
+Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae (Subgroup 1)	Acidobacteriaceae (Subgroup 1)FA	-0.08	0.11	0.15	0.32	0.35
+Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae (Subgroup 1)	Acidobacterium	-0.08	0.11	0.15	0.32	0.07
+Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Acidobacteriaceae (Subgroup 1)	Occallatibacter	-0.08	0.11	0.15	0.32	0.19
+Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	AcidobacterialesOR	AcidobacterialesOR	-0.08	0.11	0.15	0.15	0.15
+Bacteria	Acidobacteriota	Acidobacteriae	Acidobacteriales	Koribacteraceae	Cand. Koribacter	-0.08	0.11	0.15	0.05	0.05
+Bacteria	Acidobacteriota	Acidobacteriae	AKIW659	AKIW659OR	AKIW659OR	-0.08	0.11	0.31	0.31	0.31
+Bacteria	Acidobacteriota	Acidobacteriae	AMGG11	AMGG11OR	AMGG11OR	-0.08	0.11	0.38	0.38	0.38
+Bacteria	Acidobacteriota	Acidobacteriae	Bryobacterales	Bryobacteraceae	Bryobacter	-0.08	0.11	0	0	0
+Bacteria	Acidobacteriota	Acidobacteriae	Elev-16S-1166	Elev-16S-1166OR	Elev-16S-1166OR	-0.08	0.11	0	0	0
+Bacteria	Acidobacteriota	Acidobacteriae	GOUTB8	GOUTB8OR	GOUTB8OR	-0.08	0.11	0.3	0.3	0.3
+Bacteria	Acidobacteriota	Acidobacteriae	Paludibaculum	PaludibaculumOR	PaludibaculumOR	-0.08	0.11	0.05	0.05	0.05
+Bacteria	Acidobacteriota	Acidobacteriae	PAUC26f	PAUC26fOR	PAUC26fOR	-0.08	0.11	-0.21	-0.21	-0.21
+Bacteria	Acidobacteriota	Acidobacteriae	Solibacterales	Solibacteraceae	Cand. Solibacter	-0.08	0.11	0.53	0.53	0.53
+Bacteria	Acidobacteriota	Acidobacteriae	Subgroup 12	Subgroup 12OR	Subgroup 12OR	-0.08	0.11	-0.29	-0.29	-0.29
+Bacteria	Acidobacteriota	Acidobacteriae	Subgroup 13	Subgroup 13OR	Subgroup 13OR	-0.08	0.11	-0.14	-0.14	-0.14
+Bacteria	Acidobacteriota	Acidobacteriae	Subgroup 15	Subgroup 15OR	Subgroup 15OR	-0.08	0.11	-0.02	-0.02	-0.02
+Bacteria	Acidobacteriota	Acidobacteriae	Subgroup 2	Subgroup 2OR	Subgroup 2OR	-0.08	0.11	-0.02	-0.02	-0.02
+Bacteria	Acidobacteriota	Aminicenantia	Aminicenantales	AminicenantalesOR	AminicenantalesOR	-0.08	-0.06	-0.06	-0.06	-0.06
+Bacteria	Acidobacteriota	AT-s3-28	AT-s3-28CL	AT-s3-28CL	AT-s3-28CL	-0.08	-0.26	-0.26	-0.26	-0.26
+Bacteria	Acidobacteriota	Blastocatellia	11-24	11-24OR	11-24OR	-0.08	0.2	-0.23	-0.23	-0.23
+Bacteria	Acidobacteriota	Blastocatellia	Blastocatellales	Blastocatellaceae	Blastocatella	-0.08	0.2	-0.2	-0.2	-0.35
+Bacteria	Acidobacteriota	Blastocatellia	Blastocatellales	Blastocatellaceae	BlastocatellaceaeFA	-0.08	0.2	-0.2	-0.2	-0.1
+Bacteria	Acidobacteriota	Blastocatellia	Blastocatellales	Blastocatellaceae	JGI 0001001-H03	-0.08	0.2	-0.2	-0.2	-0.14
+Bacteria	Acidobacteriota	Blastocatellia	DS-100	DS-100OR	DS-100OR	-0.08	0.2	-0.28	-0.28	-0.28
+Bacteria	Acidobacteriota	Blastocatellia	Pyrinomonadales	Pyrinomonadaceae	RB41	-0.08	0.2	0.39	0.39	0.39
+Bacteria	Acidobacteriota	d142	d142CL	d142CL	d142CL	-0.08	-0.12	-0.12	-0.12	-0.12
+Bacteria	Acidobacteriota	Holophagae	Acanthopleuribacterales	Acanthopleuribacteraceae	Acanthopleuribacter	-0.08	0.09	-0.11	-0.11	-0.27
+Bacteria	Acidobacteriota	Holophagae	Acanthopleuribacterales	Acanthopleuribacteraceae	Thermotomaculum	-0.08	0.09	-0.11	-0.11	-0.07
+Bacteria	Acidobacteriota	Holophagae	Holophagales	Holophagaceae	Geothrix	-0.08	0.09	0.16	0.16	0.12
+Bacteria	Acidobacteriota	Holophagae	Holophagales	Holophagaceae	HolophagaceaeFA	-0.08	0.09	0.16	0.16	0.2
+Bacteria	Acidobacteriota	Holophagae	Subgroup 7	Subgroup 7OR	Subgroup 7OR	-0.08	0.09	-0.02	-0.02	-0.02
+Bacteria	Acidobacteriota	ODP1230B23.02	ODP1230B23.02CL	ODP1230B23.02CL	ODP1230B23.02CL	-0.08	-0.17	-0.17	-0.17	-0.17
+Bacteria	Acidobacteriota	Subgroup 11	Subgroup 11CL	Subgroup 11CL	Subgroup 11CL	-0.08	-0.29	-0.29	-0.29	-0.29
+Bacteria	Acidobacteriota	Subgroup 18	Subgroup 18CL	Subgroup 18CL	Subgroup 18CL	-0.08	0.02	0.02	0.02	0.02
+Bacteria	Acidobacteriota	Subgroup 21	Subgroup 21CL	Subgroup 21CL	Subgroup 21CL	-0.08	-0.31	-0.31	-0.31	-0.31
+Bacteria	Acidobacteriota	Subgroup 22	Subgroup 22CL	Subgroup 22CL	Subgroup 22CL	-0.08	-0.34	-0.34	-0.34	-0.34
+Bacteria	Acidobacteriota	Subgroup 25	Subgroup 25CL	Subgroup 25CL	Subgroup 25CL	-0.08	0.09	0.09	0.09	0.09
+Bacteria	Acidobacteriota	Subgroup 26	Subgroup 26CL	Subgroup 26CL	Subgroup 26CL	-0.08	-0.31	-0.31	-0.31	-0.31
+Bacteria	Acidobacteriota	Subgroup 5	Subgroup 5CL	Subgroup 5CL	Subgroup 5CL	-0.08	-0.05	-0.05	-0.05	-0.05
+Bacteria	Acidobacteriota	Thermoanaerobaculia	Thermoanaerobaculales	Thermoanaerobaculaceae	Subgroup 10	-0.08	-0.39	-0.39	-0.39	-0.27
+Bacteria	Acidobacteriota	Thermoanaerobaculia	Thermoanaerobaculales	Thermoanaerobaculaceae	Subgroup 23	-0.08	-0.39	-0.39	-0.39	-0.28
+Bacteria	Acidobacteriota	Thermoanaerobaculia	Thermoanaerobaculales	Thermoanaerobaculaceae	Thermoanaerobaculum	-0.08	-0.39	-0.39	-0.39	-0.07
+Bacteria	Acidobacteriota	Thermoanaerobaculia	Thermoanaerobaculales	Thermoanaerobaculaceae	TPD-58	-0.08	-0.39	-0.39	-0.39	0.18
+Bacteria	Acidobacteriota	Vicinamibacteria	Subgroup 17	Subgroup 17OR	Subgroup 17OR	-0.08	0.06	-0.33	-0.33	-0.33
+Bacteria	Acidobacteriota	Vicinamibacteria	Subgroup 9	Subgroup 9OR	Subgroup 9OR	-0.08	0.06	-0.33	-0.33	-0.33
+Bacteria	Acidobacteriota	Vicinamibacteria	Vicinamibacterales	Vicinamibacteraceae	Luteitalea	-0.08	0.06	0.23	0.42	0.36
+Bacteria	Acidobacteriota	Vicinamibacteria	Vicinamibacterales	Vicinamibacteraceae	Vicinamibacter	-0.08	0.06	0.23	0.42	0.02
+Bacteria	Acidobacteriota	Vicinamibacteria	Vicinamibacterales	Vicinamibacteraceae	VicinamibacteraceaeFA	-0.08	0.06	0.23	0.42	0.42
+Bacteria	Acidobacteriota	Vicinamibacteria	Vicinamibacterales	VicinamibacteralesOR	VicinamibacteralesOR	-0.08	0.06	0.23	0.11	0.11
+Bacteria	Actinobacteriota	Acidimicrobiia	AcidimicrobiiaCL	AcidimicrobiiaCL	AcidimicrobiiaCL	0.35	0.1	0.41	0.41	0.41
+Bacteria	Actinobacteriota	Acidimicrobiia	Actinomarinales	ActinomarinalesOR	ActinomarinalesOR	0.35	0.1	0.12	0.12	0.12
+Bacteria	Actinobacteriota	Acidimicrobiia	IMCC26256	IMCC26256OR	IMCC26256OR	0.35	0.1	0.24	0.24	0.24
+Bacteria	Actinobacteriota	Acidimicrobiia	Microtrichales	Iamiaceae	Iamia	0.35	0.1	-0.13	0.14	0.14
+Bacteria	Actinobacteriota	Acidimicrobiia	Microtrichales	Ilumatobacteraceae	Ilumatobacter	0.35	0.1	-0.13	-0.24	-0.26
+Bacteria	Actinobacteriota	Acidimicrobiia	Microtrichales	Ilumatobacteraceae	IlumatobacteraceaeFA	0.35	0.1	-0.13	-0.24	0.28
+Bacteria	Actinobacteriota	Acidimicrobiia	Microtrichales	Microtrichaceae	IMCC26207	0.35	0.1	-0.13	-0.19	-0.18
+Bacteria	Actinobacteriota	Acidimicrobiia	Microtrichales	Microtrichaceae	MicrotrichaceaeFA	0.35	0.1	-0.13	-0.19	0.02
+Bacteria	Actinobacteriota	Acidimicrobiia	Microtrichales	Microtrichaceae	Sva0996 marine group	0.35	0.1	-0.13	-0.19	-0.11
+Bacteria	Actinobacteriota	Acidimicrobiia	Microtrichales	MicrotrichalesOR	MicrotrichalesOR	0.35	0.1	-0.13	0.28	0.28
+Bacteria	Actinobacteriota	Actinobacteria	0319-7L14	0319-7L14OR	0319-7L14OR	0.35	0.38	0.36	0.36	0.36
+Bacteria	Actinobacteriota	Actinobacteria	ActinobacteriaCL	ActinobacteriaCL	ActinobacteriaCL	0.35	0.38	0.02	0.02	0.02
+Bacteria	Actinobacteriota	Actinobacteria	Corynebacteriales	Mycobacteriaceae	Mycobacterium	0.35	0.38	0.06	-0.02	-0.02
+Bacteria	Actinobacteriota	Actinobacteria	Corynebacteriales	Nocardiaceae	Nocardia	0.35	0.38	0.06	0.52	0.46
+Bacteria	Actinobacteriota	Actinobacteria	Corynebacteriales	Nocardiaceae	Rhodococcus	0.35	0.38	0.06	0.52	0.46
+Bacteria	Actinobacteriota	Actinobacteria	FFCH16263	FFCH16263OR	FFCH16263OR	0.35	0.38	-0.28	-0.28	-0.28
+Bacteria	Actinobacteriota	Actinobacteria	Frankiales	Acidothermaceae	Acidothermus	0.35	0.38	0.19	-0.06	-0.06
+Bacteria	Actinobacteriota	Actinobacteria	Frankiales	Frankiaceae	Frankia	0.35	0.38	0.19	-0.06	-0.06
+Bacteria	Actinobacteriota	Actinobacteria	Frankiales	FrankialesOR	FrankialesOR	0.35	0.38	0.19	-0.05	-0.05
+Bacteria	Actinobacteriota	Actinobacteria	Frankiales	Geodermatophilaceae	Blastococcus	0.35	0.38	0.19	0.45	0.45
+Bacteria	Actinobacteriota	Actinobacteria	Frankiales	Sporichthyaceae	Cand. Planktophila	0.35	0.38	0.19	0.48	0.19
+Bacteria	Actinobacteriota	Actinobacteria	Frankiales	Sporichthyaceae	Longivirga	0.35	0.38	0.19	0.48	0.19
+Bacteria	Actinobacteriota	Actinobacteria	Frankiales	Sporichthyaceae	Sporichthya	0.35	0.38	0.19	0.48	-0.01
+Bacteria	Actinobacteriota	Actinobacteria	Frankiales	Sporichthyaceae	SporichthyaceaeFA	0.35	0.38	0.19	0.48	0.49
+Bacteria	Actinobacteriota	Actinobacteria	Glycomycetales	Glycomycetaceae	Glycomyces	0.35	0.38	0.4	0.4	0.4
+Bacteria	Actinobacteriota	Actinobacteria	Kineosporiales	Kineosporiaceae	KineosporiaceaeFA	0.35	0.38	0.23	0.23	0.23
+Bacteria	Actinobacteriota	Actinobacteria	Micrococcales	Beutenbergiaceae	Beutenbergia	0.35	0.38	0.02	0.05	0.05
+Bacteria	Actinobacteriota	Actinobacteria	Micrococcales	Cellulomonadaceae	Actinotalea	0.35	0.38	0.02	0.23	0.23
+Bacteria	Actinobacteriota	Actinobacteria	Micrococcales	Demequinaceae	Demequina	0.35	0.38	0.02	0.04	0.04
+Bacteria	Actinobacteriota	Actinobacteria	Micrococcales	Intrasporangiaceae	IntrasporangiaceaeFA	0.35	0.38	0.02	-0.19	-0.18
+Bacteria	Actinobacteriota	Actinobacteria	Micrococcales	Intrasporangiaceae	Knoellia	0.35	0.38	0.02	-0.19	-0.15
+Bacteria	Actinobacteriota	Actinobacteria	Micrococcales	Microbacteriaceae	Agromyces	0.35	0.38	0.02	0.44	0.37
+Bacteria	Actinobacteriota	Actinobacteria	Micrococcales	Microbacteriaceae	Galbitalea	0.35	0.38	0.02	0.44	0.2
+Bacteria	Actinobacteriota	Actinobacteria	Micrococcales	Micrococcaceae	Arthrobacter	0.35	0.38	0.02	0.43	0.43
+Bacteria	Actinobacteriota	Actinobacteria	Micromonosporales	Micromonosporaceae	Catellatospora	0.35	0.38	0.3	0.3	0.54
+Bacteria	Actinobacteriota	Actinobacteria	Micromonosporales	Micromonosporaceae	Luedemannella	0.35	0.38	0.3	0.3	0.26
+Bacteria	Actinobacteriota	Actinobacteria	Micromonosporales	Micromonosporaceae	Micromonospora	0.35	0.38	0.3	0.3	0.19
+Bacteria	Actinobacteriota	Actinobacteria	Micromonosporales	Micromonosporaceae	MicromonosporaceaeFA	0.35	0.38	0.3	0.3	0.14
+Bacteria	Actinobacteriota	Actinobacteria	Nitriliruptorales	Nitriliruptoraceae	NitriliruptoraceaeFA	0.35	0.38	0.27	0.27	0.27
+Bacteria	Actinobacteriota	Actinobacteria	PeM15	PeM15OR	PeM15OR	0.35	0.38	-0.09	-0.09	-0.09
+Bacteria	Actinobacteriota	Actinobacteria	Propionibacteriales	Nocardioidaceae	Marmoricola	0.35	0.38	0.31	0.31	0.3
+Bacteria	Actinobacteriota	Actinobacteria	Propionibacteriales	Nocardioidaceae	NocardioidaceaeFA	0.35	0.38	0.31	0.31	0.3
+Bacteria	Actinobacteriota	Actinobacteria	Propionibacteriales	Nocardioidaceae	Nocardioides	0.35	0.38	0.31	0.31	0.3
+Bacteria	Actinobacteriota	Actinobacteria	Propionibacteriales	PropionibacterialesOR	PropionibacterialesOR	0.35	0.38	0.31	0.34	0.34
+Bacteria	Actinobacteriota	Actinobacteria	Pseudonocardiales	Pseudonocardiaceae	Amycolatopsis	0.35	0.38	0.46	0.46	0.45
+Bacteria	Actinobacteriota	Actinobacteria	Pseudonocardiales	Pseudonocardiaceae	Pseudonocardia	0.35	0.38	0.46	0.46	0.27
+Bacteria	Actinobacteriota	Actinobacteria	Pseudonocardiales	Pseudonocardiaceae	Saccharopolyspora	0.35	0.38	0.46	0.46	0.51
+Bacteria	Actinobacteriota	Actinobacteria	Streptomycetales	Streptomycetaceae	Streptacidiphilus	0.35	0.38	0.46	0.46	0.35
+Bacteria	Actinobacteriota	Actinobacteria	Streptomycetales	Streptomycetaceae	Streptomyces	0.35	0.38	0.46	0.46	0.46
+Bacteria	Actinobacteriota	Actinobacteria	Streptosporangiales	Streptosporangiaceae	Nonomuraea	0.35	0.38	0.22	0.47	0.47
+Bacteria	Actinobacteriota	Actinobacteria	Streptosporangiales	Thermomonosporaceae	Actinoallomurus	0.35	0.38	0.22	-0.01	0
+Bacteria	Actinobacteriota	Actinobacteria	Streptosporangiales	Thermomonosporaceae	ThermomonosporaceaeFA	0.35	0.38	0.22	-0.01	-0.03
+Bacteria	Actinobacteriota	Coriobacteriia	CG2-30-50-142	CG2-30-50-142OR	CG2-30-50-142OR	0.35	0.58	0.26	0.26	0.26
+Bacteria	Actinobacteriota	Coriobacteriia	FS118-23B-02	FS118-23B-02OR	FS118-23B-02OR	0.35	0.58	0.15	0.15	0.15
+Bacteria	Actinobacteriota	Coriobacteriia	OPB41	OPB41OR	OPB41OR	0.35	0.58	0.59	0.59	0.59
+Bacteria	Actinobacteriota	MB-A2-108	MB-A2-108CL	MB-A2-108CL	MB-A2-108CL	0.35	0.17	0.17	0.17	0.17
+Bacteria	Actinobacteriota	RBG-16-55-12	RBG-16-55-12CL	RBG-16-55-12CL	RBG-16-55-12CL	0.35	0.29	0.29	0.29	0.29
+Bacteria	Actinobacteriota	Thermoleophilia	Gaiellales	Gaiellaceae	Gaiella	0.35	0.35	0.39	0.29	0.29
+Bacteria	Actinobacteriota	Thermoleophilia	Gaiellales	GaiellalesOR	GaiellalesOR	0.35	0.35	0.39	0.48	0.48
+Bacteria	Actinobacteriota	Thermoleophilia	Solirubrobacterales	67-14	67-14FA	0.35	0.35	0.17	0.11	0.11
+Bacteria	Actinobacteriota	Thermoleophilia	Solirubrobacterales	Solirubrobacteraceae	Conexibacter	0.35	0.35	0.17	0.51	0.17
+Bacteria	Actinobacteriota	Thermoleophilia	Solirubrobacterales	Solirubrobacteraceae	JCM 18997	0.35	0.35	0.17	0.51	0.15
+Bacteria	Actinobacteriota	Thermoleophilia	Solirubrobacterales	Solirubrobacteraceae	Parviterribacter	0.35	0.35	0.17	0.51	0.19
+Bacteria	Actinobacteriota	Thermoleophilia	Solirubrobacterales	Solirubrobacteraceae	Solirubrobacter	0.35	0.35	0.17	0.51	0.48
+Bacteria	Actinobacteriota	Thermoleophilia	Solirubrobacterales	Solirubrobacteraceae	SolirubrobacteraceaeFA	0.35	0.35	0.17	0.51	0.14
+Bacteria	Actinobacteriota	Thermoleophilia	Solirubrobacterales	SolirubrobacteralesOR	SolirubrobacteralesOR	0.35	0.35	0.17	0.12	0.12
+Bacteria	Actinobacteriota	Thermoleophilia	ThermoleophiliaCL	ThermoleophiliaCL	ThermoleophiliaCL	0.35	0.35	0.42	0.42	0.42
+Bacteria	Actinobacteriota	WCHB1-81	WCHB1-81CL	WCHB1-81CL	WCHB1-81CL	0.35	0.09	0.09	0.09	0.09
+Bacteria	Armatimonadota	Chthonomonadetes	Chthonomonadales	ChthonomonadalesOR	ChthonomonadalesOR	0.35	0.61	0.61	0.61	0.61
+Bacteria	Armatimonadota	DG-56	DG-56CL	DG-56CL	DG-56CL	0.35	0.09	0.09	0.09	0.09
+Bacteria	Armatimonadota	Fimbriimonadia	Fimbriimonadales	Fimbriimonadaceae	FimbriimonadaceaeFA	0.35	-0.15	-0.15	-0.11	-0.11
+Bacteria	Armatimonadota	Fimbriimonadia	Fimbriimonadales	FimbriimonadalesOR	FimbriimonadalesOR	0.35	-0.15	-0.15	-0.28	-0.28
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0.01	0.03	0.39	0.2	0.2
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidales UCG-001	Bacteroidales UCG-001FA	0.01	0.03	0.39	0.14	0.14
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	BacteroidalesOR	BacteroidalesOR	0.01	0.03	0.39	-0.04	-0.04
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidetes BD2-2	Bacteroidetes BD2-2FA	0.01	0.03	0.39	-0.2	-0.2
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidetes vadinHA17	Bacteroidetes vadinHA17FA	0.01	0.03	0.39	0.6	0.6
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Barnesiellaceae	BarnesiellaceaeFA	0.01	0.03	0.39	0.08	0.08
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Dysgonomonadaceae	DysgonomonadaceaeFA	0.01	0.03	0.39	0.12	0.12
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	M2PB4-65 termite group	M2PB4-65 termite groupFA	0.01	0.03	0.39	0.19	0.19
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Marinilabiliaceae	[Cytophaga] xylanolytica group	0.01	0.03	0.39	0.2	0.2
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Paludibacteraceae	Paludibacter	0.01	0.03	0.39	0.38	0.06
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Paludibacteraceae	PaludibacteraceaeFA	0.01	0.03	0.39	0.38	0.39
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prolixibacteraceae	BSV13	0.01	0.03	0.39	-0.1	0.41
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prolixibacteraceae	Draconibacterium	0.01	0.03	0.39	-0.1	-0.27
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prolixibacteraceae	Meniscus	0.01	0.03	0.39	-0.1	0.21
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prolixibacteraceae	Prolixibacter	0.01	0.03	0.39	-0.1	-0.06
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prolixibacteraceae	ProlixibacteraceaeFA	0.01	0.03	0.39	-0.1	-0.07
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prolixibacteraceae	Roseimarinus	0.01	0.03	0.39	-0.1	0.2
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prolixibacteraceae	Sunxiuqinia	0.01	0.03	0.39	-0.1	-0.15
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prolixibacteraceae	WCHB1-32	0.01	0.03	0.39	-0.1	0.13
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	DMER64	0.01	0.03	0.39	0.17	0.15
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Rikenellaceae RC9 gut group	0.01	0.03	0.39	0.17	0.14
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	SB-5	SB-5FA	0.01	0.03	0.39	0.49	0.49
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Tannerellaceae	Cand. Vestibaculum	0.01	0.03	0.39	0.21	0.13
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Tannerellaceae	Macellibacteroides	0.01	0.03	0.39	0.21	0.41
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Williamwhitmaniaceae	Blvii28 wastewater-sludge group	0.01	0.03	0.39	0.17	0.17
+Bacteria	Bacteroidota	Bacteroidia	Bacteroidetes VC2.1 Bac22	Bacteroidetes VC2.1 Bac22OR	Bacteroidetes VC2.1 Bac22OR	0.01	0.03	-0.15	-0.15	-0.15
+Bacteria	Bacteroidota	Bacteroidia	BacteroidiaCL	BacteroidiaCL	BacteroidiaCL	0.01	0.03	0.08	0.08	0.08
+Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	37-13	37-13FA	0.01	0.03	-0.26	-0.13	-0.13
+Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Chitinophagaceae	Aurantisolimonas	0.01	0.03	-0.26	-0.1	-0.11
+Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Chitinophagaceae	ChitinophagaceaeFA	0.01	0.03	-0.26	-0.1	-0.17
+Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Chitinophagaceae	Dinghuibacter	0.01	0.03	-0.26	-0.1	-0.16
+Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Chitinophagaceae	Edaphobaculum	0.01	0.03	-0.26	-0.1	0.12
+Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Chitinophagaceae	Ferruginibacter	0.01	0.03	-0.26	-0.1	0.03
+Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Chitinophagaceae	Flavihumibacter	0.01	0.03	-0.26	-0.1	0.06
+Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Chitinophagaceae	Lacibacter	0.01	0.03	-0.26	-0.1	0.06
+Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Chitinophagaceae	Puia	0.01	0.03	-0.26	-0.1	0.15
+Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Chitinophagaceae	Sediminibacterium	0.01	0.03	-0.26	-0.1	0.08
+Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Chitinophagaceae	Terrimonas	0.01	0.03	-0.26	-0.1	-0.1
+Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Chitinophagaceae	UTBCD1	0.01	0.03	-0.26	-0.1	-0.32
+Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	ChitinophagalesOR	ChitinophagalesOR	0.01	0.03	-0.26	-0.1	-0.1
+Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	Lewinella	0.01	0.03	-0.26	-0.36	-0.24
+Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	Phaeodactylibacter	0.01	0.03	-0.26	-0.36	-0.26
+Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	Portibacter	0.01	0.03	-0.26	-0.36	-0.09
+Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	SaprospiraceaeFA	0.01	0.03	-0.26	-0.36	-0.32
+Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Amoebophilaceae	AmoebophilaceaeFA	0.01	0.03	-0.47	-0.21	-0.13
+Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Amoebophilaceae	Cand. Amoebophilus	0.01	0.03	-0.47	-0.21	-0.19
+Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Cyclobacteriaceae	Algoriphagus	0.01	0.03	-0.47	-0.4	-0.19
+Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Cyclobacteriaceae	CyclobacteriaceaeFA	0.01	0.03	-0.47	-0.4	-0.4
+Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Cyclobacteriaceae	Fulvivirga	0.01	0.03	-0.47	-0.4	-0.14
+Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Flammeovirgaceae	Luteivirga	0.01	0.03	-0.47	0.05	0.05
+Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Microscillaceae	Chryseolinea	0.01	0.03	-0.47	-0.22	-0.07
+Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Microscillaceae	Hassallia	0.01	0.03	-0.47	-0.22	-0.05
+Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Microscillaceae	MicroscillaceaeFA	0.01	0.03	-0.47	-0.22	-0.27
+Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Microscillaceae	Ohtaekwangia	0.01	0.03	-0.47	-0.22	-0.25
+Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Microscillaceae	OLB12	0.01	0.03	-0.47	-0.22	-0.08
+Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Crocinitomicaceae	CrocinitomicaceaeFA	0.01	0.03	-0.33	-0.17	-0.17
+Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Crocinitomicaceae	Fluviicola	0.01	0.03	-0.33	-0.17	0
+Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Cryomorphaceae	CryomorphaceaeFA	0.01	0.03	-0.33	-0.13	-0.13
+Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Actibacter	0.01	0.03	-0.33	-0.35	-0.21
+Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Arenibacter	0.01	0.03	-0.33	-0.35	-0.07
+Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Confluentibacter	0.01	0.03	-0.33	-0.35	0.01
+Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Euzebyella	0.01	0.03	-0.33	-0.35	-0.18
+Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	FlavobacteriaceaeFA	0.01	0.03	-0.33	-0.35	-0.25
+Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	0.01	0.03	-0.33	-0.35	-0.13
+Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Gaetbulibacter	0.01	0.03	-0.33	-0.35	-0.21
+Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Gramella	0.01	0.03	-0.33	-0.35	-0.13
+Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Hoppeia	0.01	0.03	-0.33	-0.35	-0.38
+Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Lutibacter	0.01	0.03	-0.33	-0.35	-0.13
+Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Maribacter	0.01	0.03	-0.33	-0.35	-0.16
+Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Pseudozobellia	0.01	0.03	-0.33	-0.35	-0.15
+Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Robiginitalea	0.01	0.03	-0.33	-0.35	-0.24
+Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Salinimicrobium	0.01	0.03	-0.33	-0.35	0.16
+Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Ulvibacter	0.01	0.03	-0.33	-0.35	-0.22
+Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Zeaxanthinibacter	0.01	0.03	-0.33	-0.35	-0.13
+Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	FlavobacterialesOR	FlavobacterialesOR	0.01	0.03	-0.33	0.05	0.05
+Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	NS9 marine group	NS9 marine groupFA	0.01	0.03	-0.33	0.03	0.03
+Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	AKYH767	AKYH767FA	0.01	0.03	-0.1	-0.33	-0.33
+Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	CMW-169	CMW-169FA	0.01	0.03	-0.1	0.22	0.22
+Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	env.OPS 17	env.OPS 17FA	0.01	0.03	-0.1	0.08	0.08
+Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	FFCH9454	FFCH9454FA	0.01	0.03	-0.1	-0.15	-0.15
+Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	KD1-131	KD1-131FA	0.01	0.03	-0.1	0.21	0.21
+Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	KD3-93	KD3-93FA	0.01	0.03	-0.1	-0.02	-0.02
+Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	Lentimicrobiaceae	LentimicrobiaceaeFA	0.01	0.03	-0.1	0.06	0.05
+Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	Lentimicrobiaceae	Lentimicrobium	0.01	0.03	-0.1	0.06	0.19
+Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	NS11-12 marine group	NS11-12 marine groupFA	0.01	0.03	-0.1	0.06	0.06
+Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	S15A-MN91	S15A-MN91FA	0.01	0.03	-0.1	-0.14	-0.14
+Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	Sphingobacteriaceae	Mucilaginibacter	0.01	0.03	-0.1	0.14	0.14
+Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	SphingobacterialesOR	SphingobacterialesOR	0.01	0.03	-0.1	0.03	0.03
+Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	ST-12K33	ST-12K33FA	0.01	0.03	-0.1	-0.19	-0.19
+Bacteria	Bacteroidota	Chlorobia	Chlorobiales	Chlorobiaceae	Chlorobaculum	0.01	0.14	0.14	0.14	0.12
+Bacteria	Bacteroidota	Chlorobia	Chlorobiales	Chlorobiaceae	Chlorobium	0.01	0.14	0.14	0.14	0.17
+Bacteria	Bacteroidota	Ignavibacteria	Ignavibacteriales	BSV40	BSV40FA	0.01	-0.01	-0.01	0.36	0.36
+Bacteria	Bacteroidota	Ignavibacteria	Ignavibacteriales	Ignavibacteriaceae	Ignavibacterium	0.01	-0.01	-0.01	-0.12	-0.12
+Bacteria	Bacteroidota	Ignavibacteria	Ignavibacteriales	IgnavibacterialesOR	IgnavibacterialesOR	0.01	-0.01	-0.01	0.09	0.09
+Bacteria	Bacteroidota	Ignavibacteria	Ignavibacteriales	LD-RB-34	LD-RB-34FA	0.01	-0.01	-0.01	0.01	0.01
+Bacteria	Bacteroidota	Ignavibacteria	Ignavibacteriales	Melioribacteraceae	IheB3-7	0.01	-0.01	-0.01	-0.31	-0.31
+Bacteria	Bacteroidota	Ignavibacteria	Ignavibacteriales	Melioribacteraceae	MelioribacteraceaeFA	0.01	-0.01	-0.01	-0.31	-0.06
+Bacteria	Bacteroidota	Ignavibacteria	Ignavibacteriales	PHOS-HE36	PHOS-HE36FA	0.01	-0.01	-0.01	0.09	0.09
+Bacteria	Bacteroidota	Ignavibacteria	Ignavibacteriales	SR-FBR-L83	SR-FBR-L83FA	0.01	-0.01	-0.01	0.3	0.3
+Bacteria	Bacteroidota	Ignavibacteria	Ignavibacteriales	UA-50	UA-50FA	0.01	-0.01	-0.01	0.34	0.34
+Bacteria	Bacteroidota	Ignavibacteria	SJA-28	SJA-28OR	SJA-28OR	0.01	-0.01	0.03	0.03	0.03
+Bacteria	Bacteroidota	Kapabacteria	Kapabacteriales	KapabacterialesOR	KapabacterialesOR	0.01	-0.16	-0.16	-0.16	-0.16
+Bacteria	Bacteroidota	Kryptonia	Kryptoniales	BSV26	BSV26FA	0.01	0.01	0.01	0.01	0.01
+Bacteria	Bacteroidota	Kryptonia	Kryptoniales	MSB-3C8	MSB-3C8FA	0.01	0.01	0.01	-0.18	-0.18
+Bacteria	Bacteroidota	OC31	OC31CL	OC31CL	OC31CL	0.01	-0.18	-0.18	-0.18	-0.18
+Bacteria	Bacteroidota	Rhodothermia	Balneolales	Balneolaceae	HK-RBC54	0.01	-0.31	0.08	0.08	0.08
+Bacteria	Bacteroidota	Rhodothermia	Rhodothermales	Rhodothermaceae	RhodothermaceaeFA	0.01	-0.31	-0.32	-0.32	-0.32
+Bacteria	Bdellovibrionota	Bdellovibrionia	Bacteriovoracales	Bacteriovoracaceae	BacteriovoracaceaeFA	0.15	0.16	0.13	0.13	0.1
+Bacteria	Bdellovibrionota	Bdellovibrionia	Bacteriovoracales	Bacteriovoracaceae	Bacteriovorax	0.15	0.16	0.13	0.13	0.22
+Bacteria	Bdellovibrionota	Bdellovibrionia	Bacteriovoracales	Bacteriovoracaceae	Peredibacter	0.15	0.16	0.13	0.13	0.18
+Bacteria	Bdellovibrionota	Bdellovibrionia	Bdellovibrionales	Bdellovibrionaceae	Bdellovibrio	0.15	0.16	0.15	0.15	0.07
+Bacteria	Bdellovibrionota	Bdellovibrionia	Bdellovibrionales	Bdellovibrionaceae	OM27 clade	0.15	0.16	0.15	0.15	0.11
+Bacteria	Bdellovibrionota	Oligoflexia	0319-6G20	0319-6G20OR	0319-6G20OR	0.15	-0.01	-0.01	-0.01	-0.01
+Bacteria	Caldatribacteriota	JS1	JS1CL	JS1CL	JS1CL	-0.02	-0.02	-0.02	-0.02	-0.02
+Bacteria	Calditrichota	Calditrichia	Calditrichales	Calditrichaceae	Caldithrix	-0.24	-0.24	-0.24	-0.24	-0.22
+Bacteria	Calditrichota	Calditrichia	Calditrichales	Calditrichaceae	CalditrichaceaeFA	-0.24	-0.24	-0.24	-0.24	0.02
+Bacteria	Calditrichota	Calditrichia	Calditrichales	Calditrichaceae	Calorithrix	-0.24	-0.24	-0.24	-0.24	-0.15
+Bacteria	Calditrichota	Calditrichia	Calditrichales	Calditrichaceae	JdFR-76	-0.24	-0.24	-0.24	-0.24	-0.28
+Bacteria	Calditrichota	Calditrichia	Calditrichales	Calditrichaceae	SM23-31	-0.24	-0.24	-0.24	-0.24	0
+Bacteria	Campylobacterota	Campylobacteria	Campylobacterales	CampylobacteralesOR	CampylobacteralesOR	-0.06	-0.06	-0.06	-0.04	-0.04
+Bacteria	Campylobacterota	Campylobacteria	Campylobacterales	Sulfurimonadaceae	Sulfuricurvum	-0.06	-0.06	-0.06	0.1	0.36
+Bacteria	Campylobacterota	Campylobacteria	Campylobacterales	Sulfurimonadaceae	Sulfurimonas	-0.06	-0.06	-0.06	0.1	-0.08
+Bacteria	Campylobacterota	Campylobacteria	Campylobacterales	Sulfurospirillaceae	Sulfurospirillum	-0.06	-0.06	-0.06	0.19	0.19
+Bacteria	Campylobacterota	Campylobacteria	Campylobacterales	Sulfurovaceae	Sulfurovum	-0.06	-0.06	-0.06	-0.1	-0.1
+Bacteria	Chloroflexi	Anaerolineae	1-20	1-20OR	1-20OR	0.44	0.21	0.09	0.09	0.09
+Bacteria	Chloroflexi	Anaerolineae	ADurb.Bin180	ADurb.Bin180OR	ADurb.Bin180OR	0.44	0.21	-0.1	-0.1	-0.1
+Bacteria	Chloroflexi	Anaerolineae	AnaerolineaeCL	AnaerolineaeCL	AnaerolineaeCL	0.44	0.21	-0.15	-0.15	-0.15
+Bacteria	Chloroflexi	Anaerolineae	Anaerolineales	Anaerolineaceae	ADurb.Bin120	0.44	0.21	0.31	0.31	-0.09
+Bacteria	Chloroflexi	Anaerolineae	Anaerolineales	Anaerolineaceae	Anaerolinea	0.44	0.21	0.31	0.31	0.64
+Bacteria	Chloroflexi	Anaerolineae	Anaerolineales	Anaerolineaceae	Anaerolineaceae UCG-001	0.44	0.21	0.31	0.31	0.48
+Bacteria	Chloroflexi	Anaerolineae	Anaerolineales	Anaerolineaceae	AnaerolineaceaeFA	0.44	0.21	0.31	0.31	0.11
+Bacteria	Chloroflexi	Anaerolineae	Anaerolineales	Anaerolineaceae	Bellilinea	0.44	0.21	0.31	0.31	0.39
+Bacteria	Chloroflexi	Anaerolineae	Anaerolineales	Anaerolineaceae	GWD2-49-16	0.44	0.21	0.31	0.31	-0.16
+Bacteria	Chloroflexi	Anaerolineae	Anaerolineales	Anaerolineaceae	Leptolinea	0.44	0.21	0.31	0.31	0.41
+Bacteria	Chloroflexi	Anaerolineae	Anaerolineales	Anaerolineaceae	Levilinea	0.44	0.21	0.31	0.31	0.12
+Bacteria	Chloroflexi	Anaerolineae	Anaerolineales	Anaerolineaceae	Longilinea	0.44	0.21	0.31	0.31	0.4
+Bacteria	Chloroflexi	Anaerolineae	Anaerolineales	Anaerolineaceae	Ornatilinea	0.44	0.21	0.31	0.31	-0.05
+Bacteria	Chloroflexi	Anaerolineae	Anaerolineales	Anaerolineaceae	Pelolinea	0.44	0.21	0.31	0.31	0.02
+Bacteria	Chloroflexi	Anaerolineae	Anaerolineales	Anaerolineaceae	RBG-16-58-14	0.44	0.21	0.31	0.31	-0.13
+Bacteria	Chloroflexi	Anaerolineae	Anaerolineales	Anaerolineaceae	Thermomarinilinea	0.44	0.21	0.31	0.31	-0.21
+Bacteria	Chloroflexi	Anaerolineae	Anaerolineales	Anaerolineaceae	UTCFX1	0.44	0.21	0.31	0.31	0.35
+Bacteria	Chloroflexi	Anaerolineae	Ardenticatenales	ArdenticatenalesOR	ArdenticatenalesOR	0.44	0.21	-0.34	-0.34	-0.34
+Bacteria	Chloroflexi	Anaerolineae	Caldilineales	Caldilineaceae	CaldilineaceaeFA	0.44	0.21	0.4	0.4	0.35
+Bacteria	Chloroflexi	Anaerolineae	Caldilineales	Caldilineaceae	Litorilinea	0.44	0.21	0.4	0.4	0.45
+Bacteria	Chloroflexi	Anaerolineae	MSB-5B2	MSB-5B2OR	MSB-5B2OR	0.44	0.21	-0.09	-0.09	-0.09
+Bacteria	Chloroflexi	Anaerolineae	RBG-13-54-9	RBG-13-54-9OR	RBG-13-54-9OR	0.44	0.21	-0.14	-0.14	-0.14
+Bacteria	Chloroflexi	Anaerolineae	SBR1031	A4b	A4bFA	0.44	0.21	-0.07	-0.08	-0.08
+Bacteria	Chloroflexi	Anaerolineae	SBR1031	SBR1031OR	SBR1031OR	0.44	0.21	-0.07	-0.04	-0.04
+Bacteria	Chloroflexi	Anaerolineae	SJA-15	SJA-15OR	SJA-15OR	0.44	0.21	0.39	0.39	0.39
+Bacteria	Chloroflexi	Anaerolineae	Thermoflexales	Thermoflexaceae	Thermoflexus	0.44	0.21	-0.15	-0.15	-0.15
+Bacteria	Chloroflexi	Chloroflexia	Chloroflexales	Roseiflexaceae	RoseiflexaceaeFA	0.44	0.39	-0.02	-0.02	-0.02
+Bacteria	Chloroflexi	Chloroflexia	Thermomicrobiales	AKYG1722	AKYG1722FA	0.44	0.39	0.39	0.1	0.1
+Bacteria	Chloroflexi	Chloroflexia	Thermomicrobiales	JG30-KF-CM45	JG30-KF-CM45FA	0.44	0.39	0.39	0.41	0.41
+Bacteria	Chloroflexi	Chloroflexia	Thermomicrobiales	Thermomicrobiaceae	Nitrolancea	0.44	0.39	0.39	0.34	0.34
+Bacteria	Chloroflexi	Dehalococcoidia	661239	661239OR	661239OR	0.44	0.54	0.03	0.03	0.03
+Bacteria	Chloroflexi	Dehalococcoidia	Dehalococcoidales	Dehalococcoidaceae	Dehalogenimonas	0.44	0.54	0.36	0.47	0.47
+Bacteria	Chloroflexi	Dehalococcoidia	Dehalococcoidales	Dehalococcoidales Incertae Sedis	Dehalobium	0.44	0.54	0.36	-0.24	-0.24
+Bacteria	Chloroflexi	Dehalococcoidia	Dehalococcoidales	DehalococcoidalesOR	DehalococcoidalesOR	0.44	0.54	0.36	0.22	0.22
+Bacteria	Chloroflexi	Dehalococcoidia	DehalococcoidiaCL	DehalococcoidiaCL	DehalococcoidiaCL	0.44	0.54	0.35	0.35	0.35
+Bacteria	Chloroflexi	Dehalococcoidia	GIF3	GIF3OR	GIF3OR	0.44	0.54	0.21	0.21	0.21
+Bacteria	Chloroflexi	Dehalococcoidia	GIF9	AB-539-J10	AB-539-J10FA	0.44	0.54	0.33	0.41	0.41
+Bacteria	Chloroflexi	Dehalococcoidia	GIF9	GIF9OR	GIF9OR	0.44	0.54	0.33	0.27	0.27
+Bacteria	Chloroflexi	Dehalococcoidia	MSBL5	MSBL5OR	MSBL5OR	0.44	0.54	-0.1	-0.1	-0.1
+Bacteria	Chloroflexi	Dehalococcoidia	S085	S085OR	S085OR	0.44	0.54	0.42	0.42	0.42
+Bacteria	Chloroflexi	Dehalococcoidia	SAR202 clade	SAR202 cladeOR	SAR202 cladeOR	0.44	0.54	0.29	0.29	0.29
+Bacteria	Chloroflexi	Dehalococcoidia	vadinBA26	vadinBA26OR	vadinBA26OR	0.44	0.54	0.35	0.35	0.35
+Bacteria	Chloroflexi	Gitt-GS-136	Gitt-GS-136CL	Gitt-GS-136CL	Gitt-GS-136CL	0.44	0.01	0.01	0.01	0.01
+Bacteria	Chloroflexi	JG30-KF-CM66	JG30-KF-CM66CL	JG30-KF-CM66CL	JG30-KF-CM66CL	0.44	0.41	0.41	0.41	0.41
+Bacteria	Chloroflexi	KD4-96	KD4-96CL	KD4-96CL	KD4-96CL	0.44	0.34	0.34	0.34	0.34
+Bacteria	Chloroflexi	Ktedonobacteria	C0119	C0119OR	C0119OR	0.44	0.46	0.46	0.46	0.46
+Bacteria	Chloroflexi	OLB14	OLB14CL	OLB14CL	OLB14CL	0.44	0.17	0.17	0.17	0.17
+Bacteria	Chloroflexi	SHA-26	SHA-26CL	SHA-26CL	SHA-26CL	0.44	0.45	0.45	0.45	0.45
+Bacteria	Chloroflexi	TK10	TK10CL	TK10CL	TK10CL	0.44	0.36	0.36	0.36	0.36
+Bacteria	Cloacimonadota	Cloacimonadia	Cloacimonadales	Cloacimonadaceae	CloacimonadaceaeFA	0.24	0.24	0.24	0.17	0.17
+Bacteria	Cloacimonadota	Cloacimonadia	Cloacimonadales	CloacimonadalesOR	CloacimonadalesOR	0.24	0.24	0.24	0.19	0.19
+Bacteria	Cloacimonadota	Cloacimonadia	Cloacimonadales	MSBL8	MSBL8FA	0.24	0.24	0.24	-0.14	-0.14
+Bacteria	Cloacimonadota	Cloacimonadia	Cloacimonadales	PBS-18	PBS-18FA	0.24	0.24	0.24	0.24	0.24
+Bacteria	Cyanobacteria	Cyanobacteriia	Chloroplast	ChloroplastOR	ChloroplastOR	-0.26	-0.27	-0.26	-0.26	-0.26
+Bacteria	Cyanobacteria	Cyanobacteriia	Cyanobacteriales	Desertifilaceae	Roseofilum AO1-A	-0.26	-0.27	-0.14	-0.09	-0.09
+Bacteria	Cyanobacteria	Cyanobacteriia	Cyanobacteriales	Oscillatoriaceae	Phormidium ETS-05	-0.26	-0.27	-0.14	-0.17	-0.17
+Bacteria	Cyanobacteria	Cyanobacteriia	Synechococcales	Cyanobiaceae	Cyanobium PCC-6307	-0.26	-0.27	-0.15	-0.15	-0.15
+Bacteria	Cyanobacteria	Vampirivibrionia	Gastranaerophilales	GastranaerophilalesOR	GastranaerophilalesOR	-0.26	0.19	0.28	0.28	0.28
+Bacteria	Cyanobacteria	Vampirivibrionia	Obscuribacterales	Obscuribacteraceae	ObscuribacteraceaeFA	-0.26	0.19	-0.21	-0.21	-0.21
+Bacteria	Dadabacteria	Dadabacteriia	Dadabacteriales	DadabacterialesOR	DadabacterialesOR	-0.47	-0.47	-0.47	-0.47	-0.47
+Bacteria	Deferrisomatota	Defferrisomatia	Defferrisomatales	Defferrisomataceae	Deferrisoma	-0.17	-0.17	-0.17	-0.17	-0.17
+Bacteria	Deinococcota	Deinococci	Deinococcales	Trueperaceae	Truepera	-0.19	-0.19	-0.19	-0.19	-0.19
+Bacteria	Dependentiae	Babeliae	Babeliales	Babeliaceae	BabeliaceaeFA	0.01	0.01	0.01	0	0
+Bacteria	Dependentiae	Babeliae	Babeliales	BabelialesOR	BabelialesOR	0.01	0.01	0.01	0.24	0.24
+Bacteria	Dependentiae	Babeliae	Babeliales	UBA12409	UBA12409FA	0.01	0.01	0.01	0.14	0.14
+Bacteria	Dependentiae	Babeliae	Babeliales	Vermiphilaceae	VermiphilaceaeFA	0.01	0.01	0.01	-0.05	-0.05
+Bacteria	Desulfobacterota	Desulfarculia	Desulfarculales	Desulfarculaceae	Desulfocarbo	-0.25	-0.2	-0.2	-0.2	-0.2
+Bacteria	Desulfobacterota	Desulfobaccia	Desulfobaccales	Desulfobaccaceae	Desulfobacca	-0.25	0.1	0.1	0.1	0.1
+Bacteria	Desulfobacterota	Desulfobacteria	Desulfatiglandales	Desulfatiglandaceae	Desulfatiglans	-0.25	-0.24	-0.13	-0.13	-0.13
+Bacteria	Desulfobacterota	Desulfobacteria	Desulfobacterales	Desulfobacteraceae	Desulfobacter	-0.25	-0.24	-0.26	-0.02	0.18
+Bacteria	Desulfobacterota	Desulfobacteria	Desulfobacterales	Desulfobacteraceae	DesulfobacteraceaeFA	-0.25	-0.24	-0.26	-0.02	-0.19
+Bacteria	Desulfobacterota	Desulfobacteria	Desulfobacterales	Desulfobacteraceae	Desulfobacterium	-0.25	-0.24	-0.26	-0.02	0.13
+Bacteria	Desulfobacterota	Desulfobacteria	Desulfobacterales	Desulfobacteraceae	Desulfoconvexum	-0.25	-0.24	-0.26	-0.02	-0.05
+Bacteria	Desulfobacterota	Desulfobacteria	Desulfobacterales	DesulfobacteralesOR	DesulfobacteralesOR	-0.25	-0.24	-0.26	-0.06	-0.06
+Bacteria	Desulfobacterota	Desulfobacteria	Desulfobacterales	Desulfococcaceae	DesulfococcaceaeFA	-0.25	-0.24	-0.26	-0.24	-0.13
+Bacteria	Desulfobacterota	Desulfobacteria	Desulfobacterales	Desulfococcaceae	Desulfococcus	-0.25	-0.24	-0.26	-0.24	-0.23
+Bacteria	Desulfobacterota	Desulfobacteria	Desulfobacterales	Desulfococcaceae	Desulfonema	-0.25	-0.24	-0.26	-0.24	-0.1
+Bacteria	Desulfobacterota	Desulfobacteria	Desulfobacterales	Desulfosarcinaceae	Desulfatirhabdium	-0.25	-0.24	-0.26	-0.25	0.28
+Bacteria	Desulfobacterota	Desulfobacteria	Desulfobacterales	Desulfosarcinaceae	Desulfatitalea	-0.25	-0.24	-0.26	-0.25	-0.22
+Bacteria	Desulfobacterota	Desulfobacteria	Desulfobacterales	Desulfosarcinaceae	Desulfosarcina	-0.25	-0.24	-0.26	-0.25	-0.23
+Bacteria	Desulfobacterota	Desulfobacteria	Desulfobacterales	Desulfosarcinaceae	DesulfosarcinaceaeFA	-0.25	-0.24	-0.26	-0.25	-0.2
+Bacteria	Desulfobacterota	Desulfobacteria	Desulfobacterales	Desulfosarcinaceae	Incertae Sedis	-0.25	-0.24	-0.26	-0.25	0.06
+Bacteria	Desulfobacterota	Desulfobacteria	Desulfobacterales	Desulfosarcinaceae	LCP-80	-0.25	-0.24	-0.26	-0.25	-0.28
+Bacteria	Desulfobacterota	Desulfobacteria	Desulfobacterales	Desulfosarcinaceae	SEEP-SRB1	-0.25	-0.24	-0.26	-0.25	-0.12
+Bacteria	Desulfobacterota	Desulfobacteria	Desulfobacterales	Desulfosarcinaceae	Sva0081 sediment group	-0.25	-0.24	-0.26	-0.25	-0.23
+Bacteria	Desulfobacterota	Desulfobulbia	Desulfobulbales	Desulfobulbaceae	Cand. Electrothrix	-0.25	-0.42	-0.42	-0.34	-0.27
+Bacteria	Desulfobacterota	Desulfobulbia	Desulfobulbales	Desulfobulbaceae	DesulfobulbaceaeFA	-0.25	-0.42	-0.42	-0.34	-0.32
+Bacteria	Desulfobacterota	Desulfobulbia	Desulfobulbales	Desulfobulbaceae	Desulfobulbus	-0.25	-0.42	-0.42	-0.34	-0.19
+Bacteria	Desulfobacterota	Desulfobulbia	Desulfobulbales	DesulfobulbalesOR	DesulfobulbalesOR	-0.25	-0.42	-0.42	-0.16	-0.16
+Bacteria	Desulfobacterota	Desulfobulbia	Desulfobulbales	Desulfocapsaceae	[Desulfobacterium] catecholicum group	-0.25	-0.42	-0.42	-0.35	0.23
+Bacteria	Desulfobacterota	Desulfobulbia	Desulfobulbales	Desulfocapsaceae	Desulfocapsa	-0.25	-0.42	-0.42	-0.35	-0.05
+Bacteria	Desulfobacterota	Desulfobulbia	Desulfobulbales	Desulfocapsaceae	DesulfocapsaceaeFA	-0.25	-0.42	-0.42	-0.35	-0.29
+Bacteria	Desulfobacterota	Desulfobulbia	Desulfobulbales	Desulfocapsaceae	Desulfofustis	-0.25	-0.42	-0.42	-0.35	-0.24
+Bacteria	Desulfobacterota	Desulfobulbia	Desulfobulbales	Desulfocapsaceae	Desulfopila	-0.25	-0.42	-0.42	-0.35	-0.12
+Bacteria	Desulfobacterota	Desulfobulbia	Desulfobulbales	Desulfocapsaceae	Desulfoprunum	-0.25	-0.42	-0.42	-0.35	0.26
+Bacteria	Desulfobacterota	Desulfobulbia	Desulfobulbales	Desulfocapsaceae	Desulforhopalus	-0.25	-0.42	-0.42	-0.35	-0.2
+Bacteria	Desulfobacterota	Desulfobulbia	Desulfobulbales	Desulfocapsaceae	Desulfotalea	-0.25	-0.42	-0.42	-0.35	-0.24
+Bacteria	Desulfobacterota	Desulfobulbia	Desulfobulbales	Desulfocapsaceae	SEEP-SRB4	-0.25	-0.42	-0.42	-0.35	-0.29
+Bacteria	Desulfobacterota	Desulfobulbia	Desulfobulbales	Desulfurivibrionaceae	Desulfurivibrio	-0.25	-0.42	-0.42	0	-0.03
+Bacteria	Desulfobacterota	Desulfobulbia	Desulfobulbales	Desulfurivibrionaceae	DesulfurivibrionaceaeFA	-0.25	-0.42	-0.42	0	0.01
+Bacteria	Desulfobacterota	Desulfobulbia	Desulfobulbales	Desulfurivibrionaceae	MSBL7	-0.25	-0.42	-0.42	0	0.06
+Bacteria	Desulfobacterota	Desulfomonilia	Desulfomonilales	Desulfomonilaceae	Desulfomonile	-0.25	0.12	0.12	0.12	0.12
+Bacteria	Desulfobacterota	Desulfovibrionia	Desulfovibrionales	Desulfomicrobiaceae	Desulfomicrobium	-0.25	0.23	0.23	0.2	0.2
+Bacteria	Desulfobacterota	Desulfovibrionia	Desulfovibrionales	Desulfovibrionaceae	Desulfovibrio	-0.25	0.23	0.23	0.17	0.17
+Bacteria	Desulfobacterota	Desulfuromonadia	Bradymonadales	BradymonadalesOR	BradymonadalesOR	-0.25	-0.19	-0.1	-0.1	-0.1
+Bacteria	Desulfobacterota	Desulfuromonadia	Desulfuromonadales	Desulfuromonadaceae	Cand. Deferrimonas	-0.25	-0.19	-0.19	0.27	0.28
+Bacteria	Desulfobacterota	Desulfuromonadia	Desulfuromonadales	Desulfuromonadaceae	DesulfuromonadaceaeFA	-0.25	-0.19	-0.19	0.27	0.27
+Bacteria	Desulfobacterota	Desulfuromonadia	Desulfuromonadales	Desulfuromonadaceae	Desulfuromonas	-0.25	-0.19	-0.19	0.27	0.09
+Bacteria	Desulfobacterota	Desulfuromonadia	Desulfuromonadales	Desulfuromonadaceae	Trichloromonas	-0.25	-0.19	-0.19	0.27	0.29
+Bacteria	Desulfobacterota	Desulfuromonadia	Desulfuromonadales	DesulfuromonadalesOR	DesulfuromonadalesOR	-0.25	-0.19	-0.19	0.31	0.31
+Bacteria	Desulfobacterota	Desulfuromonadia	Desulfuromonadales	Geoalkalibacteraceae	Geoalkalibacter	-0.25	-0.19	-0.19	0.09	0.09
+Bacteria	Desulfobacterota	Desulfuromonadia	Desulfuromonadales	Geopsychrobacteraceae	Desulfuromusa	-0.25	-0.19	-0.19	-0.18	-0.17
+Bacteria	Desulfobacterota	Desulfuromonadia	Desulfuromonadales	Geopsychrobacteraceae	Geopsychrobacter	-0.25	-0.19	-0.19	-0.18	-0.19
+Bacteria	Desulfobacterota	Desulfuromonadia	Desulfuromonadales	Geopsychrobacteraceae	GeopsychrobacteraceaeFA	-0.25	-0.19	-0.19	-0.18	-0.19
+Bacteria	Desulfobacterota	Desulfuromonadia	Desulfuromonadales	Geothermobacteraceae	Geothermobacter	-0.25	-0.19	-0.19	-0.1	-0.1
+Bacteria	Desulfobacterota	Desulfuromonadia	Desulfuromonadales	MA-28-I98C	MA-28-I98CFA	-0.25	-0.19	-0.19	0.25	0.25
+Bacteria	Desulfobacterota	Desulfuromonadia	Desulfuromonadales	Sva1033	Sva1033FA	-0.25	-0.19	-0.19	-0.38	-0.38
+Bacteria	Desulfobacterota	Desulfuromonadia	Desulfuromonadales	Syntrophotaleaceae	Syntrophotalea	-0.25	-0.19	-0.19	-0.12	-0.12
+Bacteria	Desulfobacterota	Desulfuromonadia	DesulfuromonadiaCL	DesulfuromonadiaCL	DesulfuromonadiaCL	-0.25	-0.19	-0.17	-0.17	-0.17
+Bacteria	Desulfobacterota	Desulfuromonadia	Geobacterales	Geobacteraceae	Citrifermentans	-0.25	-0.19	0.1	0.1	0.45
+Bacteria	Desulfobacterota	Desulfuromonadia	Geobacterales	Geobacteraceae	Geobacter	-0.25	-0.19	0.1	0.1	0.36
+Bacteria	Desulfobacterota	Desulfuromonadia	Geobacterales	Geobacteraceae	GeobacteraceaeFA	-0.25	-0.19	0.1	0.1	-0.01
+Bacteria	Desulfobacterota	Desulfuromonadia	Geobacterales	Geobacteraceae	Geotalea	-0.25	-0.19	0.1	0.1	0.15
+Bacteria	Desulfobacterota	Desulfuromonadia	Geobacterales	Geobacteraceae	Trichlorobacter	-0.25	-0.19	0.1	0.1	-0.2
+Bacteria	Desulfobacterota	Desulfuromonadia	PB19	PB19OR	PB19OR	-0.25	-0.19	-0.2	-0.2	-0.2
+Bacteria	Desulfobacterota	Dissulfuribacteria	Dissulfuribacterales	Dissulfuribacteraceae	DissulfuribacteraceaeFA	-0.25	-0.09	-0.09	-0.09	-0.09
+Bacteria	Desulfobacterota	Syntrophia	Syntrophales	Smithellaceae	Smithella	-0.25	0.45	0.45	0.33	0.33
+Bacteria	Desulfobacterota	Syntrophia	Syntrophales	Syntrophaceae	Syntrophus	-0.25	0.45	0.45	0.52	0.52
+Bacteria	Desulfobacterota	Syntrophia	Syntrophales	SyntrophalesOR	SyntrophalesOR	-0.25	0.45	0.45	0.38	0.38
+Bacteria	Desulfobacterota	Syntrophobacteria	Syntrophobacterales	Syntrophobacteraceae	Desulforhabdus	-0.25	0.04	0.04	0.15	-0.28
+Bacteria	Desulfobacterota	Syntrophobacteria	Syntrophobacterales	Syntrophobacteraceae	Desulfovirga	-0.25	0.04	0.04	0.15	0.24
+Bacteria	Desulfobacterota	Syntrophobacteria	Syntrophobacterales	Syntrophobacteraceae	Syntrophobacter	-0.25	0.04	0.04	0.15	0.32
+Bacteria	Desulfobacterota	Syntrophobacteria	Syntrophobacterales	Syntrophobacteraceae	SyntrophobacteraceaeFA	-0.25	0.04	0.04	0.15	0.06
+Bacteria	Desulfobacterota	Syntrophobacteria	Syntrophobacterales	SyntrophobacteralesOR	SyntrophobacteralesOR	-0.25	0.04	0.04	-0.2	-0.2
+Bacteria	Desulfobacterota	Syntrophorhabdia	Syntrophorhabdales	Syntrophorhabdaceae	Syntrophorhabdus	-0.25	0.38	0.38	0.38	0.38
+Bacteria	Elusimicrobiota	Elusimicrobia	Lineage IV	Lineage IVOR	Lineage IVOR	-0.28	-0.31	-0.3	-0.3	-0.3
+Bacteria	Elusimicrobiota	Elusimicrobia	MVP-88	MVP-88OR	MVP-88OR	-0.28	-0.31	-0.22	-0.22	-0.22
+Bacteria	Elusimicrobiota	Lineage IIa	Lineage IIaCL	Lineage IIaCL	Lineage IIaCL	-0.28	-0.28	-0.28	-0.28	-0.28
+Bacteria	Elusimicrobiota	Lineage IIb	Lineage IIbCL	Lineage IIbCL	Lineage IIbCL	-0.28	-0.17	-0.17	-0.17	-0.17
+Bacteria	Elusimicrobiota	Lineage IIc	Lineage IIcCL	Lineage IIcCL	Lineage IIcCL	-0.28	-0.25	-0.25	-0.25	-0.25
+Bacteria	Entotheonellaeota	Entotheonellia	Entotheonellales	Entotheonellaceae	Cand. Entotheonella	0.39	0.39	0.39	0.39	0.35
+Bacteria	Entotheonellaeota	Entotheonellia	Entotheonellales	Entotheonellaceae	EntotheonellaceaeFA	0.39	0.39	0.39	0.39	0.38
+Bacteria	Fermentibacterota	Fermentibacteria	Fermentibacterales	Fermentibacteraceae	FermentibacteraceaeFA	0.33	0.33	0.33	0.33	0.33
+Bacteria	Fibrobacterota	Chitinivibrionia	ChitinivibrioniaCL	ChitinivibrioniaCL	ChitinivibrioniaCL	0.27	0.28	0.28	0.28	0.28
+Bacteria	Fibrobacterota	Fibrobacteria	Fibrobacterales	B122	B122FA	0.27	0.24	0.24	0.31	0.31
+Bacteria	Fibrobacterota	Fibrobacteria	Fibrobacterales	BBMC-4	BBMC-4FA	0.27	0.24	0.24	0.23	0.23
+Bacteria	Fibrobacterota	Fibrobacteria	Fibrobacterales	Fibrobacteraceae	FibrobacteraceaeFA	0.27	0.24	0.24	-0.24	-0.23
+Bacteria	Fibrobacterota	Fibrobacteria	Fibrobacterales	Fibrobacteraceae	possible genus 04	0.27	0.24	0.24	-0.24	-0.19
+Bacteria	Firmicutes	Bacilli	Acholeplasmatales	Acholeplasmataceae	EUB33-2	0.57	0.52	0.14	0.14	0.14
+Bacteria	Firmicutes	Bacilli	Alicyclobacillales	Alicyclobacillaceae	Acidibacillus	0.57	0.52	0.32	0.32	0.21
+Bacteria	Firmicutes	Bacilli	Alicyclobacillales	Alicyclobacillaceae	Alicyclobacillus	0.57	0.52	0.32	0.32	0.17
+Bacteria	Firmicutes	Bacilli	Alicyclobacillales	Alicyclobacillaceae	Tumebacillus	0.57	0.52	0.32	0.32	0.31
+Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	0.57	0.52	0.5	0.52	0.51
+Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Halobacillus	0.57	0.52	0.5	0.52	0.39
+Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Oceanobacillus	0.57	0.52	0.5	0.52	0.42
+Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Pontibacillus	0.57	0.52	0.5	0.52	0.35
+Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Sediminibacillus	0.57	0.52	0.5	0.52	0.27
+Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Terribacillus	0.57	0.52	0.5	0.52	0.54
+Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Virgibacillus	0.57	0.52	0.5	0.52	0.32
+Bacteria	Firmicutes	Bacilli	Bacillales	BacillalesOR	BacillalesOR	0.57	0.52	0.5	0.08	0.08
+Bacteria	Firmicutes	Bacilli	Bacillales	Marinococcaceae	Salsuginibacillus	0.57	0.52	0.5	0.26	0.26
+Bacteria	Firmicutes	Bacilli	Bacillales	Planococcaceae	Domibacillus	0.57	0.52	0.5	0.5	0.43
+Bacteria	Firmicutes	Bacilli	Bacillales	Planococcaceae	Lysinibacillus	0.57	0.52	0.5	0.5	0.26
+Bacteria	Firmicutes	Bacilli	Bacillales	Planococcaceae	PlanococcaceaeFA	0.57	0.52	0.5	0.5	0.41
+Bacteria	Firmicutes	Bacilli	Bacillales	Planococcaceae	Sporosarcina	0.57	0.52	0.5	0.5	0.52
+Bacteria	Firmicutes	Bacilli	Bacillales	Sporolactobacillaceae	Pullulanibacillus	0.57	0.52	0.5	-0.05	-0.05
+Bacteria	Firmicutes	Bacilli	Erysipelotrichales	Erysipelotrichaceae	Erysipelothrix	0.57	0.52	0.13	0.13	0.17
+Bacteria	Firmicutes	Bacilli	Erysipelotrichales	Erysipelotrichaceae	Turicibacter	0.57	0.52	0.13	0.13	-0.19
+Bacteria	Firmicutes	Bacilli	Haloplasmatales	Haloplasmataceae	Haloplasma	0.57	0.52	0.24	0.24	0.24
+Bacteria	Firmicutes	Bacilli	Izemoplasmatales	Izemoplasmataceae	IzemoplasmataceaeFA	0.57	0.52	0.13	0.13	0.13
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Carnobacteriaceae	Trichococcus	0.57	0.52	0.38	0.38	0.38
+Bacteria	Firmicutes	Bacilli	Paenibacillales	Paenibacillaceae	Ammoniphilus	0.57	0.52	0.57	0.57	0.5
+Bacteria	Firmicutes	Bacilli	Paenibacillales	Paenibacillaceae	Cohnella	0.57	0.52	0.57	0.57	0.48
+Bacteria	Firmicutes	Bacilli	Paenibacillales	Paenibacillaceae	PaenibacillaceaeFA	0.57	0.52	0.57	0.57	0.42
+Bacteria	Firmicutes	Bacilli	Paenibacillales	Paenibacillaceae	Paenibacillus	0.57	0.52	0.57	0.57	0.51
+Bacteria	Firmicutes	Bacilli	Thermoactinomycetales	Thermoactinomycetaceae	Shimazuella	0.57	0.52	0.49	0.49	0.49
+Bacteria	Firmicutes	BRH-c20a	BRH-c20aCL	BRH-c20aCL	BRH-c20aCL	0.57	0.39	0.39	0.39	0.39
+Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	Christensenellaceae R-7 group	0.57	0.46	0.3	0.3	0.26
+Bacteria	Firmicutes	Clostridia	Christensenellales	Christensenellaceae	ChristensenellaceaeFA	0.57	0.46	0.3	0.3	0.31
+Bacteria	Firmicutes	Clostridia	ClostridiaCL	ClostridiaCL	ClostridiaCL	0.57	0.46	-0.01	-0.01	-0.01
+Bacteria	Firmicutes	Clostridia	Clostridiales	Caloramatoraceae	CaloramatoraceaeFA	0.57	0.46	0.43	0.42	0.47
+Bacteria	Firmicutes	Clostridia	Clostridiales	Caloramatoraceae	Fonticella	0.57	0.46	0.43	0.42	0.4
+Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	ClostridiaceaeFA	0.57	0.46	0.43	0.43	0.09
+Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium sensu stricto 1	0.57	0.46	0.43	0.43	0.31
+Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium sensu stricto 10	0.57	0.46	0.43	0.43	0.4
+Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium sensu stricto 11	0.57	0.46	0.43	0.43	-0.1
+Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium sensu stricto 13	0.57	0.46	0.43	0.43	0.42
+Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium sensu stricto 5	0.57	0.46	0.43	0.43	0.2
+Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium sensu stricto 8	0.57	0.46	0.43	0.43	0.45
+Bacteria	Firmicutes	Clostridia	Clostridiales	ClostridialesOR	ClostridialesOR	0.57	0.46	0.43	0.28	0.28
+Bacteria	Firmicutes	Clostridia	Clostridiales	Oxobacteraceae	Oxobacter	0.57	0.46	0.43	0.13	0.13
+Bacteria	Firmicutes	Clostridia	Eubacteriales	Alkalibacteraceae	Alkalibacter	0.57	0.46	0.34	0.34	0.34
+Bacteria	Firmicutes	Clostridia	Gracilibacteraceae	Gracilibacter	GracilibacterFA	0.57	0.46	0.45	0.41	0.41
+Bacteria	Firmicutes	Clostridia	Gracilibacteraceae	GracilibacteraceaeOR	GracilibacteraceaeOR	0.57	0.46	0.45	0.54	0.54
+Bacteria	Firmicutes	Clostridia	Gracilibacteraceae	Lutispora	LutisporaFA	0.57	0.46	0.45	0.4	0.4
+Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Anaerocolumna	0.57	0.46	0.37	0.31	0.1
+Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Anaerosporobacter	0.57	0.46	0.37	0.31	0.26
+Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Cellulosilyticum	0.57	0.46	0.37	0.31	0.52
+Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	LachnospiraceaeFA	0.57	0.46	0.37	0.31	0.21
+Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnotalea	0.57	0.46	0.37	0.31	0.13
+Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Mobilitalea	0.57	0.46	0.37	0.31	0.5
+Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Roseburia	0.57	0.46	0.37	0.31	0.04
+Bacteria	Firmicutes	Clostridia	Lachnospirales	LachnospiralesOR	LachnospiralesOR	0.57	0.46	0.37	0.45	0.45
+Bacteria	Firmicutes	Clostridia	Oscillospirales	[Eubacterium] coprostanoligenes group	[Eubacterium] coprostanoligenes groupFA	0.57	0.46	0.36	0.25	0.25
+Bacteria	Firmicutes	Clostridia	Oscillospirales	Hungateiclostridiaceae	Anaerobacterium	0.57	0.46	0.36	0.36	0.01
+Bacteria	Firmicutes	Clostridia	Oscillospirales	Hungateiclostridiaceae	Ercella	0.57	0.46	0.36	0.36	0.34
+Bacteria	Firmicutes	Clostridia	Oscillospirales	Hungateiclostridiaceae	HungateiclostridiaceaeFA	0.57	0.46	0.36	0.36	0.15
+Bacteria	Firmicutes	Clostridia	Oscillospirales	Hungateiclostridiaceae	Ruminiclostridium	0.57	0.46	0.36	0.36	0.4
+Bacteria	Firmicutes	Clostridia	Oscillospirales	Hungateiclostridiaceae	Saccharofermentans	0.57	0.46	0.36	0.36	0.17
+Bacteria	Firmicutes	Clostridia	Oscillospirales	Hydrogenoanaerobacterium	HydrogenoanaerobacteriumFA	0.57	0.46	0.36	0.08	0.08
+Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	OscillospiraceaeFA	0.57	0.46	0.36	0.32	0.26
+Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	Papillibacter	0.57	0.46	0.36	0.32	0.24
+Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	Sporobacter	0.57	0.46	0.36	0.32	0.33
+Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	Caproiciproducens	0.57	0.46	0.36	0.2	0.19
+Bacteria	Firmicutes	Clostridia	Oscillospirales	Ruminococcaceae	RuminococcaceaeFA	0.57	0.46	0.36	0.2	0.19
+Bacteria	Firmicutes	Clostridia	Oscillospirales	UCG-010	UCG-010FA	0.57	0.46	0.36	0.24	0.24
+Bacteria	Firmicutes	Clostridia	Peptococcales	Peptococcaceae	PeptococcaceaeFA	0.57	0.46	0.22	0.22	0.22
+Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	[Eubacterium] brachy group	0.57	0.46	0.31	0.33	0.25
+Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	Anaerovorax	0.57	0.46	0.31	0.33	0.36
+Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Gottschalkia	GottschalkiaFA	0.57	0.46	0.31	-0.1	-0.1
+Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Peptostreptococcaceae	Paeniclostridium	0.57	0.46	0.31	0.03	-0.13
+Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Peptostreptococcaceae	Paraclostridium	0.57	0.46	0.31	0.03	0
+Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Peptostreptococcaceae	Sporacetigenium	0.57	0.46	0.31	0.03	0.47
+Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Peptostreptococcaceae	Tepidibacter	0.57	0.46	0.31	0.03	-0.23
+Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Peptostreptococcales-TissierellalesOR	Peptostreptococcales-TissierellalesOR	0.57	0.46	0.31	0.38	0.38
+Bacteria	Firmicutes	Clostridia	Thermincolales	Thermincolaceae	Thermincola	0.57	0.46	0.47	0.47	0.47
+Bacteria	Firmicutes	Desulfitobacteriia	Desulfitobacteriales	Desulfitobacteriaceae	Desulfitobacterium	0.57	0.25	0.25	0.29	0.29
+Bacteria	Firmicutes	Desulfitobacteriia	Desulfitobacteriales	Desulfitobacteriaceae	Desulfosporosinus	0.57	0.25	0.25	0.29	0.28
+Bacteria	Firmicutes	Desulfitobacteriia	Desulfitobacteriales	Heliobacteriaceae	HeliobacteriaceaeFA	0.57	0.25	0.25	-0.09	-0.09
+Bacteria	Firmicutes	Desulfotomaculia	Desulfotomaculales	Desulfotomaculales Incertae Sedis	Desulfallas-Sporotomaculum	0.57	-0.12	-0.12	-0.12	-0.12
+Bacteria	Firmicutes	Incertae Sedis	DTU014	DTU014OR	DTU014OR	0.57	0.3	0.3	0.3	0.3
+Bacteria	Firmicutes	Limnochordia	Hydrogenispora	HydrogenisporaOR	HydrogenisporaOR	0.57	0.17	0.17	0.17	0.17
+Bacteria	Firmicutes	Negativicutes	Acidaminococcales	Acidaminococcaceae	Acidaminococcus	0.57	0.07	0.17	0.17	0.17
+Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Sporomusaceae	Anaerosinus	0.57	0.07	0.06	0.06	-0.06
+Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Sporomusaceae	Pelosinus	0.57	0.07	0.06	0.06	0.39
+Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Sporomusaceae	Sporomusa	0.57	0.07	0.06	0.06	0.42
+Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Sporomusaceae	SporomusaceaeFA	0.57	0.07	0.06	0.06	0.2
+Bacteria	Firmicutes	Syntrophomonadia	Syntrophomonadales	Syntrophomonadaceae	Syntrophomonas	0.57	0.29	0.29	0.29	0.29
+Bacteria	Firmicutes	Thermoanaerobacteria	Thermoanaerobacterales	SRB2	SRB2FA	0.57	0.44	0.44	0.44	0.44
+Bacteria	Firmicutes	TSAC18	TSAC18CL	TSAC18CL	TSAC18CL	0.57	0.34	0.34	0.34	0.34
+Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Propionigenium	-0.16	-0.16	-0.16	-0.23	-0.23
+Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Hypnocyclicus	-0.16	-0.16	-0.16	0.07	0.07
+Bacteria	Gemmatimonadota	AKAU4049	AKAU4049CL	AKAU4049CL	AKAU4049CL	0.1	0.44	0.44	0.44	0.44
+Bacteria	Gemmatimonadota	BD2-11 terrestrial group	BD2-11 terrestrial groupCL	BD2-11 terrestrial groupCL	BD2-11 terrestrial groupCL	0.1	-0.15	-0.15	-0.15	-0.15
+Bacteria	Gemmatimonadota	Gemmatimonadetes	Gemmatimonadales	Gemmatimonadaceae	GemmatimonadaceaeFA	0.1	0.03	0.03	0.03	0
+Bacteria	Gemmatimonadota	Gemmatimonadetes	Gemmatimonadales	Gemmatimonadaceae	Gemmatimonas	0.1	0.03	0.03	0.03	0.42
+Bacteria	Gemmatimonadota	Longimicrobia	Longimicrobiales	Longimicrobiaceae	LongimicrobiaceaeFA	0.1	0.38	0.38	0.38	0.38
+Bacteria	Gemmatimonadota	MD2902-B12	MD2902-B12CL	MD2902-B12CL	MD2902-B12CL	0.1	-0.09	-0.09	-0.09	-0.09
+Bacteria	Gemmatimonadota	PAUC43f marine benthic group	PAUC43f marine benthic groupCL	PAUC43f marine benthic groupCL	PAUC43f marine benthic groupCL	0.1	-0.15	-0.15	-0.15	-0.15
+Bacteria	Gemmatimonadota	S0134 terrestrial group	S0134 terrestrial groupCL	S0134 terrestrial groupCL	S0134 terrestrial groupCL	0.1	0.46	0.46	0.46	0.46
+Bacteria	Halanaerobiaeota	Halanaerobiia	Halanaerobiales	Halobacteroidaceae	HalobacteroidaceaeFA	0.13	0.13	0.13	0.13	0.13
+Bacteria	Hydrogenedentes	Hydrogenedentia	Hydrogenedentiales	Hydrogenedensaceae	HydrogenedensaceaeFA	-0.2	-0.2	-0.2	-0.2	-0.2
+Bacteria	Latescibacterota	Latescibacteria	Latescibacterales	Latescibacteraceae	Cand. Latescibacter	-0.14	-0.14	-0.14	-0.14	0.18
+Bacteria	Latescibacterota	Latescibacteria	Latescibacterales	Latescibacteraceae	LatescibacteraceaeFA	-0.14	-0.14	-0.14	-0.14	-0.19
+Bacteria	Methylomirabilota	Methylomirabilia	Methylomirabilales	Methylomirabilaceae	Sh765B-TzT-35	0.1	0.1	0.01	0.01	0.01
+Bacteria	Methylomirabilota	Methylomirabilia	Rokubacteriales	RokubacterialesOR	RokubacterialesOR	0.1	0.1	0.11	0.17	0.17
+Bacteria	Methylomirabilota	Methylomirabilia	Rokubacteriales	WX65	WX65FA	0.1	0.1	0.11	-0.25	-0.25
+Bacteria	Modulibacteria	Moduliflexia	Moduliflexales	Moduliflexaceae	ModuliflexaceaeFA	-0.26	-0.26	-0.26	-0.26	-0.26
+Bacteria	Myxococcota	bacteriap25	bacteriap25CL	bacteriap25CL	bacteriap25CL	0.3	0.38	0.38	0.38	0.38
+Bacteria	Myxococcota	Myxococcia	Myxococcales	27F-1492R	27F-1492RFA	0.3	0.23	0.23	0.21	0.21
+Bacteria	Myxococcota	Myxococcia	Myxococcales	Anaeromyxobacteraceae	Anaeromyxobacter	0.3	0.23	0.23	0.14	0.14
+Bacteria	Myxococcota	Myxococcia	Myxococcales	Myxococcaceae	Cystobacter	0.3	0.23	0.23	0.14	0.15
+Bacteria	Myxococcota	Myxococcia	Myxococcales	Myxococcaceae	MyxococcaceaeFA	0.3	0.23	0.23	0.14	0.04
+Bacteria	Myxococcota	Myxococcia	Myxococcales	Myxococcaceae	P3OB-42	0.3	0.23	0.23	0.14	0.08
+Bacteria	Myxococcota	Myxococcia	Myxococcales	MyxococcalesOR	MyxococcalesOR	0.3	0.23	0.23	0.13	0.13
+Bacteria	Myxococcota	Myxococcia	Myxococcales	Vulgatibacteraceae	Vulgatibacter	0.3	0.23	0.23	0.35	0.35
+Bacteria	Myxococcota	Polyangia	Blfdi19	Blfdi19OR	Blfdi19OR	0.3	-0.22	0.06	0.06	0.06
+Bacteria	Myxococcota	Polyangia	Haliangiales	Haliangiaceae	Haliangium	0.3	-0.22	-0.03	-0.03	-0.03
+Bacteria	Myxococcota	Polyangia	MidBa8	MidBa8OR	MidBa8OR	0.3	-0.22	-0.01	-0.01	-0.01
+Bacteria	Myxococcota	Polyangia	mle1-27	mle1-27OR	mle1-27OR	0.3	-0.22	0.03	0.03	0.03
+Bacteria	Myxococcota	Polyangia	Nannocystales	Nannocystaceae	Enhygromyxa	0.3	-0.22	-0.17	-0.17	-0.19
+Bacteria	Myxococcota	Polyangia	Nannocystales	Nannocystaceae	NannocystaceaeFA	0.3	-0.22	-0.17	-0.17	-0.18
+Bacteria	Myxococcota	Polyangia	Nannocystales	Nannocystaceae	Nannocystis	0.3	-0.22	-0.17	-0.17	0.11
+Bacteria	Myxococcota	Polyangia	Nannocystales	Nannocystaceae	Pseudenhygromyxa	0.3	-0.22	-0.17	-0.17	0.07
+Bacteria	Myxococcota	Polyangia	PolyangiaCL	PolyangiaCL	PolyangiaCL	0.3	-0.22	-0.23	-0.23	-0.23
+Bacteria	Myxococcota	Polyangia	Polyangiales	BIrii41	BIrii41FA	0.3	-0.22	-0.25	0.09	0.09
+Bacteria	Myxococcota	Polyangia	Polyangiales	Eel-36e1D6	Eel-36e1D6FA	0.3	-0.22	-0.25	-0.22	-0.22
+Bacteria	Myxococcota	Polyangia	Polyangiales	Phaselicystidaceae	Phaselicystis	0.3	-0.22	-0.25	-0.42	-0.42
+Bacteria	Myxococcota	Polyangia	Polyangiales	Polyangiaceae	Aetherobacter	0.3	-0.22	-0.25	-0.08	0.05
+Bacteria	Myxococcota	Polyangia	Polyangiales	Polyangiaceae	Minicystis	0.3	-0.22	-0.25	-0.08	-0.23
+Bacteria	Myxococcota	Polyangia	Polyangiales	Polyangiaceae	Pajaroellobacter	0.3	-0.22	-0.25	-0.08	0
+Bacteria	Myxococcota	Polyangia	Polyangiales	Polyangiaceae	PolyangiaceaeFA	0.3	-0.22	-0.25	-0.08	-0.17
+Bacteria	Myxococcota	Polyangia	Polyangiales	Polyangiaceae	Sorangium	0.3	-0.22	-0.25	-0.08	-0.2
+Bacteria	Myxococcota	Polyangia	Polyangiales	PolyangialesOR	PolyangialesOR	0.3	-0.22	-0.25	0.13	0.13
+Bacteria	Myxococcota	Polyangia	Polyangiales	Sandaracinaceae	SandaracinaceaeFA	0.3	-0.22	-0.25	-0.29	-0.28
+Bacteria	Myxococcota	Polyangia	Polyangiales	Sandaracinaceae	Sandaracinus	0.3	-0.22	-0.25	-0.29	-0.14
+Bacteria	Myxococcota	Polyangia	PS-B29	PS-B29OR	PS-B29OR	0.3	-0.22	-0.11	-0.11	-0.11
+Bacteria	Myxococcota	Polyangia	UASB-TL25	UASB-TL25OR	UASB-TL25OR	0.3	-0.22	-0.09	-0.09	-0.09
+Bacteria	Myxococcota	Polyangia	VHS-B4-70	VHS-B4-70OR	VHS-B4-70OR	0.3	-0.22	-0.11	-0.11	-0.11
+Bacteria	Nitrospinota	P9X2b3D02	P9X2b3D02CL	P9X2b3D02CL	P9X2b3D02CL	-0.34	-0.34	-0.34	-0.34	-0.34
+Bacteria	Nitrospirota	4-29-1	4-29-1CL	4-29-1CL	4-29-1CL	-0.19	-0.31	-0.31	-0.31	-0.31
+Bacteria	Nitrospirota	Nitrospiria	Nitrospirales	Nitrospiraceae	Nitrospira	-0.19	-0.16	-0.16	-0.16	-0.16
+Bacteria	Nitrospirota	Thermodesulfovibrionia	ThermodesulfovibrioniaCL	ThermodesulfovibrioniaCL	ThermodesulfovibrioniaCL	-0.19	-0.08	-0.08	-0.08	-0.08
+Bacteria	Patescibacteria	ABY1	Cand. Falkowbacteria	Cand. FalkowbacteriaOR	Cand. FalkowbacteriaOR	-0.11	-0.08	0.04	0.04	0.04
+Bacteria	Patescibacteria	ABY1	Cand. Magasanikbacteria	Cand. MagasanikbacteriaOR	Cand. MagasanikbacteriaOR	-0.11	-0.08	-0.02	-0.02	-0.02
+Bacteria	Patescibacteria	ABY1	Cand. Uhrbacteria	Cand. UhrbacteriaOR	Cand. UhrbacteriaOR	-0.11	-0.08	-0.14	-0.14	-0.14
+Bacteria	Patescibacteria	Gracilibacteria	Cand. Peregrinibacteria	Cand. PeregrinibacteriaOR	Cand. PeregrinibacteriaOR	-0.11	0.01	-0.2	-0.2	-0.2
+Bacteria	Patescibacteria	Gracilibacteria	GracilibacteriaCL	GracilibacteriaCL	GracilibacteriaCL	-0.11	0.01	0.03	0.03	0.03
+Bacteria	Patescibacteria	Microgenomatia	Cand. Amesbacteria	Cand. AmesbacteriaOR	Cand. AmesbacteriaOR	-0.11	-0.04	0	0	0
+Bacteria	Patescibacteria	Microgenomatia	Cand. Woesebacteria	Cand. WoesebacteriaOR	Cand. WoesebacteriaOR	-0.11	-0.04	-0.04	-0.04	-0.04
+Bacteria	Patescibacteria	Parcubacteria	Cand. Moranbacteria	Cand. MoranbacteriaOR	Cand. MoranbacteriaOR	-0.11	-0.17	-0.02	-0.02	-0.02
+Bacteria	Patescibacteria	Parcubacteria	Cand. Yanofskybacteria	Cand. YanofskybacteriaOR	Cand. YanofskybacteriaOR	-0.11	-0.17	-0.17	-0.17	-0.17
+Bacteria	Patescibacteria	Parcubacteria	ParcubacteriaCL	ParcubacteriaCL	ParcubacteriaCL	-0.11	-0.17	-0.11	-0.11	-0.11
+Bacteria	Patescibacteria	WWE3	WWE3CL	WWE3CL	WWE3CL	-0.11	-0.18	-0.18	-0.18	-0.18
+Bacteria	Planctomycetota	BD7-11	BD7-11CL	BD7-11CL	BD7-11CL	-0.2	0.01	0.01	0.01	0.01
+Bacteria	Planctomycetota	Brocadiae	Brocadiales	Scalinduaceae	Cand. Scalindua	-0.2	-0.16	-0.16	-0.16	-0.16
+Bacteria	Planctomycetota	OM190	OM190CL	OM190CL	OM190CL	-0.2	-0.43	-0.43	-0.43	-0.43
+Bacteria	Planctomycetota	Phycisphaerae	Amsterdam-1B-07	Amsterdam-1B-07OR	Amsterdam-1B-07OR	-0.2	-0.02	-0.26	-0.26	-0.26
+Bacteria	Planctomycetota	Phycisphaerae	CCM11a	CCM11aOR	CCM11aOR	-0.2	-0.02	-0.14	-0.14	-0.14
+Bacteria	Planctomycetota	Phycisphaerae	DG-20	DG-20OR	DG-20OR	-0.2	-0.02	0.24	0.24	0.24
+Bacteria	Planctomycetota	Phycisphaerae	mle1-8	mle1-8OR	mle1-8OR	-0.2	-0.02	-0.1	-0.1	-0.1
+Bacteria	Planctomycetota	Phycisphaerae	MSBL9	4572-13	4572-13FA	-0.2	-0.02	0.05	0.04	0.04
+Bacteria	Planctomycetota	Phycisphaerae	MSBL9	GWC2-45-44	GWC2-45-44FA	-0.2	-0.02	0.05	0.3	0.3
+Bacteria	Planctomycetota	Phycisphaerae	MSBL9	KCLunmb-38-53	KCLunmb-38-53FA	-0.2	-0.02	0.05	0.33	0.33
+Bacteria	Planctomycetota	Phycisphaerae	MSBL9	MSBL9OR	MSBL9OR	-0.2	-0.02	0.05	0.26	0.26
+Bacteria	Planctomycetota	Phycisphaerae	MSBL9	SG8-4	SG8-4FA	-0.2	-0.02	0.05	-0.13	-0.13
+Bacteria	Planctomycetota	Phycisphaerae	Phycisphaerales	AKAU3564 sediment group	AKAU3564 sediment groupFA	-0.2	-0.02	-0.07	0.04	0.04
+Bacteria	Planctomycetota	Phycisphaerae	Phycisphaerales	Phycisphaeraceae	AKYG587	-0.2	-0.02	-0.07	-0.1	-0.14
+Bacteria	Planctomycetota	Phycisphaerae	Phycisphaerales	Phycisphaeraceae	CL500-3	-0.2	-0.02	-0.07	-0.1	-0.2
+Bacteria	Planctomycetota	Phycisphaerae	Phycisphaerales	Phycisphaeraceae	Phycisphaera	-0.2	-0.02	-0.07	-0.1	-0.04
+Bacteria	Planctomycetota	Phycisphaerae	Phycisphaerales	Phycisphaeraceae	PhycisphaeraceaeFA	-0.2	-0.02	-0.07	-0.1	-0.05
+Bacteria	Planctomycetota	Phycisphaerae	Phycisphaerales	Phycisphaeraceae	SM1A02	-0.2	-0.02	-0.07	-0.1	-0.12
+Bacteria	Planctomycetota	Phycisphaerae	Phycisphaerales	Phycisphaeraceae	Urania-1B-19 marine sediment group	-0.2	-0.02	-0.07	-0.1	0.1
+Bacteria	Planctomycetota	Phycisphaerae	Pla1 lineage	Pla1 lineageOR	Pla1 lineageOR	-0.2	-0.02	0.22	0.22	0.22
+Bacteria	Planctomycetota	Phycisphaerae	S-70	S-70OR	S-70OR	-0.2	-0.02	-0.28	-0.28	-0.28
+Bacteria	Planctomycetota	Phycisphaerae	Tepidisphaerales	WD2101 soil group	WD2101 soil groupFA	-0.2	-0.02	0.46	0.46	0.46
+Bacteria	Planctomycetota	Pla3 lineage	Pla3 lineageCL	Pla3 lineageCL	Pla3 lineageCL	-0.2	0.03	0.03	0.03	0.03
+Bacteria	Planctomycetota	Pla4 lineage	Pla4 lineageCL	Pla4 lineageCL	Pla4 lineageCL	-0.2	-0.19	-0.19	-0.19	-0.19
+Bacteria	Planctomycetota	Planctomycetes	Gemmatales	Gemmataceae	Gemmata	-0.2	-0.15	0.1	0.1	0.47
+Bacteria	Planctomycetota	Planctomycetes	Gemmatales	Gemmataceae	GemmataceaeFA	-0.2	-0.15	0.1	0.1	0.05
+Bacteria	Planctomycetota	Planctomycetes	Gemmatales	Gemmataceae	Zavarzinella	-0.2	-0.15	0.1	0.1	0.2
+Bacteria	Planctomycetota	Planctomycetes	Isosphaerales	Isosphaeraceae	Aquisphaera	-0.2	-0.15	0.25	0.25	0.25
+Bacteria	Planctomycetota	Planctomycetes	Pirellulales	Pirellulaceae	Blastopirellula	-0.2	-0.15	-0.16	-0.16	-0.05
+Bacteria	Planctomycetota	Planctomycetes	Pirellulales	Pirellulaceae	Bythopirellula	-0.2	-0.15	-0.16	-0.16	-0.3
+Bacteria	Planctomycetota	Planctomycetes	Pirellulales	Pirellulaceae	Cand. Anammoximicrobium	-0.2	-0.15	-0.16	-0.16	0.25
+Bacteria	Planctomycetota	Planctomycetes	Pirellulales	Pirellulaceae	Pir2 lineage	-0.2	-0.15	-0.16	-0.16	0.06
+Bacteria	Planctomycetota	Planctomycetes	Pirellulales	Pirellulaceae	Pir3 lineage	-0.2	-0.15	-0.16	-0.16	0.57
+Bacteria	Planctomycetota	Planctomycetes	Pirellulales	Pirellulaceae	Pir4 lineage	-0.2	-0.15	-0.16	-0.16	-0.07
+Bacteria	Planctomycetota	Planctomycetes	Pirellulales	Pirellulaceae	Pirellula	-0.2	-0.15	-0.16	-0.16	-0.21
+Bacteria	Planctomycetota	Planctomycetes	Pirellulales	Pirellulaceae	PirellulaceaeFA	-0.2	-0.15	-0.16	-0.16	-0.04
+Bacteria	Planctomycetota	Planctomycetes	Pirellulales	Pirellulaceae	Rhodopirellula	-0.2	-0.15	-0.16	-0.16	-0.34
+Bacteria	Planctomycetota	Planctomycetes	Pirellulales	Pirellulaceae	Rubripirellula	-0.2	-0.15	-0.16	-0.16	-0.29
+Bacteria	Planctomycetota	Planctomycetes	Planctomycetales	Gimesiaceae	Gimesia	-0.2	-0.15	-0.18	-0.28	-0.24
+Bacteria	Planctomycetota	Planctomycetes	Planctomycetales	Gimesiaceae	GimesiaceaeFA	-0.2	-0.15	-0.18	-0.28	-0.27
+Bacteria	Planctomycetota	Planctomycetes	Planctomycetales	PlanctomycetalesOR	PlanctomycetalesOR	-0.2	-0.15	-0.18	0.08	0.08
+Bacteria	Planctomycetota	Planctomycetes	Planctomycetales	Rubinisphaeraceae	Planctomicrobium	-0.2	-0.15	-0.18	-0.03	0.03
+Bacteria	Planctomycetota	Planctomycetes	Planctomycetales	Rubinisphaeraceae	RubinisphaeraceaeFA	-0.2	-0.15	-0.18	-0.03	0.02
+Bacteria	Planctomycetota	Planctomycetes	Planctomycetales	Rubinisphaeraceae	SH-PL14	-0.2	-0.15	-0.18	-0.03	-0.11
+Bacteria	Planctomycetota	Planctomycetes	Planctomycetales	Schlesneriaceae	Planctopirus	-0.2	-0.15	-0.18	0.2	0.2
+Bacteria	Planctomycetota	Planctomycetes	PlanctomycetesCL	PlanctomycetesCL	PlanctomycetesCL	-0.2	-0.15	-0.29	-0.29	-0.29
+Bacteria	Planctomycetota	vadinHA49	vadinHA49CL	vadinHA49CL	vadinHA49CL	-0.2	-0.15	-0.15	-0.15	-0.15
+Bacteria	Proteobacteria	Alphaproteobacteria	Acetobacterales	Acetobacteraceae	AcetobacteraceaeFA	-0.48	0.09	0.23	0.15	0.33
+Bacteria	Proteobacteria	Alphaproteobacteria	Acetobacterales	Acetobacteraceae	Acidiphilium	-0.48	0.09	0.23	0.15	0.05
+Bacteria	Proteobacteria	Alphaproteobacteria	Acetobacterales	Acetobacteraceae	Acidocella	-0.48	0.09	0.23	0.15	0.04
+Bacteria	Proteobacteria	Alphaproteobacteria	Acetobacterales	Acetobacteraceae	Rhodopila	-0.48	0.09	0.23	0.15	0.12
+Bacteria	Proteobacteria	Alphaproteobacteria	Acetobacterales	Acetobacteraceae	Rhodovastum	-0.48	0.09	0.23	0.15	0.21
+Bacteria	Proteobacteria	Alphaproteobacteria	Acetobacterales	Acetobacteraceae	Roseomonas	-0.48	0.09	0.23	0.15	0.19
+Bacteria	Proteobacteria	Alphaproteobacteria	Acetobacterales	AcetobacteralesOR	AcetobacteralesOR	-0.48	0.09	0.23	0.2	0.2
+Bacteria	Proteobacteria	Alphaproteobacteria	Alphaproteobacteria Incertae Sedis	Unknown Family	Unknown FamilyFA	-0.48	0.09	0.31	-0.37	-0.37
+Bacteria	Proteobacteria	Alphaproteobacteria	AlphaproteobacteriaCL	AlphaproteobacteriaCL	AlphaproteobacteriaCL	-0.48	0.09	-0.25	-0.25	-0.25
+Bacteria	Proteobacteria	Alphaproteobacteria	AT-s3-44	AT-s3-44OR	AT-s3-44OR	-0.48	0.09	-0.08	-0.08	-0.08
+Bacteria	Proteobacteria	Alphaproteobacteria	Azospirillales	Azospirillaceae	AzospirillaceaeFA	-0.48	0.09	0.04	-0.04	-0.26
+Bacteria	Proteobacteria	Alphaproteobacteria	Azospirillales	Azospirillaceae	Skermanella	-0.48	0.09	0.04	-0.04	0.41
+Bacteria	Proteobacteria	Alphaproteobacteria	Azospirillales	AzospirillalesOR	AzospirillalesOR	-0.48	0.09	0.04	0.02	0.02
+Bacteria	Proteobacteria	Alphaproteobacteria	Azospirillales	Inquilinaceae	Inquilinus	-0.48	0.09	0.04	0.18	0.18
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter	-0.48	0.09	0.15	0.2	0.17
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	CaulobacteraceaeFA	-0.48	0.09	0.15	0.2	0.19
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Phenylobacterium	-0.48	0.09	0.15	0.2	0.24
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	CaulobacteralesOR	CaulobacteralesOR	-0.48	0.09	0.15	-0.34	-0.34
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Hyphomonadaceae	Henriciella	-0.48	0.09	0.15	0.2	-0.12
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Hyphomonadaceae	Hirschia	-0.48	0.09	0.15	0.2	0.2
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Hyphomonadaceae	HyphomonadaceaeFA	-0.48	0.09	0.15	0.2	0.02
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Hyphomonadaceae	Hyphomonas	-0.48	0.09	0.15	0.2	0.07
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Hyphomonadaceae	SWB02	-0.48	0.09	0.15	0.2	0.21
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Parvularculaceae	Amphiplicatus	-0.48	0.09	0.15	-0.16	-0.08
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Parvularculaceae	Marinicaulis	-0.48	0.09	0.15	-0.16	-0.11
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Parvularculaceae	ParvularculaceaeFA	-0.48	0.09	0.15	-0.16	-0.18
+Bacteria	Proteobacteria	Alphaproteobacteria	Defluviicoccales	Defluviicoccaceae	Defluviicoccus	-0.48	0.09	-0.11	-0.17	-0.17
+Bacteria	Proteobacteria	Alphaproteobacteria	Defluviicoccales	DefluviicoccalesOR	DefluviicoccalesOR	-0.48	0.09	-0.11	0.23	0.23
+Bacteria	Proteobacteria	Alphaproteobacteria	Dongiales	Dongiaceae	Dongia	-0.48	0.09	0.13	0.13	0.13
+Bacteria	Proteobacteria	Alphaproteobacteria	Elsterales	ElsteralesOR	ElsteralesOR	-0.48	0.09	0.04	0.04	0.04
+Bacteria	Proteobacteria	Alphaproteobacteria	Holosporales	Holosporaceae	HolosporaceaeFA	-0.48	0.09	-0.15	-0.15	-0.15
+Bacteria	Proteobacteria	Alphaproteobacteria	Kiloniellales	Fodinicurvataceae	FodinicurvataceaeFA	-0.48	0.09	-0.2	0.01	0.01
+Bacteria	Proteobacteria	Alphaproteobacteria	Kiloniellales	Kiloniellaceae	KiloniellaceaeFA	-0.48	0.09	-0.2	-0.2	-0.29
+Bacteria	Proteobacteria	Alphaproteobacteria	Kiloniellales	Kiloniellaceae	Limibacillus	-0.48	0.09	-0.2	-0.2	-0.28
+Bacteria	Proteobacteria	Alphaproteobacteria	Kiloniellales	Kiloniellaceae	Pelagibius	-0.48	0.09	-0.2	-0.2	0.21
+Bacteria	Proteobacteria	Alphaproteobacteria	Kiloniellales	KiloniellalesOR	KiloniellalesOR	-0.48	0.09	-0.2	-0.03	-0.03
+Bacteria	Proteobacteria	Alphaproteobacteria	Kordiimonadales	Kordiimonadaceae	Kordiimonas	-0.48	0.09	-0.24	-0.14	-0.14
+Bacteria	Proteobacteria	Alphaproteobacteria	Kordiimonadales	KordiimonadalesOR	KordiimonadalesOR	-0.48	0.09	-0.24	-0.22	-0.22
+Bacteria	Proteobacteria	Alphaproteobacteria	Micropepsales	Micropepsaceae	MicropepsaceaeFA	-0.48	0.09	0.16	0.16	0.13
+Bacteria	Proteobacteria	Alphaproteobacteria	Micropepsales	Micropepsaceae	Rhizomicrobium	-0.48	0.09	0.16	0.16	0.27
+Bacteria	Proteobacteria	Alphaproteobacteria	NRL2	NRL2OR	NRL2OR	-0.48	0.09	-0.09	-0.09	-0.09
+Bacteria	Proteobacteria	Alphaproteobacteria	Paracaedibacterales	Paracaedibacteraceae	Cand. Captivus	-0.48	0.09	-0.26	-0.26	0.01
+Bacteria	Proteobacteria	Alphaproteobacteria	Paracaedibacterales	Paracaedibacteraceae	Cand. Paracaedibacter	-0.48	0.09	-0.26	-0.26	-0.29
+Bacteria	Proteobacteria	Alphaproteobacteria	Parvibaculales	Parvibaculaceae	Parvibaculum	-0.48	0.09	-0.2	0.17	0.17
+Bacteria	Proteobacteria	Alphaproteobacteria	Parvibaculales	PS1 clade	PS1 cladeFA	-0.48	0.09	-0.2	-0.31	-0.31
+Bacteria	Proteobacteria	Alphaproteobacteria	Puniceispirillales	EF100-94H03	EF100-94H03FA	-0.48	0.09	0	-0.01	-0.01
+Bacteria	Proteobacteria	Alphaproteobacteria	Puniceispirillales	PuniceispirillalesOR	PuniceispirillalesOR	-0.48	0.09	0	0.08	0.08
+Bacteria	Proteobacteria	Alphaproteobacteria	Reyranellales	Reyranellaceae	Reyranella	-0.48	0.09	0.12	0.12	0.14
+Bacteria	Proteobacteria	Alphaproteobacteria	Reyranellales	Reyranellaceae	ReyranellaceaeFA	-0.48	0.09	0.12	0.12	0.09
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	A0839	A0839FA	-0.48	0.09	0.15	0.12	0.12
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Amb-16S-1323	Amb-16S-1323FA	-0.48	0.09	0.15	0.19	0.19
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	BeijerinckiaceaeFA	-0.48	0.09	0.15	0	0.29
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	Bosea	-0.48	0.09	0.15	0	0.13
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	Methylobacterium-Methylorubrum	-0.48	0.09	0.15	0	0.51
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	Methylocystis	-0.48	0.09	0.15	0	-0.05
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	Methylosinus	-0.48	0.09	0.15	0	0.24
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	Rhodoblastus	-0.48	0.09	0.15	0	0.18
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	D05-2	D05-2FA	-0.48	0.09	0.15	0.12	0.12
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Devosiaceae	Arsenicitalea	-0.48	0.09	0.15	-0.06	0.06
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Devosiaceae	Devosia	-0.48	0.09	0.15	-0.06	0.17
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Devosiaceae	DevosiaceaeFA	-0.48	0.09	0.15	-0.06	-0.11
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Filomicrobium	-0.48	0.09	0.15	0.06	-0.35
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	HyphomicrobiaceaeFA	-0.48	0.09	0.15	0.06	0.02
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Hyphomicrobium	-0.48	0.09	0.15	0.06	0.02
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Pedomicrobium	-0.48	0.09	0.15	0.06	0.46
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Kaistiaceae	Kaistia	-0.48	0.09	0.15	0.16	0.16
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	KF-JG30-B3	KF-JG30-B3FA	-0.48	0.09	0.15	0.19	0.19
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methyloligellaceae	Methyloceanibacter	-0.48	0.09	0.15	0.03	-0.07
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methyloligellaceae	MethyloligellaceaeFA	-0.48	0.09	0.15	0.03	0.09
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Pleomorphomonadaceae	Chthonobacter	-0.48	0.09	0.15	-0.05	-0.05
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium	-0.48	0.09	0.15	-0.26	0.04
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Aureimonas	-0.48	0.09	0.15	-0.26	-0.07
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Hoeflea	-0.48	0.09	0.15	-0.26	-0.19
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Mesorhizobium	-0.48	0.09	0.15	-0.26	0.21
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Nitratireductor	-0.48	0.09	0.15	-0.26	0.05
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Pseudahrensia	-0.48	0.09	0.15	-0.26	-0.28
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	RhizobiaceaeFA	-0.48	0.09	0.15	-0.26	-0.34
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiales Incertae Sedis	Anderseniella	-0.48	0.09	0.15	0.3	-0.32
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiales Incertae Sedis	Bauldia	-0.48	0.09	0.15	0.3	0.29
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiales Incertae Sedis	Nordella	-0.48	0.09	0.15	0.3	0.1
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiales Incertae Sedis	Rhizobiales Incertae SedisFA	-0.48	0.09	0.15	0.3	0.18
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	RhizobialesOR	RhizobialesOR	-0.48	0.09	0.15	0.03	0.03
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhodobiaceae	Tepidamorphus	-0.48	0.09	0.15	-0.06	-0.06
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhodomicrobiaceae	Rhodomicrobium	-0.48	0.09	0.15	0.31	0.31
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Stappiaceae	Labrenzia	-0.48	0.09	0.15	-0.16	-0.16
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Bradyrhizobium	-0.48	0.09	0.15	0.19	0.29
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Pseudolabrys	-0.48	0.09	0.15	0.19	-0.24
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Pseudorhodoplanes	-0.48	0.09	0.15	0.19	0.34
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Pseudoxanthobacter	-0.48	0.09	0.15	0.19	0.04
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Rhodoplanes	-0.48	0.09	0.15	0.19	-0.04
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Xanthobacter	-0.48	0.09	0.15	0.19	0.1
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	XanthobacteraceaeFA	-0.48	0.09	0.15	0.19	0.23
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Actibacterium	-0.48	0.09	-0.3	-0.3	-0.23
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Amaricoccus	-0.48	0.09	-0.3	-0.3	-0.06
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Boseongicola	-0.48	0.09	-0.3	-0.3	-0.28
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Falsirhodobacter	-0.48	0.09	-0.3	-0.3	0.13
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Halocynthiibacter	-0.48	0.09	-0.3	-0.3	-0.24
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Limibaculum	-0.48	0.09	-0.3	-0.3	0.37
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Nioella	-0.48	0.09	-0.3	-0.3	-0.3
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Oceanicella	-0.48	0.09	-0.3	-0.3	-0.05
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	-0.48	0.09	-0.3	-0.3	0.11
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Phaeobacter	-0.48	0.09	-0.3	-0.3	-0.29
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Pseudorhodobacter	-0.48	0.09	-0.3	-0.3	-0.07
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Pseudoruegeria	-0.48	0.09	-0.3	-0.3	-0.24
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter	-0.48	0.09	-0.3	-0.3	0.19
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	RhodobacteraceaeFA	-0.48	0.09	-0.3	-0.3	-0.33
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Roseobacter	-0.48	0.09	-0.3	-0.3	-0.28
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Roseovarius	-0.48	0.09	-0.3	-0.3	-0.17
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Sulfitobacter	-0.48	0.09	-0.3	-0.3	-0.3
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Thioclava	-0.48	0.09	-0.3	-0.3	-0.22
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Tropicimonas	-0.48	0.09	-0.3	-0.3	-0.27
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Yoonia-Loktanella	-0.48	0.09	-0.3	-0.3	-0.26
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Magnetospiraceae	Magnetospira	-0.48	0.09	-0.06	-0.12	-0.1
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Magnetospiraceae	MagnetospiraceaeFA	-0.48	0.09	-0.06	-0.12	-0.12
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae	RhodospirillaceaeFA	-0.48	0.09	-0.06	-0.07	-0.07
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	RhodospirillalesOR	RhodospirillalesOR	-0.48	0.09	-0.06	0.43	0.43
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	AB1	AB1FA	-0.48	0.09	-0.15	-0.26	-0.26
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Rickettsiaceae	Cand. Megaira	-0.48	0.09	-0.15	-0.08	-0.05
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Rickettsiaceae	RickettsiaceaeFA	-0.48	0.09	-0.15	-0.08	-0.12
+Bacteria	Proteobacteria	Alphaproteobacteria	Sneathiellales	Sneathiellaceae	Sneathiella	-0.48	0.09	-0.17	-0.17	-0.17
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Altererythrobacter	-0.48	0.09	0.1	0.1	-0.17
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Croceicoccus	-0.48	0.09	0.1	0.1	-0.16
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Ellin6055	-0.48	0.09	0.1	0.1	0.41
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Erythrobacter	-0.48	0.09	0.1	0.1	-0.3
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Novosphingobium	-0.48	0.09	0.1	0.1	-0.09
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Qipengyuania	-0.48	0.09	0.1	0.1	-0.02
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	-0.48	0.09	0.1	0.1	0.19
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomicrobium	-0.48	0.09	0.1	0.1	-0.09
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	SphingomonadaceaeFA	-0.48	0.09	0.1	0.1	0.32
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	-0.48	0.09	0.1	0.1	0.52
+Bacteria	Proteobacteria	Alphaproteobacteria	Thalassobaculales	ThalassobaculalesOR	ThalassobaculalesOR	-0.48	0.09	0.02	0.02	0.02
+Bacteria	Proteobacteria	Alphaproteobacteria	Tistrellales	Geminicoccaceae	Cand. Alysiosphaera	-0.48	0.09	0.46	0.46	0.19
+Bacteria	Proteobacteria	Alphaproteobacteria	Tistrellales	Geminicoccaceae	GeminicoccaceaeFA	-0.48	0.09	0.46	0.46	0.46
+Bacteria	Proteobacteria	Alphaproteobacteria	Zavarziniales	ZavarzinialesOR	ZavarzinialesOR	-0.48	0.09	0.07	0.07	0.07
+Bacteria	Proteobacteria	Gammaproteobacteria	1013-28-CG33	1013-28-CG33OR	1013-28-CG33OR	-0.48	-0.54	0.17	0.17	0.17
+Bacteria	Proteobacteria	Gammaproteobacteria	Acidiferrobacterales	Acidiferrobacteraceae	AcidiferrobacteraceaeFA	-0.48	-0.54	-0.32	-0.32	-0.17
+Bacteria	Proteobacteria	Gammaproteobacteria	Acidiferrobacterales	Acidiferrobacteraceae	Sulfurifustis	-0.48	-0.54	-0.32	-0.32	-0.31
+Bacteria	Proteobacteria	Gammaproteobacteria	Arenicellales	Arenicellaceae	ArenicellaceaeFA	-0.48	-0.54	-0.08	-0.08	-0.08
+Bacteria	Proteobacteria	Gammaproteobacteria	Arenicellales	Arenicellaceae	Cand. Thiosymbion	-0.48	-0.54	-0.08	-0.08	0.01
+Bacteria	Proteobacteria	Gammaproteobacteria	Arenicellales	Arenicellaceae	Thiolapillus	-0.48	-0.54	-0.08	-0.08	-0.11
+Bacteria	Proteobacteria	Gammaproteobacteria	AT-s2-59	AT-s2-59OR	AT-s2-59OR	-0.48	-0.54	-0.32	-0.32	-0.32
+Bacteria	Proteobacteria	Gammaproteobacteria	B2M28	B2M28OR	B2M28OR	-0.48	-0.54	-0.32	-0.32	-0.32
+Bacteria	Proteobacteria	Gammaproteobacteria	BD7-8	BD7-8OR	BD7-8OR	-0.48	-0.54	-0.26	-0.26	-0.26
+Bacteria	Proteobacteria	Gammaproteobacteria	BD72BR169	BD72BR169OR	BD72BR169OR	-0.48	-0.54	-0.12	-0.12	-0.12
+Bacteria	Proteobacteria	Gammaproteobacteria	Beggiatoales	Beggiatoaceae	BeggiatoaceaeFA	-0.48	-0.54	-0.28	-0.28	-0.22
+Bacteria	Proteobacteria	Gammaproteobacteria	Beggiatoales	Beggiatoaceae	Thioploca	-0.48	-0.54	-0.28	-0.28	-0.24
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	A21b	A21bFA	-0.48	-0.54	-0.05	-0.1	-0.1
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Alcaligenaceae	Achromobacter	-0.48	-0.54	-0.05	0.27	0.27
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	B1-7BS	B1-7BSFA	-0.48	-0.54	-0.05	-0.26	-0.26
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	BurkholderiaceaeFA	-0.48	-0.54	-0.05	-0.14	-0.14
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	BurkholderialesOR	BurkholderialesOR	-0.48	-0.54	-0.05	-0.02	-0.02
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Comamonadaceae	Acidovorax	-0.48	-0.54	-0.05	-0.03	0.42
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Comamonadaceae	ComamonadaceaeFA	-0.48	-0.54	-0.05	-0.03	-0.15
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Comamonadaceae	Hydrogenophaga	-0.48	-0.54	-0.05	-0.03	0.29
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Comamonadaceae	Ideonella	-0.48	-0.54	-0.05	-0.03	-0.19
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Comamonadaceae	Limnohabitans	-0.48	-0.54	-0.05	-0.03	0.16
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Comamonadaceae	Polaromonas	-0.48	-0.54	-0.05	-0.03	0.17
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Comamonadaceae	Rhizobacter	-0.48	-0.54	-0.05	-0.03	0.16
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Comamonadaceae	Rhodoferax	-0.48	-0.54	-0.05	-0.03	0.1
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Comamonadaceae	Sphaerotilus	-0.48	-0.54	-0.05	-0.03	-0.23
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Comamonadaceae	Thiomonas	-0.48	-0.54	-0.05	-0.03	-0.03
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Gallionellaceae	Cand. Nitrotoga	-0.48	-0.54	-0.05	-0.03	-0.05
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Gallionellaceae	Gallionella	-0.48	-0.54	-0.05	-0.03	0.21
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Gallionellaceae	GallionellaceaeFA	-0.48	-0.54	-0.05	-0.03	0.04
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Gallionellaceae	Sideroxydans	-0.48	-0.54	-0.05	-0.03	0.37
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Hydrogenophilaceae	HydrogenophilaceaeFA	-0.48	-0.54	-0.05	0.32	0.18
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Hydrogenophilaceae	Thiobacillus	-0.48	-0.54	-0.05	0.32	0.32
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	MethylophilaceaeFA	-0.48	-0.54	-0.05	0.15	0.15
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	Methylotenera	-0.48	-0.54	-0.05	0.15	0.14
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Methylophilaceae	UBA6140	-0.48	-0.54	-0.05	0.15	0.18
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Nitrosomonadaceae	966-1	-0.48	-0.54	-0.05	-0.27	-0.27
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Nitrosomonadaceae	DSSD61	-0.48	-0.54	-0.05	-0.27	0.13
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Nitrosomonadaceae	Ellin6067	-0.48	-0.54	-0.05	-0.27	-0.04
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Nitrosomonadaceae	GOUTA6	-0.48	-0.54	-0.05	-0.27	-0.17
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Nitrosomonadaceae	IS-44	-0.48	-0.54	-0.05	-0.27	-0.29
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Nitrosomonadaceae	mle1-7	-0.48	-0.54	-0.05	-0.27	-0.19
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Nitrosomonadaceae	MND1	-0.48	-0.54	-0.05	-0.27	-0.17
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Nitrosomonadaceae	NitrosomonadaceaeFA	-0.48	-0.54	-0.05	-0.27	-0.21
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Nitrosomonadaceae	Nitrosomonas	-0.48	-0.54	-0.05	-0.27	-0.22
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Nitrosomonadaceae	oc32	-0.48	-0.54	-0.05	-0.27	-0.37
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Oxalobacteraceae	[Aquaspirillum] arcticum group	-0.48	-0.54	-0.05	0.13	0.09
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Oxalobacteraceae	Massilia	-0.48	-0.54	-0.05	0.13	0.12
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Oxalobacteraceae	OxalobacteraceaeFA	-0.48	-0.54	-0.05	0.13	0.09
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Rhodocyclaceae	Cand. Accumulibacter	-0.48	-0.54	-0.05	0.22	-0.13
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Rhodocyclaceae	Dechloromonas	-0.48	-0.54	-0.05	0.22	0.26
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Rhodocyclaceae	Ferribacterium	-0.48	-0.54	-0.05	0.22	0.23
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Rhodocyclaceae	Propionivibrio	-0.48	-0.54	-0.05	0.22	0.16
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Rhodocyclaceae	RhodocyclaceaeFA	-0.48	-0.54	-0.05	0.22	-0.21
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Rhodocyclaceae	Sterolibacterium	-0.48	-0.54	-0.05	0.22	0.14
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Rhodocyclaceae	Sulfuritalea	-0.48	-0.54	-0.05	0.22	0.2
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	SC-I-84	SC-I-84FA	-0.48	-0.54	-0.05	-0.1	-0.1
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Sulfuricellaceae	Ferritrophicum	-0.48	-0.54	-0.05	0.22	0.22
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Sutterellaceae	SutterellaceaeFA	-0.48	-0.54	-0.05	-0.01	-0.01
+Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	TRA3-20	TRA3-20FA	-0.48	-0.54	-0.05	-0.21	-0.21
+Bacteria	Proteobacteria	Gammaproteobacteria	CCD24	CCD24OR	CCD24OR	-0.48	-0.54	-0.06	-0.06	-0.06
+Bacteria	Proteobacteria	Gammaproteobacteria	CCM19a	CCM19aOR	CCM19aOR	-0.48	-0.54	-0.08	-0.08	-0.08
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Chromatiaceae	Cand. Thiobios	-0.48	-0.54	-0.24	-0.21	-0.2
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Chromatiaceae	ChromatiaceaeFA	-0.48	-0.54	-0.24	-0.21	-0.07
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Chromatiaceae	Halochromatium	-0.48	-0.54	-0.24	-0.21	-0.19
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Chromatiaceae	Thiocapsa	-0.48	-0.54	-0.24	-0.21	0.19
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Sedimenticolaceae	Cand. Thiodiazotropha	-0.48	-0.54	-0.24	-0.2	-0.15
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Sedimenticolaceae	Sedimenticola	-0.48	-0.54	-0.24	-0.2	-0.24
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Sedimenticolaceae	SedimenticolaceaeFA	-0.48	-0.54	-0.24	-0.2	-0.13
+Bacteria	Proteobacteria	Gammaproteobacteria	Competibacterales	Competibacteraceae	Cand. Competibacter	-0.48	-0.54	-0.41	-0.41	-0.41
+Bacteria	Proteobacteria	Gammaproteobacteria	Coxiellales	Coxiellaceae	Coxiella	-0.48	-0.54	-0.04	-0.04	-0.04
+Bacteria	Proteobacteria	Gammaproteobacteria	Diplorickettsiales	Diplorickettsiaceae	Aquicella	-0.48	-0.54	-0.03	-0.03	-0.08
+Bacteria	Proteobacteria	Gammaproteobacteria	Diplorickettsiales	Diplorickettsiaceae	DiplorickettsiaceaeFA	-0.48	-0.54	-0.03	-0.03	0.29
+Bacteria	Proteobacteria	Gammaproteobacteria	Diplorickettsiales	Diplorickettsiaceae	Rickettsiella	-0.48	-0.54	-0.03	-0.03	-0.02
+Bacteria	Proteobacteria	Gammaproteobacteria	EC3	EC3OR	EC3OR	-0.48	-0.54	-0.1	-0.1	-0.1
+Bacteria	Proteobacteria	Gammaproteobacteria	Ectothiorhodospirales	Ectothiorhodospiraceae	EctothiorhodospiraceaeFA	-0.48	-0.54	-0.19	-0.1	-0.2
+Bacteria	Proteobacteria	Gammaproteobacteria	Ectothiorhodospirales	Ectothiorhodospiraceae	Thiogranum	-0.48	-0.54	-0.19	-0.1	-0.08
+Bacteria	Proteobacteria	Gammaproteobacteria	Ectothiorhodospirales	EctothiorhodospiralesOR	EctothiorhodospiralesOR	-0.48	-0.54	-0.19	-0.11	-0.11
+Bacteria	Proteobacteria	Gammaproteobacteria	Ectothiorhodospirales	Thioalkalispiraceae	Thioalkalispira-Sulfurivermis	-0.48	-0.54	-0.19	-0.17	-0.19
+Bacteria	Proteobacteria	Gammaproteobacteria	Ectothiorhodospirales	Thioalkalispiraceae	ThioalkalispiraceaeFA	-0.48	-0.54	-0.19	-0.17	-0.17
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Aeromonadaceae	Aeromonas	-0.48	-0.54	-0.25	0	-0.04
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Aeromonadaceae	Oceanisphaera	-0.48	-0.54	-0.25	0	-0.07
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Aeromonadaceae	Tolumonas	-0.48	-0.54	-0.25	0	0.04
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Idiomarinaceae	Idiomarina	-0.48	-0.54	-0.25	0.03	0.03
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Kangiellaceae	KangiellaceaeFA	-0.48	-0.54	-0.25	-0.33	-0.33
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Psychromonadaceae	Psychromonas	-0.48	-0.54	-0.25	-0.08	-0.08
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Vibrionaceae	Photobacterium	-0.48	-0.54	-0.25	-0.1	-0.17
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Vibrionaceae	Vibrio	-0.48	-0.54	-0.25	-0.1	-0.05
+Bacteria	Proteobacteria	Gammaproteobacteria	EPR3968-O8a-Bc78	EPR3968-O8a-Bc78OR	EPR3968-O8a-Bc78OR	-0.48	-0.54	-0.23	-0.23	-0.23
+Bacteria	Proteobacteria	Gammaproteobacteria	Ga0077536	Ga0077536OR	Ga0077536OR	-0.48	-0.54	-0.33	-0.33	-0.33
+Bacteria	Proteobacteria	Gammaproteobacteria	Gammaproteobacteria Incertae Sedis	Unknown Family	Acidibacter	-0.48	-0.54	-0.37	-0.37	0.02
+Bacteria	Proteobacteria	Gammaproteobacteria	Gammaproteobacteria Incertae Sedis	Unknown Family	Cand. Berkiella	-0.48	-0.54	-0.37	-0.37	-0.07
+Bacteria	Proteobacteria	Gammaproteobacteria	Gammaproteobacteria Incertae Sedis	Unknown Family	Cand. Endonucleariobacter	-0.48	-0.54	-0.37	-0.37	0.11
+Bacteria	Proteobacteria	Gammaproteobacteria	Gammaproteobacteria Incertae Sedis	Unknown Family	Cand. Ovatusbacter	-0.48	-0.54	-0.37	-0.37	0.14
+Bacteria	Proteobacteria	Gammaproteobacteria	Gammaproteobacteria Incertae Sedis	Unknown Family	Marinicella	-0.48	-0.54	-0.37	-0.37	-0.23
+Bacteria	Proteobacteria	Gammaproteobacteria	GammaproteobacteriaCL	GammaproteobacteriaCL	GammaproteobacteriaCL	-0.48	-0.54	-0.33	-0.33	-0.33
+Bacteria	Proteobacteria	Gammaproteobacteria	Halothiobacillales	Halothiobacillaceae	Halothiobacillus	-0.48	-0.54	-0.05	-0.05	-0.05
+Bacteria	Proteobacteria	Gammaproteobacteria	HOC36	HOC36OR	HOC36OR	-0.48	-0.54	-0.17	-0.17	-0.17
+Bacteria	Proteobacteria	Gammaproteobacteria	Immundisolibacterales	Immundisolibacteraceae	ImmundisolibacteraceaeFA	-0.48	-0.54	-0.29	-0.29	-0.29
+Bacteria	Proteobacteria	Gammaproteobacteria	JG36-GS-52	JG36-GS-52OR	JG36-GS-52OR	-0.48	-0.54	-0.28	-0.28	-0.28
+Bacteria	Proteobacteria	Gammaproteobacteria	JG36-TzT-191	JG36-TzT-191OR	JG36-TzT-191OR	-0.48	-0.54	0.1	0.1	0.1
+Bacteria	Proteobacteria	Gammaproteobacteria	JTB23	JTB23OR	JTB23OR	-0.48	-0.54	-0.13	-0.13	-0.13
+Bacteria	Proteobacteria	Gammaproteobacteria	KF-JG30-C25	KF-JG30-C25OR	KF-JG30-C25OR	-0.48	-0.54	-0.03	-0.03	-0.03
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Legionellaceae	Legionella	-0.48	-0.54	0.22	0.22	0.22
+Bacteria	Proteobacteria	Gammaproteobacteria	MBMPE27	MBMPE27OR	MBMPE27OR	-0.48	-0.54	-0.02	-0.02	-0.02
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	Methylocaldum	-0.48	-0.54	0.14	0.12	-0.14
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	MethylococcaceaeFA	-0.48	-0.54	0.14	0.12	-0.28
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	Methylomagnum	-0.48	-0.54	0.14	0.12	-0.19
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylococcaceae	Methyloparacoccus	-0.48	-0.54	0.14	0.12	0.31
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	Crenothrix	-0.48	-0.54	0.14	0.14	0.2
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	IheB2-23	-0.48	-0.54	0.14	0.14	-0.18
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	Methylobacter	-0.48	-0.54	0.14	0.14	0.01
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	Methyloglobulus	-0.48	-0.54	0.14	0.14	0.18
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	Methylomarinum	-0.48	-0.54	0.14	0.14	-0.3
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	MethylomonadaceaeFA	-0.48	-0.54	0.14	0.14	-0.14
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	Methylomonas	-0.48	-0.54	0.14	0.14	0.28
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	Methylosarcina	-0.48	-0.54	0.14	0.14	-0.01
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	Methylovulum	-0.48	-0.54	0.14	0.14	0.26
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	pItb-vmat-59	-0.48	-0.54	0.14	0.14	-0.34
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Methylomonadaceae	pLW-20	-0.48	-0.54	0.14	0.14	0.14
+Bacteria	Proteobacteria	Gammaproteobacteria	Milano-WF1B-44	Milano-WF1B-44OR	Milano-WF1B-44OR	-0.48	-0.54	-0.17	-0.17	-0.17
+Bacteria	Proteobacteria	Gammaproteobacteria	Nitrosococcales	Methylophagaceae	Methylophaga	-0.48	-0.54	-0.33	-0.09	-0.09
+Bacteria	Proteobacteria	Gammaproteobacteria	Nitrosococcales	Nitrosococcaceae	CI75cm.2.12	-0.48	-0.54	-0.33	-0.33	0.06
+Bacteria	Proteobacteria	Gammaproteobacteria	Nitrosococcales	Nitrosococcaceae	Cm1-21	-0.48	-0.54	-0.33	-0.33	-0.35
+Bacteria	Proteobacteria	Gammaproteobacteria	Nitrosococcales	Nitrosococcaceae	NitrosococcaceaeFA	-0.48	-0.54	-0.33	-0.33	-0.12
+Bacteria	Proteobacteria	Gammaproteobacteria	Nitrosococcales	Nitrosococcaceae	SZB85	-0.48	-0.54	-0.33	-0.33	-0.29
+Bacteria	Proteobacteria	Gammaproteobacteria	pItb-vmat-80	pItb-vmat-80OR	pItb-vmat-80OR	-0.48	-0.54	-0.3	-0.3	-0.3
+Bacteria	Proteobacteria	Gammaproteobacteria	PLTA13	PLTA13OR	PLTA13OR	-0.48	-0.54	-0.1	-0.1	-0.1
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	BD2-7	BD2-7FA	-0.48	-0.54	-0.29	-0.22	-0.22
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Cellvibrionaceae	Aestuariicella	-0.48	-0.54	-0.29	-0.07	-0.19
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Cellvibrionaceae	Agarilytica	-0.48	-0.54	-0.29	-0.07	-0.05
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Cellvibrionaceae	Cellvibrio	-0.48	-0.54	-0.29	-0.07	0.14
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Cellvibrionaceae	CellvibrionaceaeFA	-0.48	-0.54	-0.29	-0.07	-0.04
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Gven-F17	Gven-F17FA	-0.48	-0.54	-0.29	-0.19	-0.19
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Halieaceae	HalieaceaeFA	-0.48	-0.54	-0.29	-0.23	-0.27
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Halieaceae	Halioglobus	-0.48	-0.54	-0.29	-0.23	-0.29
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Halieaceae	Marimicrobium	-0.48	-0.54	-0.29	-0.23	-0.24
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Halieaceae	OM60(NOR5) clade	-0.48	-0.54	-0.29	-0.23	-0.03
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Halieaceae	Parahaliea	-0.48	-0.54	-0.29	-0.23	-0.24
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Halomonadaceae	Chromohalobacter	-0.48	-0.54	-0.29	0.22	0.18
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Halomonadaceae	Halomonas	-0.48	-0.54	-0.29	0.22	0.22
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	KI89A clade	KI89A cladeFA	-0.48	-0.54	-0.29	-0.3	-0.3
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Marinobacteraceae	Marinobacter	-0.48	-0.54	-0.29	-0.09	-0.09
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Microbulbiferaceae	Microbulbifer	-0.48	-0.54	-0.29	-0.13	-0.13
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	OM182 clade	OM182 cladeFA	-0.48	-0.54	-0.29	-0.18	-0.18
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Porticoccaceae	Porticoccus	-0.48	-0.54	-0.29	0.08	0.08
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudohongiellaceae	BIyi10	-0.48	-0.54	-0.29	-0.17	-0.04
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudohongiellaceae	Pseudohongiella	-0.48	-0.54	-0.29	-0.17	-0.24
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	-0.48	-0.54	-0.29	0.26	0.26
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	PseudomonadalesOR	PseudomonadalesOR	-0.48	-0.54	-0.29	-0.03	-0.03
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Spongiibacteraceae	BD1-7 clade	-0.48	-0.54	-0.29	-0.33	-0.23
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Spongiibacteraceae	SpongiibacteraceaeFA	-0.48	-0.54	-0.29	-0.33	-0.26
+Bacteria	Proteobacteria	Gammaproteobacteria	R7C24	R7C24OR	R7C24OR	-0.48	-0.54	0.01	0.01	0.01
+Bacteria	Proteobacteria	Gammaproteobacteria	Run-SP154	Run-SP154OR	Run-SP154OR	-0.48	-0.54	0.38	0.38	0.38
+Bacteria	Proteobacteria	Gammaproteobacteria	SS1-B-07-19	SS1-B-07-19OR	SS1-B-07-19OR	-0.48	-0.54	-0.21	-0.21	-0.21
+Bacteria	Proteobacteria	Gammaproteobacteria	SS1-B-09-64	SS1-B-09-64OR	SS1-B-09-64OR	-0.48	-0.54	-0.24	-0.24	-0.24
+Bacteria	Proteobacteria	Gammaproteobacteria	Steroidobacterales	Steroidobacteraceae	Steroidobacter	-0.48	-0.54	-0.3	0.18	0.08
+Bacteria	Proteobacteria	Gammaproteobacteria	Steroidobacterales	Steroidobacteraceae	SteroidobacteraceaeFA	-0.48	-0.54	-0.3	0.18	0.18
+Bacteria	Proteobacteria	Gammaproteobacteria	Steroidobacterales	Woeseiaceae	Woeseia	-0.48	-0.54	-0.3	-0.35	-0.35
+Bacteria	Proteobacteria	Gammaproteobacteria	Steroidobacterales	Woeseiaceae	WoeseiaceaeFA	-0.48	-0.54	-0.3	-0.35	-0.27
+Bacteria	Proteobacteria	Gammaproteobacteria	SZB50	SZB50OR	SZB50OR	-0.48	-0.54	-0.29	-0.29	-0.29
+Bacteria	Proteobacteria	Gammaproteobacteria	SZB7	SZB7OR	SZB7OR	-0.48	-0.54	-0.17	-0.17	-0.17
+Bacteria	Proteobacteria	Gammaproteobacteria	TDNP-Wbc97-11-7-16	TDNP-Wbc97-11-7-16OR	TDNP-Wbc97-11-7-16OR	-0.48	-0.54	-0.11	-0.11	-0.11
+Bacteria	Proteobacteria	Gammaproteobacteria	Tenderiales	Tenderiaceae	Cand. Tenderia	-0.48	-0.54	-0.17	-0.17	-0.17
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiohalorhabdales	Thiohalorhabdaceae	ThiohalorhabdaceaeFA	-0.48	-0.54	-0.38	-0.38	-0.38
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiomicrospirales	Thiomicrospiraceae	endosymbionts	-0.48	-0.54	-0.21	-0.21	-0.21
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Thiotrichaceae	Thiothrix	-0.48	-0.54	-0.11	-0.11	0.16
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Thiotrichaceae	ThiotrichaceaeFA	-0.48	-0.54	-0.11	-0.11	-0.19
+Bacteria	Proteobacteria	Gammaproteobacteria	UBA10353 marine group	UBA10353 marine groupOR	UBA10353 marine groupOR	-0.48	-0.54	-0.34	-0.34	-0.34
+Bacteria	Proteobacteria	Gammaproteobacteria	WD260	WD260OR	WD260OR	-0.48	-0.54	0.1	0.1	0.1
+Bacteria	Proteobacteria	Gammaproteobacteria	WN-HWB-116	WN-HWB-116OR	WN-HWB-116OR	-0.48	-0.54	-0.08	-0.08	-0.08
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Rhodanobacteraceae	Ahniella	-0.48	-0.54	0.06	0.19	-0.23
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Rhodanobacteraceae	Dokdonella	-0.48	-0.54	0.06	0.19	-0.02
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Rhodanobacteraceae	Dyella	-0.48	-0.54	0.06	0.19	0.18
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Rhodanobacteraceae	Oleiagrimonas	-0.48	-0.54	0.06	0.19	0.26
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Rhodanobacteraceae	Rhodanobacter	-0.48	-0.54	0.06	0.19	0.22
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Rhodanobacteraceae	RhodanobacteraceaeFA	-0.48	-0.54	0.06	0.19	0.22
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Arenimonas	-0.48	-0.54	0.06	0.02	-0.04
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Lysobacter	-0.48	-0.54	0.06	0.02	0.36
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	XanthomonadaceaeFA	-0.48	-0.54	0.06	0.02	-0.04
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	XanthomonadalesOR	XanthomonadalesOR	-0.48	-0.54	0.06	-0.24	-0.24
+Bacteria	Proteobacteria	Zetaproteobacteria	Mariprofundales	Mariprofundaceae	Mariprofundus	-0.48	-0.2	-0.2	-0.2	-0.2
+Bacteria	Spirochaetota	Brevinematia	Brevinematales	Brevinemataceae	Brevinema	0.5	0.49	0.49	0.49	0.49
+Bacteria	Spirochaetota	Leptospirae	Leptospirales	Leptospiraceae	LeptospiraceaeFA	0.5	0.23	0.23	0.23	0.04
+Bacteria	Spirochaetota	Leptospirae	Leptospirales	Leptospiraceae	RBG-16-49-21	0.5	0.23	0.23	0.23	0.24
+Bacteria	Spirochaetota	Leptospirae	Leptospirales	Leptospiraceae	Turneriella	0.5	0.23	0.23	0.23	0.14
+Bacteria	Spirochaetota	MVP-15	MVP-15CL	MVP-15CL	MVP-15CL	0.5	0.02	0.02	0.02	0.02
+Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	GWE2-31-10	0.5	0.5	0.5	0.5	0.01
+Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	M2PT2-76 termite group	0.5	0.5	0.5	0.5	0.19
+Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Sediminispirochaeta	0.5	0.5	0.5	0.5	0.14
+Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Spirochaeta	0.5	0.5	0.5	0.5	0.46
+Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Spirochaeta 2	0.5	0.5	0.5	0.5	0.04
+Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	SpirochaetaceaeFA	0.5	0.5	0.5	0.5	0.59
+Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	0.5	0.5	0.5	0.5	0.34
+Bacteria	Sumerlaeota	Sumerlaeia	Sumerlaeales	Sumerlaeaceae	Sumerlaea	-0.21	-0.21	-0.13	-0.13	-0.13
+Bacteria	Sumerlaeota	Sumerlaeia	SumerlaeiaCL	SumerlaeiaCL	SumerlaeiaCL	-0.21	-0.21	-0.18	-0.18	-0.18
+Bacteria	Synergistota	Synergistia	Synergistales	Synergistaceae	Thermovirga	0.13	0.13	0.13	0.13	0.13
+Bacteria	Verrucomicrobiota	Chlamydiae	Chlamydiales	Chlamydiaceae	ChlamydiaceaeFA	-0.27	0.16	0.16	0.01	0.01
+Bacteria	Verrucomicrobiota	Chlamydiae	Chlamydiales	ChlamydialesOR	ChlamydialesOR	-0.27	0.16	0.16	0.27	0.27
+Bacteria	Verrucomicrobiota	Chlamydiae	Chlamydiales	Criblamydiaceae	CriblamydiaceaeFA	-0.27	0.16	0.16	-0.1	-0.1
+Bacteria	Verrucomicrobiota	Chlamydiae	Chlamydiales	cvE6	cvE6FA	-0.27	0.16	0.16	0.33	0.33
+Bacteria	Verrucomicrobiota	Chlamydiae	Chlamydiales	Parachlamydiaceae	Cand. Protochlamydia	-0.27	0.16	0.16	0.16	0.11
+Bacteria	Verrucomicrobiota	Chlamydiae	Chlamydiales	Parachlamydiaceae	Neochlamydia	-0.27	0.16	0.16	0.16	-0.03
+Bacteria	Verrucomicrobiota	Chlamydiae	Chlamydiales	Parachlamydiaceae	ParachlamydiaceaeFA	-0.27	0.16	0.16	0.16	0.25
+Bacteria	Verrucomicrobiota	Chlamydiae	Chlamydiales	Simkaniaceae	Cand. Fritschea	-0.27	0.16	0.16	0.04	-0.3
+Bacteria	Verrucomicrobiota	Chlamydiae	Chlamydiales	Simkaniaceae	Cand. Rhabdochlamydia	-0.27	0.16	0.16	0.04	-0.01
+Bacteria	Verrucomicrobiota	Chlamydiae	Chlamydiales	Simkaniaceae	Ga0074140	-0.27	0.16	0.16	0.04	0.06
+Bacteria	Verrucomicrobiota	Chlamydiae	Chlamydiales	Simkaniaceae	SimkaniaceaeFA	-0.27	0.16	0.16	0.04	0.07
+Bacteria	Verrucomicrobiota	Chlamydiae	Chlamydiales	Waddliaceae	Waddlia	-0.27	0.16	0.16	-0.21	-0.21
+Bacteria	Verrucomicrobiota	Chlamydiae	LD1-PA32	LD1-PA32OR	LD1-PA32OR	-0.27	0.16	0.01	0.01	0.01
+Bacteria	Verrucomicrobiota	Kiritimatiellae	113B434	113B434OR	113B434OR	-0.27	-0.37	-0.16	-0.16	-0.16
+Bacteria	Verrucomicrobiota	Kiritimatiellae	Kiritimatiellales	Kiritimatiellaceae	R76-B128	-0.27	-0.37	-0.29	-0.29	-0.29
+Bacteria	Verrucomicrobiota	Kiritimatiellae	WCHB1-41	WCHB1-41OR	WCHB1-41OR	-0.27	-0.37	-0.27	-0.27	-0.27
+Bacteria	Verrucomicrobiota	Lentisphaeria	Oligosphaerales	Lenti-02	Lenti-02FA	-0.27	0.37	0.37	0.37	0.37
+Bacteria	Verrucomicrobiota	Omnitrophia	Omnitrophales	koll11	koll11FA	-0.27	0.24	0.24	-0.22	-0.22
+Bacteria	Verrucomicrobiota	Omnitrophia	Omnitrophales	Omnitrophaceae	Cand. Omnitrophus	-0.27	0.24	0.24	0.3	0.3
+Bacteria	Verrucomicrobiota	Omnitrophia	Omnitrophales	OmnitrophalesOR	OmnitrophalesOR	-0.27	0.24	0.24	-0.27	-0.27
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Chthoniobacterales	Chthoniobacteraceae	Cand. Udaeobacter	-0.27	-0.33	-0.1	-0.1	-0.09
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Chthoniobacterales	Chthoniobacteraceae	Chthoniobacter	-0.27	-0.33	-0.1	-0.1	-0.1
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Chthoniobacterales	Chthoniobacteraceae	ChthoniobacteraceaeFA	-0.27	-0.33	-0.1	-0.1	-0.14
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Chthoniobacterales	ChthoniobacteralesOR	ChthoniobacteralesOR	-0.27	-0.33	-0.1	-0.3	-0.3
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Chthoniobacterales	Xiphinematobacteraceae	Cand. Xiphinematobacter	-0.27	-0.33	-0.1	-0.28	-0.28
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	LD1-PB3	LD1-PB3OR	LD1-PB3OR	-0.27	-0.33	0.33	0.33	0.33
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Methylacidiphilales	Methylacidiphilaceae	MethylacidiphilaceaeFA	-0.27	-0.33	0	0	0
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Opitutales	Opitutaceae	Alterococcus	-0.27	-0.33	-0.28	-0.14	-0.19
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Opitutales	Opitutaceae	Cephaloticoccus	-0.27	-0.33	-0.28	-0.14	0.29
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Opitutales	Opitutaceae	Diplosphaera	-0.27	-0.33	-0.28	-0.14	-0.05
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Opitutales	Opitutaceae	Lacunisphaera	-0.27	-0.33	-0.28	-0.14	-0.1
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Opitutales	Opitutaceae	Opitutus	-0.27	-0.33	-0.28	-0.14	0.16
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Opitutales	OpitutalesOR	OpitutalesOR	-0.27	-0.33	-0.28	-0.26	-0.26
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Opitutales	Puniceicoccaceae	Cerasicoccus	-0.27	-0.33	-0.28	-0.23	-0.02
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Opitutales	Puniceicoccaceae	Coraliomargarita	-0.27	-0.33	-0.28	-0.23	-0.21
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Opitutales	Puniceicoccaceae	Lentimonas	-0.27	-0.33	-0.28	-0.23	-0.12
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Opitutales	Puniceicoccaceae	Verruc-01	-0.27	-0.33	-0.28	-0.23	-0.28
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Pedosphaerales	Pedosphaeraceae	ADurb.Bin063-1	-0.27	-0.33	-0.24	-0.24	-0.1
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Pedosphaerales	Pedosphaeraceae	ADurb.Bin118	-0.27	-0.33	-0.24	-0.24	-0.02
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Pedosphaerales	Pedosphaeraceae	DEV008	-0.27	-0.33	-0.24	-0.24	-0.06
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Pedosphaerales	Pedosphaeraceae	DEV114	-0.27	-0.33	-0.24	-0.24	-0.02
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Pedosphaerales	Pedosphaeraceae	Ellin516	-0.27	-0.33	-0.24	-0.24	0.11
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Pedosphaerales	Pedosphaeraceae	Pedosphaera	-0.27	-0.33	-0.24	-0.24	-0.01
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Pedosphaerales	Pedosphaeraceae	PedosphaeraceaeFA	-0.27	-0.33	-0.24	-0.24	-0.34
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Pedosphaerales	Pedosphaeraceae	SCGC AAA164-E04	-0.27	-0.33	-0.24	-0.24	-0.14
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Pedosphaerales	Pedosphaeraceae	SH3-11	-0.27	-0.33	-0.24	-0.24	-0.03
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	S-BQ2-57 soil group	S-BQ2-57 soil groupOR	S-BQ2-57 soil groupOR	-0.27	-0.33	-0.26	-0.26	-0.26
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Verrucomicrobiales	DEV007	DEV007FA	-0.27	-0.33	-0.29	-0.35	-0.35
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Verrucomicrobiales	Rubritaleaceae	Haloferula	-0.27	-0.33	-0.29	-0.22	-0.16
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Verrucomicrobiales	Rubritaleaceae	Luteolibacter	-0.27	-0.33	-0.29	-0.22	-0.24
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Verrucomicrobiales	Rubritaleaceae	Rubritalea	-0.27	-0.33	-0.29	-0.22	-0.01
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Verrucomicrobiales	Rubritaleaceae	RubritaleaceaeFA	-0.27	-0.33	-0.29	-0.22	-0.11
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Roseimicrobium	-0.27	-0.33	-0.29	-0.33	-0.26
+Bacteria	Verrucomicrobiota	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	VerrucomicrobiaceaeFA	-0.27	-0.33	-0.29	-0.33	-0.35
