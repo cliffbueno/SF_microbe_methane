@@ -8,6 +8,7 @@
 
 #### Setup ####
 suppressMessages(library(dplyr))
+library(ggplot2)
 suppressMessages(library(rlang))
 suppressMessages(library(tibble))
 library(mctoolsr)
@@ -369,6 +370,15 @@ gen_guild <- gen_otu %>%
 # Even though wanted top 20 genera in Delta, need to make table of those for all data too?
 # In original LASSO module, load all data and Delta data
 
+# Check MOB_IIa abundant genera (because used to be Methylosinus mentioned in text)
+# Note, only 3 MOB_IIa OTUs
+MOB_IIa <- read.table("Silva_OTU_Guild_taxa_counts.txt", sep = "\t") %>%
+  filter(Guild == "MOB_IIa")
+input_MOBIIa <- filter_taxa_from_input(input = input,
+                                       taxa_IDs_to_keep = MOB_IIa$OTU)
+View(input_MOBIIa$taxonomy_loaded)
+
+
 #### Figure S5e-f ####
 # Need to import guilds, Salinity, SO4, CH4, CO2 and log transform
 # Make correlation matrix
@@ -587,3 +597,61 @@ f <- pheatmap(cm_d,
               fontsize_number = 2,
               number_color = ifelse(abs(cm_d) > 0.5, "white", "black"))
 save_pheatmap_pdf(f, "../figs/FigureS5f.pdf")
+
+
+
+#### Ratios ####
+# Check some guild ratio correlations
+guilds <- read.table("../guild_analysis/Silva_OTU_Guild_abundT_counts.txt", sep = "\t")
+
+# NS
+cor.test(guilds$AO_NOB, guilds$Methanotroph)
+ggplot(guilds, aes(AO_NOB, Methanotroph)) +
+  geom_point() +
+  geom_smooth() +
+  theme_classic()
+
+# Positive
+cor.test(guilds$AO_NOB, guilds$Methanogen_Troph)
+ggplot(guilds, aes(AO_NOB, Methanogen_Troph)) +
+  geom_point() +
+  geom_smooth() +
+  theme_classic()
+
+# Delta
+guilds_d <- guilds %>%
+  filter(rownames(.) %in% Meta_iTag_d$Sample)
+
+# Positive (should have been negative)
+cor.test(guilds_d$AO_NOB, guilds_d$Methanotroph)
+ggplot(guilds_d, aes(AO_NOB, Methanotroph)) +
+  geom_point() +
+  geom_smooth() +
+  theme_classic()
+
+# NS
+cor.test(guilds_d$AO_NOB, guilds_d$Methanogen_Troph)
+ggplot(guilds_d, aes(AO_NOB, Methanogen_Troph)) +
+  geom_point() +
+  geom_smooth() +
+  theme_classic()
+
+# Just Mayberry and West Pond
+Meta_iTag_wm <- Meta_iTag %>%
+  filter(Location == "WestPond" | Location == "Mayberry")
+guilds_wm <- guilds %>%
+  filter(rownames(.) %in% Meta_iTag_wm$Sample)
+
+# Positive (should have been negative)
+cor.test(guilds_wm$AO_NOB, guilds_wm$Methanotroph)
+ggplot(guilds_wm, aes(AO_NOB, Methanotroph)) +
+  geom_point() +
+  geom_smooth() +
+  theme_classic()
+
+# NS
+cor.test(guilds_wm$AO_NOB, guilds_wm$Methanogen_Troph)
+ggplot(guilds_wm, aes(AO_NOB, Methanogen_Troph)) +
+  geom_point() +
+  geom_smooth() +
+  theme_classic()
