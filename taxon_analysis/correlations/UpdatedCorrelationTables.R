@@ -442,6 +442,7 @@ Guild_cols <- read.table("../data/colors/Guild_color_palette.txt", sep='\t') %>%
   add_row(Guild = "Salinity", Index = 21, color = "white") %>%
   arrange(-Index) %>%
   mutate(Guild = gsub("MeOB", "ANME", Guild))
+write.table(Guild_cols, "../data/colors/Guild_color_palette_CB.txt", sep = "\t")
 
 # Cor matrix
 vars <- Meta_iTag %>%
