@@ -40,7 +40,7 @@ Guild_CH4_d0 <- Guild_CH4_d0[,-1]
 # prepare data subsets
 
 # get vars
-xvars0 <-names(Guild_CH4_d0)
+xvars0 <- names(Guild_CH4_d0)
 
 # vars to exclude (maybe)
 drop_gas <- c('CH4_ug_m2_h', 'CH4_logn1','CH4_CO2', 'CO2_soilC_mg_g_d') # keep this: ,'CO2_mg_m2_h',
