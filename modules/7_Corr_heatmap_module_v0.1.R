@@ -114,7 +114,7 @@ heatmap_corrRanks = function(Tax_corrU_r, heat_cols = def_cols, ylab=F, xlab=T) 
          scale_y_discrete(position="right")                                   +            # y labs to right
          theme(axis.title.x = element_blank())                                +            # hide x axis title                      
          scale_x_discrete(position = "bottom", labels = c("Phylum", "Class", "Order", "Family", "Genus"), expand = c(0, 0))                               +            # x labs on top
-         theme(axis.text.x = element_text(size = 8, angle = 90, hjust = 1, vjust = 0.5))             +            # rotate x labs 
+         theme(axis.text.x = element_text(size = 7, angle = 90, hjust = 1, vjust = 0.5))             +            # rotate x labs 
          
          # Panel params
          theme(panel.background = element_blank(),                                         # Remove panel borders 
@@ -295,10 +295,10 @@ Tax_heat_corrRanks = function(Taxons3d, Tax_corrU, heat_cols=default){          
 
     # Split Taxononmy colorBar into no-legend; legend
     TaxColors_NL <- TaxColors + theme(legend.position="none")
-    TaxColors_Legend <-get_legend(TaxColors)
+    TaxColors_Legend <- get_legend(TaxColors)
 
     # Composite plotting of components
-    pg_hm <- plot_grid(heatRanks, TaxColors_NL, align="h", ncol=2, rel_widths = c(3.5, 1), axis = "rlbt")
+    pg_hm <- plot_grid(heatRanks, TaxColors_NL, align="h", ncol=2, rel_widths = c(2.75, 1), axis = "rlbt")
     # pg_hmL <- plot_grid(pg_hm, TaxColors_Legend, ncol=2, rel_widths = c(1.3, 2))#, axis = "rlbt")  align="h"
     # return(pg_hmL)
     return(pg_hm)
