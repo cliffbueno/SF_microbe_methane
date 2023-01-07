@@ -634,7 +634,7 @@ pgl
 # Barplot function specifically for guilds
 abund_loc_barplot_guild = function(otu_tab, agg_var, Meta_iTag, order_var, plot="", colors, color_set, relab="CPM"){    # Revised version 0.2.6    
     
-    ifelse(relab == "CPM", otu_tab <-otu_tab, otu_tab <- perc_abund(otu_tab))          # if not CPM, apply perc_abund
+    ifelse(relab == "CPM", otu_tab <- otu_tab, otu_tab <- perc_abund(otu_tab))          # if not CPM, apply perc_abund
     y_lab=substitute(relab)
     
     otu_agg <- agg_by_cat(otu_tab, agg_var)                                            # Agg by cat (Fxn. 1) on agg_var
@@ -643,7 +643,7 @@ abund_loc_barplot_guild = function(otu_tab, agg_var, Meta_iTag, order_var, plot=
     
     # If color palette not specified, make new & sort
     ifelse(colors=="",                                                                 
-           colors_p <-Taxon_bar_newC(otu_agg, min_abund=0.005, color_set, output_palette=T), 
+           colors_p <- Taxon_bar_newC(otu_agg, min_abund=0.005, color_set, output_palette=T), 
            colors <- colors)
     ifelse(colors=="",
         colors <- Sort_new_palette(colors_p, agg_var, "Consensus.lineage", otu_tab),
