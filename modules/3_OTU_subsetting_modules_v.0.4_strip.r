@@ -436,11 +436,12 @@ Get_16S_Guilds_alt = function(otu_V){
 
     #############################################
     # ANME
-    
-    ANME <- otu_V[grepl("(ANME|Methanoperedenaceae|Syntrophoarchaeaceae)", otu_V$Consensus.lineage),]                        # Get ANME from OTU table    
+    if (nrow(otu_V[grepl("(ANME|Methanoperedenaceae|Syntrophoarchaeaceae)", otu_V$Consensus.lineage),]) > 0) {
+    ANME <- otu_V[grepl("(ANME|Methanoperedenaceae|Syntrophoarchaeaceae)", otu_V$Consensus.lineage),] # Get ANME from OTU table    
     ANME <- Subs_to_DF(ANME)                                                      # use function to get Taxon. DF with factors 
     ANME["Guild"] <- "ANME"
     #ANME
+    }
 
     #############################################
     # Nitrifiers
@@ -465,10 +466,11 @@ Get_16S_Guilds_alt = function(otu_V){
     #############################################
     # ANAMMOX
     anamox_list <-"(Kuenenia|Anammoxoglobus|Scalindua|Brocadia|Jettenia)"
+    if (nrow(otu_V[grepl(anamox_list, otu_V$Consensus.lineage),]) > 0) {
     anamox <- otu_V[grepl(anamox_list, otu_V$Consensus.lineage),] 
     anamox <- Subs_to_DF(anamox)
     anamox["Guild"] <-"Anamx"                                                     # levels(anamox$Genus); unique(anamox)# anamox; 
-
+    }
 
     #############################################
     # Sulfate Reducers
