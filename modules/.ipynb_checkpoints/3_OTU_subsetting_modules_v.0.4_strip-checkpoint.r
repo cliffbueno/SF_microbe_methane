@@ -416,7 +416,8 @@ Get_16S_Guilds_alt = function(otu_V){
     # Methylotrophs 
 
     methylo <- otu_V[grepl("Methylo", otu_V$Consensus.lineage),]                                 # Get methylo from OTU table    
-    methylo <- Subs_to_DF(methylo)                                                               # use function to get Taxon. DF with factors   
+    methylo <- Subs_to_DF(methylo)                                                               # use function to get Taxon. DF with factors
+    methylo <- methylo[!grepl("Methylophilaceae", methylo$Consensus.lineage),] # drop
 
     # Use ifelse to make new column of methylo GUILDS
     # MOB IIa based on Kneif et al. 2015 Front. Microb, other fine differences ignored (e.g. IIb, Ia-c)
@@ -436,11 +437,12 @@ Get_16S_Guilds_alt = function(otu_V){
 
     #############################################
     # ANME
-    
-    ANME <- otu_V[grepl("(ANME|Methanoperedenaceae|Syntrophoarchaeaceae)", otu_V$Consensus.lineage),]                        # Get ANME from OTU table    
+    if (nrow(otu_V[grepl("(ANME|Methanoperedenaceae|Syntrophoarchaeaceae)", otu_V$Consensus.lineage),]) > 0) {
+    ANME <- otu_V[grepl("(ANME|Methanoperedenaceae|Syntrophoarchaeaceae)", otu_V$Consensus.lineage),] # Get ANME from OTU table    
     ANME <- Subs_to_DF(ANME)                                                      # use function to get Taxon. DF with factors 
     ANME["Guild"] <- "ANME"
     #ANME
+    }
 
     #############################################
     # Nitrifiers
@@ -465,10 +467,11 @@ Get_16S_Guilds_alt = function(otu_V){
     #############################################
     # ANAMMOX
     anamox_list <-"(Kuenenia|Anammoxoglobus|Scalindua|Brocadia|Jettenia)"
+    if (nrow(otu_V[grepl(anamox_list, otu_V$Consensus.lineage),]) > 0) {
     anamox <- otu_V[grepl(anamox_list, otu_V$Consensus.lineage),] 
     anamox <- Subs_to_DF(anamox)
     anamox["Guild"] <-"Anamx"                                                     # levels(anamox$Genus); unique(anamox)# anamox; 
-
+    }
 
     #############################################
     # Sulfate Reducers

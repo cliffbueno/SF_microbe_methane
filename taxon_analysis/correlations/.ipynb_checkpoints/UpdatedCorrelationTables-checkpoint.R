@@ -164,7 +164,7 @@ tax <- input$taxonomy_loaded %>%
   set_names(c("Domain", "Phylum", "Class", "Order", "Family", "Genus")) %>%
   filter(Class != "PH") %>%
   group_by(Genus) %>%
-  slice_head(n = 1)
+  slice(n = 1)
 TableS8 <- cor.df.gen %>%
   left_join(., tax, by = "Genus") %>%
   left_join(., cor.df.fam, by = "Family") %>%
@@ -183,7 +183,7 @@ tax2 <- otu_V %>%
   select(169:176) %>%
   filter(Class != "PH") %>%
   group_by(Genus) %>%
-  slice_head(n = 1) %>%
+  slice(n = 1) %>%
   filter(Genus %in% tax$Genus) %>%
   select(Consensus.lineage, Taxonomy, Genus) 
 wyatt_table <- TableS8 %>%
@@ -283,12 +283,12 @@ tax <- input_d$taxonomy_loaded %>%
   set_names(c("Domain", "Phylum", "Class", "Order", "Family", "Genus")) %>%
   filter(Class != "PH") %>%
   group_by(Genus) %>%
-  slice_head(n = 1)
+  slice(n = 1)
 tax2 <- otu_V %>%
   select(169:176) %>%
   filter(Class != "PH") %>%
   group_by(Genus) %>%
-  slice_head(n = 1) %>%
+  slice(n = 1) %>%
   filter(Genus %in% tax$Genus) %>%
   select(Consensus.lineage, Taxonomy, Genus) 
 wyatt_table <- cor.df.gen %>%
@@ -362,7 +362,7 @@ gen_guild <- gen_otu %>%
   left_join(., guild_otu, by = "OTU") %>%
   select(taxonomy6, Guild) %>%
   group_by(taxonomy6) %>%
-  slice_head(n = 1) %>%
+  slice(n = 1) %>%
   set_names(c("Genus", "Guild")) %>%
   filter(Genus %in% levels(top20$taxon)[1:20])
 #write.table(gen_guild, "Top20_SigGuild_Genera.txt", sep = "\t")
@@ -377,13 +377,6 @@ MOB_IIa <- read.table("Silva_OTU_Guild_taxa_counts.txt", sep = "\t") %>%
 input_MOBIIa <- filter_taxa_from_input(input = input,
                                        taxa_IDs_to_keep = MOB_IIa$OTU)
 View(input_MOBIIa$taxonomy_loaded)
-
-# Also check MOB_I
-MOB_I <- read.table("Silva_OTU_Guild_taxa_counts.txt", sep = "\t") %>%
-  filter(Guild == "MOB_I")
-input_MOBI <- filter_taxa_from_input(input = input,
-                                     taxa_IDs_to_keep = MOB_I$OTU)
-View(input_MOBI$taxonomy_loaded)
 
 
 #### Figure S5e-f ####
@@ -449,7 +442,7 @@ Guild_cols <- read.table("../data/colors/Guild_color_palette.txt", sep='\t') %>%
   add_row(Guild = "Salinity", Index = 21, color = "white") %>%
   arrange(-Index) %>%
   mutate(Guild = gsub("MeOB", "ANME", Guild))
-#write.table(Guild_cols, "../data/colors/Guild_color_palette_CB.txt", sep = "\t")
+write.table(Guild_cols, "../data/colors/Guild_color_palette_CB.txt", sep = "\t")
 
 # Cor matrix
 vars <- Meta_iTag %>%
@@ -606,8 +599,6 @@ f <- pheatmap(cm_d,
               number_color = ifelse(abs(cm_d) > 0.5, "white", "black"))
 save_pheatmap_pdf(f, "../figs/FigureS5f.pdf")
 
-# Note: For the final figure, use the SF Sal LASSO DEV FORK- ONLY corr CH4, S genes.ipynb script
-# In the guild_analysis folder
 
 
 #### Ratios ####

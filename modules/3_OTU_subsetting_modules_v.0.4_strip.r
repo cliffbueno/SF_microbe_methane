@@ -416,7 +416,8 @@ Get_16S_Guilds_alt = function(otu_V){
     # Methylotrophs 
 
     methylo <- otu_V[grepl("Methylo", otu_V$Consensus.lineage),]                                 # Get methylo from OTU table    
-    methylo <- Subs_to_DF(methylo)                                                               # use function to get Taxon. DF with factors   
+    methylo <- Subs_to_DF(methylo)                                                               # use function to get Taxon. DF with factors
+    methylo <- methylo[!grepl("Methylophilaceae", methylo$Consensus.lineage),] # drop
 
     # Use ifelse to make new column of methylo GUILDS
     # MOB IIa based on Kneif et al. 2015 Front. Microb, other fine differences ignored (e.g. IIb, Ia-c)
